@@ -1,5 +1,6 @@
 ﻿<Solution>
   <Project Path="DigitalLove.TTS.csproj" />
+  <Project Path="Vendor.UnityGif.csproj" />
   <Project Path="DigitalLove.UI.DesignSystem.Localization.csproj" />
   <Project Path="DigitalLove.XR.Core.csproj" />
   <Project Path="Vendor.GameAnalytics.Editor.csproj" />
@@ -41,6 +42,7 @@
   <Project Path="DigitalLove.Audio.Runtime.csproj" />
   <Project Path="DigitalLove.XR.Platform.csproj" />
   <Project Path="DigitalLove.XR.ARFoundation.csproj" />
+  <Project Path="Vendor.UniGif.Samples.csproj" />
   <Project Path="DigitalLove.Game.Court.csproj" />
   <Project Path="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
   <Project Path="DigitalLove.FX.Visuals.csproj" />
