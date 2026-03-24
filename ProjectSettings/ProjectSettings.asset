@@ -1022,10 +1022,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: c3289344-d445-45c0-a1ce-7ee907415e6c
+  cloudProjectId: 8bebf8b3-d3ab-4a0d-a4ba-5cae52d58bc7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Flip Hoops
+  projectName: Sign-Sync
   organizationId: gonzaloiv
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

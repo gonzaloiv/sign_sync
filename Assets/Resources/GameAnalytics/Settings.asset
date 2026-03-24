@@ -26,18 +26,18 @@ MonoBehaviour:
   UserMessagesFailed: 0
   CustomArea: 
   gameKey:
-  - 922c2f20c9facc9352db121409b2903a
+  - 3ce01ba7410502857fb78ea0d135682b
   secretKey:
-  - a356e8016e8430088aea8cc77e2f866c16aa99f4
+  - 8e37bbc63f0d8f530fb6a16e2bd03a955be8f50b
   Build:
-  - 1.0.1
+  - 0.0.1
   SelectedPlatformOrganization:
   - Digital Love
   SelectedPlatformStudio:
   - Digital Love
   SelectedPlatformGame:
-  - Flip Hoops
-  SelectedPlatformGameID: 30290500
+  - Sign-Sync
+  SelectedPlatformGameID: 6a2c0500
   SelectedOrganization: 01000000
   SelectedStudio: 01000000
   SelectedGame: 01000000

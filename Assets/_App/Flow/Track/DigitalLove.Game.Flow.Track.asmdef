@@ -1,0 +1,23 @@
+{
+    "name": "DigitalLove.Game.Flow.Track",
+    "rootNamespace": "",
+    "references": [
+        "GUID:65917f6bc12bb4a4cad49ea83a119a2b",
+        "GUID:293dd66d193b83b4f97e05b2afb21a23",
+        "GUID:ed2a4fdab2f6fad44848884bda95a237",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:37944e3076d4ff24ea9a3aec9c5e7df5",
+        "GUID:94283cc01b3b8e44ebb2d497140072c8",
+        "GUID:ddca81f93c9e44d2fbf5efa600ddbada",
+        "GUID:1530a967b84cfb44dbdd5e8a1989764f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

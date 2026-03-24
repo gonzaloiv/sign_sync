@@ -1,0 +1,16 @@
+{
+    "name": "DigitalLove.Game.Stage",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ddca81f93c9e44d2fbf5efa600ddbada"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
