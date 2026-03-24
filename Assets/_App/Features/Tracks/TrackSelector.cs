@@ -1,18 +1,23 @@
-using DigitalLove.DataAccess;
-using Reflex.Attributes;
+using System.Linq;
 using UnityEngine;
 
 namespace DigitalLove.Game.Tracks
 {
     public class TrackSelector : MonoBehaviour
     {
-        [SerializeField] private TrackData[] tracks;
+        [SerializeField] private TrackData[] data;
+        [SerializeField] private TrackBehaviour[] behaviours;
 
-        [Inject] private MemoryDataClient memoryDataClient;
+        private TrackBehaviour currentBehaviour;
+        public TrackBehaviour CurrentBehaviour => currentBehaviour;
 
-        public TrackData GetTrack()
+        private TrackData currentData;
+        public TrackData CurrentData => currentData;
+
+        public void SetCurrent()
         {
-            return tracks[0];
+            currentData = data[0];
+            currentBehaviour = behaviours.FirstOrDefault(b => string.Equals(currentData.id, b.Id));
         }
     }
 }

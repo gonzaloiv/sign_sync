@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 613643112448
-    m_Localized: AR not supported. Meta Quest 3 or Meta Quest 3S required.
+    m_Localized: Mixed Reality not supported. Meta Quest 3 or Meta Quest 3S required.
     m_Metadata:
       m_Items: []
   - m_Id: 613685055488
@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 613689249792
-    m_Localized: Please ensure an AR scene is configured on your device to play.
+    m_Localized: Please ensure a scene is configured on your device to play.
     m_Metadata:
       m_Items: []
   - m_Id: 613689249793

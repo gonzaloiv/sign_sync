@@ -18,6 +18,7 @@
   <Project Path="DigitalLove.FlowControl.Integrations.csproj" />
   <Project Path="DOTween.Modules.csproj" />
   <Project Path="DigitalLove.Game.Flow.TrackComplete.csproj" />
+  <Project Path="DigitalLove.Game.Signs.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj" />
   <Project Path="DigitalLove.FX.Fader.csproj" />
   <Project Path="DigitalLove.Analytics.csproj" />

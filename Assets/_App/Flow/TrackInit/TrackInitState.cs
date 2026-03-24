@@ -1,10 +1,8 @@
 using System.Collections;
-using DigitalLove.DataAccess;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
 using DigitalLove.Game.Tracks;
 using DigitalLove.XR;
-using Reflex.Attributes;
 using UnityEngine;
 
 namespace DigitalLove.Game.Flow
@@ -13,9 +11,8 @@ namespace DigitalLove.Game.Flow
     {
         [SerializeField] private MonoState nextState;
         [SerializeField] private OVROriginBehaviour origin;
+        [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StageBehaviour stage;
-
-        [Inject] private MemoryDataClient memoryDataClient;
 
         public override void Init(StateMachine parent)
         {
@@ -26,8 +23,7 @@ namespace DigitalLove.Game.Flow
         public override void Enter()
         {
             origin.Setup();
-            TrackData track = memoryDataClient.Get<TrackData>();
-            stage.Play(track.bpm);
+            stage.Play(trackSelector.CurrentData.bpm);
             IEnumerator InitRoutine()
             {
                 yield return new WaitForSeconds(1);

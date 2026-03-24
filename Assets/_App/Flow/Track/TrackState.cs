@@ -11,6 +11,7 @@ namespace DigitalLove.Game.Flow
     {
         [SerializeField] private MonoState nextState;
         [SerializeField] private PlayableDirectorWrapper director;
+        [SerializeField] private TrackSelector trackSelector;
 
         [Inject] private MemoryDataClient memoryDataClient;
 
@@ -21,8 +22,8 @@ namespace DigitalLove.Game.Flow
 
         public override void Enter()
         {
-            TrackData trackData = memoryDataClient.Get<TrackData>();
-            director.Play(onComplete: OnTrackComplete, asset: trackData.timelineAsset);
+            trackSelector.CurrentBehaviour.complete += OnTrackComplete;
+            trackSelector.CurrentBehaviour.Play();
         }
 
         private void OnTrackComplete()
@@ -32,7 +33,7 @@ namespace DigitalLove.Game.Flow
 
         public override void Exit()
         {
-
+            trackSelector.CurrentBehaviour.complete -= OnTrackComplete;
         }
     }
 }

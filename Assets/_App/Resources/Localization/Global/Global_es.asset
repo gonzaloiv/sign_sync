@@ -19,8 +19,8 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 613643112448
-    m_Localized: La realidad aumentada no es compatible. Se requiere Meta Quest 3
-      o Meta Quest 3S.
+    m_Localized: Realidad mixta no compatible. Se requiere Meta Quest 3 o Meta Quest
+      3S.
     m_Metadata:
       m_Items: []
   - m_Id: 613685055488
@@ -28,8 +28,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 613689249792
-    m_Localized: "Aseg\xFArese de que haya una escena de realidad aumentada configurada
-      en su dispositivo para reproducirla."
+    m_Localized: "Aseg\xFArese de que haya una escena configurada en su dispositivo
+      para reproducirse."
     m_Metadata:
       m_Items: []
   - m_Id: 613689249793

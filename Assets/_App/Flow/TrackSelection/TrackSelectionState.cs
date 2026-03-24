@@ -15,8 +15,8 @@ namespace DigitalLove.Game.Flow
 
         public override void Enter()
         {
-            TrackData trackData = trackSelector.GetTrack();
-            memoryDataClient.Put(trackData);
+            trackSelector.SetCurrent();
+            memoryDataClient.Put(trackSelector.CurrentData);
             parent.SetCurrentState(nextState.RouteId);
         }
 
