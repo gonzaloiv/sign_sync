@@ -1,0 +1,20 @@
+{
+    "name": "DigitalLove.Game.Signs",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:447181e61705f4d6f954add1124817a5",
+        "GUID:042998fb217ba4445b763cd4b466257a",
+        "GUID:2a230cb87a1d3ba4a98bdc0ddae76e6c",
+        "GUID:ef0ee7f572e1bb54ba6baee6fa6746ac"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

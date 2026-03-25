@@ -24,6 +24,7 @@ namespace DigitalLove.Game.Flow
         {
             origin.Setup();
             stage.Play(trackSelector.CurrentData.bpm);
+            
             IEnumerator InitRoutine()
             {
                 yield return new WaitForSeconds(1);

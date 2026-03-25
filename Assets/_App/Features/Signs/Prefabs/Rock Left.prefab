@@ -412,7 +412,7 @@ Transform:
   m_GameObject: {fileID: 1745953822505347954}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1828,8 +1828,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: -1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.66, y: -0.66, z: 0.66}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3231515263242577232}
   - {fileID: 8481578577835365525}
@@ -1914,7 +1914,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 697d9a99ae3c7784bbef700ed300a1ca, type: 2}
+  - {fileID: 2100000, guid: bc99293adbd1e7848a3cfd93f4693f14, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2295,6 +2295,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4761302152322881708}
+  - component: {fileID: 7792955189214816208}
+  - component: {fileID: 5531700185577803987}
+  - component: {fileID: 6462062608951049658}
   m_Layer: 0
   m_Name: Rock Left
   m_TagString: Untagged
@@ -2318,6 +2321,51 @@ Transform:
   - {fileID: 4931037365049796354}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7792955189214816208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800167844700051545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c191389c26880449570a46ac160871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignVisual
+  fade: {fileID: 5531700185577803987}
+  scalePunch: {fileID: 6462062608951049658}
+--- !u!114 &5531700185577803987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800167844700051545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b0131423d12bc47b27662a5bd6dd7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::HandFade
+  rend: {fileID: 8241465709159528867}
+  origin: {r: 1, g: 1, b: 1, a: 0}
+  destination: {r: 1, g: 1, b: 1, a: 1}
+  opacityKey: _Opacity
+--- !u!114 &6462062608951049658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800167844700051545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ab5b04e989e448497c2c13773dc7c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.FX::DigitalLove.FX.ScalePunch
+  content: {fileID: 4931037365049796354}
+  animationSecs: 0.1
+  multiplier: 0.1
 --- !u!1 &8312574274551192700
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,47 @@
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Playables;
+
+namespace DigitalLove.Game.Signs
+{
+    public class SignTrackMixerBehaviour : PlayableBehaviour
+    {
+        private HandSignsRecogniser recogniser;
+        private List<SignTrackBehaviour> behaviours = new();
+
+        public override void OnGraphStart(Playable playable)
+        {
+            behaviours.Clear();
+        }
+
+        public override void OnGraphStop(Playable playable)
+        {
+            behaviours.Clear();
+        }
+
+        public override void ProcessFrame(Playable mixer, FrameData info, object playerData)
+        {
+            if (recogniser == null)
+                recogniser = playerData as HandSignsRecogniser;
+            if (recogniser == null)
+                return;
+            int inputCount = mixer.GetInputCount();
+            double timelineTime = mixer.GetGraph().GetRootPlayable(0).GetTime();
+            for (int i = 0; i < inputCount; i++)
+            {
+                SignTrackBehaviour behaviour = ((ScriptPlayable<SignTrackBehaviour>)mixer.GetInput(i)).GetBehaviour();
+                if (behaviour != null)
+                {
+                    bool isTime = timelineTime > behaviour.startTime - HandSignsRecogniser.PreloadSecs;
+                    if (isTime && !behaviours.Contains(behaviour))
+                    {
+                        // Debug.LogWarning($"Current Sign Id {behaviour.signId} and Hand Id {spawner.HandId}");
+                        if (Application.isPlaying)
+                            recogniser.ListenTo(behaviour.signId);
+                        behaviours.Add(behaviour);
+                    }
+                }
+            }
+        }
+    }
+}

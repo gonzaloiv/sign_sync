@@ -8,8 +8,10 @@ namespace DigitalLove.Game.Tracks
     {
         [SerializeField] private string id;
         [SerializeField] private PlayableDirectorWrapper director;
+        [SerializeField] private AudioSource audioSource;
 
         public string Id => id;
+        public AudioSource AudioSource => audioSource;
 
         public Action complete = () => { };
 

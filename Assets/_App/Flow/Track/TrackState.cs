@@ -1,5 +1,6 @@
 using DigitalLove.DataAccess;
 using DigitalLove.FlowControl;
+using DigitalLove.Game.Stage;
 using DigitalLove.Game.Tracks;
 using DigitalLove.Timeline;
 using Reflex.Attributes;
@@ -12,6 +13,7 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private MonoState nextState;
         [SerializeField] private PlayableDirectorWrapper director;
         [SerializeField] private TrackSelector trackSelector;
+        [SerializeField] private SpectrumVisualizer spectrumVisualizer;
 
         [Inject] private MemoryDataClient memoryDataClient;
 
@@ -24,6 +26,7 @@ namespace DigitalLove.Game.Flow
         {
             trackSelector.CurrentBehaviour.complete += OnTrackComplete;
             trackSelector.CurrentBehaviour.Play();
+            spectrumVisualizer.AudioSource = trackSelector.CurrentBehaviour.AudioSource;
         }
 
         private void OnTrackComplete()
@@ -34,6 +37,8 @@ namespace DigitalLove.Game.Flow
         public override void Exit()
         {
             trackSelector.CurrentBehaviour.complete -= OnTrackComplete;
+
+            spectrumVisualizer.AudioSource = null;
         }
     }
 }
