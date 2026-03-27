@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using DigitalLove.Game.UI;
 using Oculus.Interaction;
 using UnityEngine;
 
@@ -15,11 +14,13 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private HandId handId;
         [SerializeField] private HandVisualsSpawner spawner;
         [SerializeField] private SignIdSelectorPair[] pairs;
-        [SerializeField] private AutoClearLabel label;
 
         private List<Listener> listeners = new();
 
-        public void Clear() => listeners.Clear();
+        public HandId HandId => handId;
+
+        public Action<RecognitionState> recognised = (state) => { };
+        public Action<FailType> failed = (type) => { };
 
         public void ListenTo(SignId signId)
         {
@@ -37,23 +38,51 @@ namespace DigitalLove.Game.Signs
             }
         }
 
+        // ? Debug
+        public void InvokeOnSignRecognised(SignId signId) => OnSignRecognised(signId);
+
         private void OnSignRecognised(SignId signId)
         {
             // Debug.LogWarning($"Sign Recognised {signId} in hand {handId}");
             Listener listener = listeners.FirstOrDefault(l => l.signId == signId);
-            if (listener != null && listener.FinalTime > Time.time)
+            if (listener != null && listener.FinalTime >= Time.time)
             {
-                float perfectTime = listener.startTime + PreloadSecs;
-                float recognisedTime = Time.time - listener.startTime;
-                RecognitionState state = Mathf.Abs(PreloadSecs - recognisedTime) < PerfectRange ? RecognitionState.Perfect : RecognitionState.Good;
-                label.Show($"{state}");
-                listener.visual.Hide(instant: false);
+                OnRecognisedSignListenerFound(listener);
             }
+            else
+            {
+                failed.Invoke(FailType.OutOfTime);
+            }
+        }
+
+        private void OnRecognisedSignListenerFound(Listener listener)
+        {
+            float recognisedTime = Time.time - listener.startTime;
+            RecognitionState state = Mathf.Abs(PreloadSecs - recognisedTime) < PerfectRange ?
+                RecognitionState.Perfect : RecognitionState.Good;
+            listener.visual.Hide(instant: false);
+            listeners.Remove(listener);
+            recognised.Invoke(state);
         }
 
         private void Update()
         {
-            listeners = listeners.Where(l => l.FinalTime > Time.time).ToList();
+            // ? This is when reduces score
+            if (listeners.Count <= 0)
+                return;
+            List<Listener> toRemove = new();
+            foreach (Listener listener in listeners)
+            {
+                if (listener.FinalTime < Time.time)
+                {
+                    toRemove.Add(listener);
+                }
+            }
+            foreach (Listener listener in toRemove)
+            {
+                listeners.Remove(listener);
+                failed.Invoke(FailType.NotRecognised);
+            }
         }
     }
 
@@ -71,5 +100,18 @@ namespace DigitalLove.Game.Signs
         public SignVisual visual;
 
         public float FinalTime => startTime + HandSignsRecogniser.PreloadSecs * 2;
+    }
+
+    public static class HandSignsRecogniserExtensions
+    {
+        public static HandSignsRecogniser GetByHandId(this IEnumerable<HandSignsRecogniser> recognisers, HandId handId)
+        {
+            foreach (HandSignsRecogniser recogniser in recognisers)
+            {
+                if (recogniser.HandId == handId)
+                    return recogniser;
+            }
+            return null;
+        }
     }
 }

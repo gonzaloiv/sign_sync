@@ -1,11 +1,9 @@
 {
-    "name": "DigitalLove.Game.Flow.TrackComplete",
+    "name": "DigitalLove.Game.Stats",
     "rootNamespace": "",
     "references": [
-        "GUID:65917f6bc12bb4a4cad49ea83a119a2b",
-        "GUID:37944e3076d4ff24ea9a3aec9c5e7df5",
-        "GUID:d3eae8a3c088f9042bc76d6ac9540052",
-        "GUID:94283cc01b3b8e44ebb2d497140072c8"
+        "GUID:64927918121129f4f89ca940670289a9",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

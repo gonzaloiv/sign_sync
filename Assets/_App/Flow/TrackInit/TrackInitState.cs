@@ -23,11 +23,10 @@ namespace DigitalLove.Game.Flow
         public override void Enter()
         {
             origin.Setup();
-            stage.Play(trackSelector.CurrentData.bpm);
-            
             IEnumerator InitRoutine()
             {
                 yield return new WaitForSeconds(1);
+                stage.Play(trackSelector.CurrentData.bpm);
                 parent.SetCurrentState(nextState.RouteId);
             }
             StartCoroutine(InitRoutine());

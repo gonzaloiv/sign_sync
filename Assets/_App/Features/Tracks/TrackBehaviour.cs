@@ -18,6 +18,7 @@ namespace DigitalLove.Game.Tracks
         public void Play()
         {
             gameObject.SetActive(true);
+            director.Reset();
             director.Play(onComplete: OnComplete);
         }
 
@@ -28,6 +29,7 @@ namespace DigitalLove.Game.Tracks
 
         public void Stop()
         {
+            director.Stop();
             gameObject.SetActive(false);
         }
     }
