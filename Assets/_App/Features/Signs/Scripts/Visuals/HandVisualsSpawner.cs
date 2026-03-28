@@ -13,6 +13,11 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private Transform origin;
         [SerializeField] private Transform destination;
 
+        [Header("FX")]
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip[] glitchClips;
+        [SerializeField] private ParticleSystem failPS;
+
         public HandId HandId => handId;
 
         public SignVisual Spawn(SignId signId, float preloadSecs)
@@ -35,6 +40,13 @@ namespace DigitalLove.Game.Signs
             {
                 pair.visual.Hide(instant: true);
             }
+        }
+
+        public void OnFailed(SignVisual visual)
+        {
+            audioSource.clip = glitchClips[UnityEngine.Random.Range(0, glitchClips.Length)];
+            audioSource.Play();
+            failPS.Play();
         }
     }
 

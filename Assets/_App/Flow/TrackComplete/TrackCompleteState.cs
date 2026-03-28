@@ -17,6 +17,7 @@ namespace DigitalLove.Game.Flow
 
         public override void Enter()
         {
+            stage.Stop();
             if (!statsCounter.HasHealthBeenDepleted)
             {
                 Debug.LogWarning($"Level completed with a score of: {statsCounter.Score}");
@@ -29,7 +30,7 @@ namespace DigitalLove.Game.Flow
             }
             IEnumerator InitRoutine()
             {
-                yield return new WaitForSeconds(1);
+                yield return new WaitForSeconds(3);
                 parent.SetCurrentState(nextState.RouteId);
             }
             StartCoroutine(InitRoutine());

@@ -17,5 +17,10 @@ namespace DigitalLove.Game.Stage
             SetActive(true);
             grid.SetSpeed(bpm / 1000f);
         }
+
+        public void Stop()
+        {
+            grid.SetSpeed(0);
+        }
     }
 }

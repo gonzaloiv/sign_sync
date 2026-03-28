@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4723900203417815859, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 8761878023918208487}
+    - target: {fileID: 4723900203417815859, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
       propertyPath: fade
       value: 
       objectReference: {fileID: 7262832077423395731}
@@ -18,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4986936867145253241, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4986936867145253241, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4986936867145253241, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4986936867145253241, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -82,9 +86,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5422277633653700389, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
   m_PrefabInstance: {fileID: 3455685386626086070}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8761878023918208487}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39b0131423d12bc47b27662a5bd6dd7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Signs::HandFade
+--- !u!1 &8761878023918208487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6227772601019232593, guid: 3791457aa7cb0b649bed1e7396c7f47e, type: 3}
+  m_PrefabInstance: {fileID: 3455685386626086070}
+  m_PrefabAsset: {fileID: 0}

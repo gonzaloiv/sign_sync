@@ -56,6 +56,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 66.90360662915722
+--- !u!114 &-9136027830152437322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 24.246210895974674
 --- !u!114 &-9101877172104980075
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -98,6 +112,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 38.78300141234931
+--- !u!114 &-9021565054205105651
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 57.76440993369468
 --- !u!114 &-8973919539752061830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,20 +154,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 52.96047320915663
---- !u!114 &-8941815036612952618
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 7.975316298164255
 --- !u!114 &-8930507322319256074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -686,6 +700,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 48.15653648461861
+--- !u!114 &-8167294768307823628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 9.951569910763688
 --- !u!114 &-8127633168614782090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -742,6 +770,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 5.155444340582525
+--- !u!114 &-8038112462873407937
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 32.682393344752334
 --- !u!114 &-8001803313556256857
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -980,6 +1022,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 33.62755712260119
+--- !u!114 &-7487067369853406535
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 48.27370567302199
+--- !u!114 &-7486833364354355391
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 56.827056426467735
 --- !u!114 &-7486524763890082237
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1120,20 +1190,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 15.114825354868813
---- !u!114 &-7354889582912293786
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 2.4605530073050588
 --- !u!114 &-7323042119669338616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1414,6 +1470,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 49.21105918024891
+--- !u!114 &-6880108848864714242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 22.379315035877713
 --- !u!114 &-6873829274939129345
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1428,20 +1498,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 43.586938136887326
---- !u!114 &-6861473189295967081
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 20.27027017642228
 --- !u!114 &-6853877162553597165
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1484,6 +1540,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 58.584594252518215
+--- !u!114 &-6792737986246215939
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 12.654272398398085
 --- !u!114 &-6734643916495950700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1890,6 +1960,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 12.18559564478461
+--- !u!114 &-6219851334843569037
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 35.48664271207624
 --- !u!114 &-6207956654711408093
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1988,6 +2072,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 11.365411325961034
+--- !u!114 &-5980385051814420817
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 71.59037416529189
+--- !u!114 &-5966967732461118431
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 28.940789586466412
 --- !u!114 &-5966662382608923937
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2114,6 +2226,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 10.545227007137457
+--- !u!114 &-5790406212653292218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 9.951569910763688
 --- !u!114 &-5764518909572343417
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2156,6 +2282,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 63.388530977056234
+--- !u!114 &-5645378256847491890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 74.3946235326158
 --- !u!114 &-5644410785601848740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2170,6 +2310,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 72.17622010730871
+--- !u!114 &-5638028630647136550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 40.18903167318972
 --- !u!114 &-5634816847334032024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2184,6 +2338,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 12.537103209994715
+--- !u!114 &-5606828892122494485
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 41.12638518041666
 --- !u!114 &-5589151259342423601
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2254,6 +2422,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 36.55678683268535
+--- !u!114 &-5493788568610254435
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 24.246210895974674
 --- !u!114 &-5455995343346168814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2394,20 +2576,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 16.520855615709237
---- !u!114 &-5145369141753372647
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 12.18559598498357
 --- !u!114 &-5108400182694270889
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2492,6 +2660,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 9.490704311507145
+--- !u!114 &-4840610500574754752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 59.63130579379164
 --- !u!114 &-4838490658131542515
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2674,6 +2856,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 47.68785973100515
+--- !u!114 &-4495212890379097808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 11.71691889117114
+--- !u!114 &-4485500597230564062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 31.745039837525383
 --- !u!114 &-4482381931841530416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2716,20 +2926,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 51.905950513526335
---- !u!114 &-4446836957939146311
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 19.21574748079197
 --- !u!114 &-4423940047044318624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3010,6 +3206,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 39.95469329638297
+--- !u!114 &-3910037087119241035
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 65.48976521395996
 --- !u!114 &-3812348642878356540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3080,6 +3290,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 38.43149384713921
+--- !u!114 &-3664062088983657498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 9.022027557893672
 --- !u!114 &-3646362237943469994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3265,6 +3489,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 9.72504268831388
+--- !u!114 &-3158586156758843252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 47.33635216579505
 --- !u!114 &-3158232256225262503
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3447,6 +3685,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 43.11826138327386
+--- !u!114 &-2931517503310721883
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 15.46633292007892
 --- !u!114 &-2874832884180934320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3461,6 +3713,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 35.73660251386178
+--- !u!114 &-2865978998807590560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 34.557100359206224
 --- !u!114 &-2819324700783843931
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3825,6 +4091,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 22.37931503587773
+--- !u!114 &-2178106502509439293
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 14.521168258495045
 --- !u!114 &-2144812892947363088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3839,6 +4119,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 61.39665477419901
+--- !u!114 &-2103366910175042539
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 58.701763440921624
 --- !u!114 &-2088093346639260829
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3993,6 +4287,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 40.65770842680317
+--- !u!114 &-1839920872063913795
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 35.48664271207624
 --- !u!114 &-1826120321160483433
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4035,6 +4343,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 42.53241544125703
+--- !u!114 &-1709328315048270326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 29.870331939336427
 --- !u!114 &-1696993329507619994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4217,6 +4539,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 32.22152686176079
+--- !u!114 &-1360969170472378219
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 8.084674050666727
 --- !u!114 &-1349526830749411579
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4371,6 +4707,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 48.742382426635444
+--- !u!114 &-997629308617973637
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 70.65302065806495
 --- !u!114 &-992095643127529053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4399,6 +4749,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 2.577722195708427
+--- !u!114 &-887157882267922050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 19.20793579462977
 --- !u!114 &-875284618211461558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4469,6 +4833,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 37.49414033991228
+--- !u!114 &-825594293820192495
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 14.521168258495045
 --- !u!114 &-782339873825028918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4511,6 +4889,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 73.46508117974574
+--- !u!114 &-738664250795804485
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 28.003436079239467
 --- !u!114 &-729536288885577428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4567,6 +4959,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 1.640368688481481
+--- !u!114 &-657765057510598022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 33.61974685197928
 --- !u!114 &-644189421918128546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4609,20 +5015,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 18.044055064953046
---- !u!114 &-562624928885982583
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 13.122949492210514
 --- !u!114 &-519891204152002941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4789,20 +5181,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 75.80846494781306
---- !u!114 &-454120079746570888
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 6.686455225727205
 --- !u!114 &-445888783730253696
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4887,20 +5265,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 32.92454199218099
---- !u!114 &-318845150032478312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 6.217778472113732
 --- !u!114 &-287531455389517225
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4943,6 +5307,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 59.873455324955245
+--- !u!114 &-221620460954990979
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 20.504608021423824
 --- !u!114 &-148569015821087270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5056,7 +5434,6 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: -519891204152002941}
-  - {fileID: 8920590726629449943}
   - {fileID: 1099197266456446097}
   m_FixedDuration: 77.871020408163
   m_EditorSettings:
@@ -5162,20 +5539,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 61.27948558579564
---- !u!114 &210738264564015659
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 9.959381346664584
 --- !u!114 &275256496791574410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5274,6 +5637,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 19.215746948986745
+--- !u!114 &458685346171730894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 51.0779550403459
 --- !u!114 &472133102492390509
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5330,6 +5707,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 40.8920468036099
+--- !u!114 &636395893437736452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 63.622869353862995
 --- !u!114 &669138404898362872
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5386,6 +5777,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 76.0428033246198
+--- !u!114 &769126840078731308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 21.44196152865077
 --- !u!114 &786677224941169624
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5456,6 +5861,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 16.169348050499128
+--- !u!114 &1000159510173895487
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 18.278393441759754
 --- !u!114 &1018629422574990759
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5580,6 +5999,20 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &1099921798347783748
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 50.14841268747588
 --- !u!114 &1146786178135764507
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5678,6 +6111,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 20.035931267810334
+--- !u!114 &1303860868765370713
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 39.25167816596277
 --- !u!114 &1312072831533528366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5776,6 +6223,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 33.86189549940792
+--- !u!114 &1535893954653899761
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 74.3946235326158
 --- !u!114 &1583872102012365883
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5832,6 +6293,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 33.39321874579446
+--- !u!114 &1615965017904782587
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 10.779565383944194
 --- !u!114 &1739955275708514605
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5846,6 +6321,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 73.81658874495584
+--- !u!114 &1750130779568433849
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 49.21105918024894
 --- !u!114 &1776046502185589616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6112,6 +6601,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 54.01499590478693
+--- !u!114 &2148764102808916695
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 29.870331939336427
 --- !u!114 &2176232271358820907
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6168,20 +6671,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 21.559130717054142
---- !u!114 &2270659491242287540
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 17.458209654741445
 --- !u!114 &2293691004422915712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6224,6 +6713,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 3.1635681377252673
+--- !u!114 &2350695901727497972
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 42.99328104051362
 --- !u!114 &2361926537739359666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6266,6 +6769,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 34.33057225302139
+--- !u!114 &2430497643054739723
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 64.56022286108994
 --- !u!114 &2438108573489278769
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6600,7 +7117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
+  signId: 0
   startTime: 4.335260021758948
 --- !u!114 &2935109786562740370
 MonoBehaviour:
@@ -6672,6 +7189,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 25.660052311172088
+--- !u!114 &3105656448553620253
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 42.99328104051362
 --- !u!114 &3123282668629530860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6938,20 +7469,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 16.872363180919347
---- !u!114 &3506048951917875610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 9.029838993794568
 --- !u!114 &3509649352800584745
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6980,20 +7497,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 31.98718848495406
---- !u!114 &3566885316612775825
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 17.926886408354918
 --- !u!114 &3571491639696043182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7134,20 +7637,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 27.066082572012526
---- !u!114 &3833779825270039912
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 12.654272738597044
 --- !u!114 &3873201226511117320
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7162,20 +7651,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 53.4291499627701
---- !u!114 &3900549785269828594
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 7.155131979340679
 --- !u!114 &3945069144174405260
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7316,6 +7791,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 7.615997297053255
+--- !u!114 &4202042865464266156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 6.209967036212838
 --- !u!114 &4219248441149544566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7372,6 +7861,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 4.686767586969053
+--- !u!114 &4305183785837740853
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 55.88970291924079
 --- !u!114 &4360925166501742731
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7428,7 +7931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 56.709887238064354
---- !u!114 &4528964682136748615
+--- !u!114 &4471661369460761512
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7438,10 +7941,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
-  startTime: 18.39556316196839
+  startTime: 26.128729064785578
+--- !u!114 &4549819291454976930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 23.316668543104658
 --- !u!114 &4564675578514633602
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7456,20 +7973,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 29.995312282096773
---- !u!114 &4569402116762655485
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 14.528979753050931
 --- !u!114 &4580534576275778748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7666,20 +8169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 18.278393441759786
---- !u!114 &4838246036086792396
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 18.864239915581862
 --- !u!114 &4848396794003839053
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7764,6 +8253,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 57.88157912209802
+--- !u!114 &4977613805847948010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 27.066082572012522
 --- !u!114 &4988727374764284156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7848,6 +8351,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 21.324792340247402
+--- !u!114 &5140376182659191286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 13.59162590562503
 --- !u!114 &5154723495623177155
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7875,7 +8392,7 @@ MonoBehaviour:
   m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
-  startTime: 2.929229760918531
+  startTime: 3.3979065145320035
 --- !u!114 &5181472775396093546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7890,6 +8407,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 4.5695983985656845
+--- !u!114 &5234970340689869154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 51.0779550403459
 --- !u!114 &5301577889709312828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7918,6 +8449,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 53.89782671638356
+--- !u!114 &5383586341049621608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 73.46508117974578
 --- !u!114 &5397855779475268879
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8100,6 +8645,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 11.59974970276777
+--- !u!114 &5485432213297184934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 16.403686427305864
+--- !u!114 &5500409986692303427
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 17.34103993453281
 --- !u!114 &5542168837228519688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53947,79 +54520,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.9918762536915857
+    m_Start: 2.4605530073050588
     m_ClipIn: 0
     m_Asset: {fileID: 8173907675021322939}
-    m_Duration: 0.11716918840336832
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 5949732777874862088}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignAsset
-  - m_Version: 1
-    m_Start: 2.929229760918531
-    m_ClipIn: 0
-    m_Asset: {fileID: 5169438180840176166}
-    m_Duration: 0.11716918840336832
+    m_Duration: 0.2343383768067362
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54088,7 +54592,7 @@ MonoBehaviour:
     m_Start: 4.335260021758948
     m_ClipIn: 0
     m_Asset: {fileID: 2926940517890232913}
-    m_Duration: 0.11716918840336832
+    m_Duration: 0.2343383768067362
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54116,6 +54620,39 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 5.264802374628964
+    m_ClipIn: 0
+    m_Asset: {fileID: 6045091991785127866}
+    m_Duration: 0.24214953116366544
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54154,9 +54691,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 6.686455225727205
+    m_Start: 7.147320543439784
     m_ClipIn: 0
-    m_Asset: {fileID: -454120079746570888}
+    m_Asset: {fileID: 8252739093660323339}
     m_Duration: 0.11716918840336832
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
@@ -54223,10 +54760,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 7.623808732954151
+    m_Start: 9.022027557893672
     m_ClipIn: 0
-    m_Asset: {fileID: 8615290918647353058}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -3664062088983657498}
+    m_Duration: 0.2343383768067362
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54259,25 +54796,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54290,12 +54809,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: SignAsset
+    m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 9.029838993794568
+    m_Start: 9.951569910763688
     m_ClipIn: 0
-    m_Asset: {fileID: 3506048951917875610}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -5790406212653292218}
+    m_Duration: 0.24214953116366544
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54304,25 +54823,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54361,10 +54862,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 12.18559598498357
+    m_Start: 11.71691889117114
     m_ClipIn: 0
-    m_Asset: {fileID: -5145369141753372647}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -4495212890379097808}
+    m_Duration: 0.23433837680673442
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54430,10 +54931,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 13.122949492210514
+    m_Start: 13.59162590562503
     m_ClipIn: 0
-    m_Asset: {fileID: -562624928885982583}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 5140376182659191286}
+    m_Duration: 0.23433837680673442
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54466,25 +54967,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54497,12 +54980,12 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: SignAsset
+    m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 14.528979753050931
+    m_Start: 14.521168258495045
     m_ClipIn: 0
-    m_Asset: {fileID: 4569402116762655485}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -825594293820192495}
+    m_Duration: 0.24214953116366367
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54511,25 +54994,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54568,10 +55033,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 17.926886408354918
+    m_Start: 16.403686427305864
     m_ClipIn: 0
-    m_Asset: {fileID: 3566885316612775825}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 5485432213297184934}
+    m_Duration: 0.2343383768067433
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54637,10 +55102,112 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 18.864239915581862
+    m_Start: 18.278393441759754
     m_ClipIn: 0
-    m_Asset: {fileID: 4838246036086792396}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 1000159510173895487}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 19.20793579462977
+    m_ClipIn: 0
+    m_Asset: {fileID: 7236635491638755048}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 21.44196152865077
+    m_ClipIn: 0
+    m_Asset: {fileID: 769126840078731308}
+    m_Duration: 0.2343383768067433
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54706,10 +55273,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 20.27027017642228
+    m_Start: 23.316668543104658
     m_ClipIn: 0
-    m_Asset: {fileID: -6861473189295967081}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 4549819291454976930}
+    m_Duration: 0.23433837680677172
     m_TimeScale: 1
     m_ParentTrack: {fileID: 5949732777874862088}
     m_EaseInDuration: 0
@@ -54737,6 +55304,1236 @@ MonoBehaviour:
         weightedMode: 0
         inWeight: 0
         outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 24.246210895974674
+    m_ClipIn: 0
+    m_Asset: {fileID: -5493788568610254435}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 27.066082572012522
+    m_ClipIn: 0
+    m_Asset: {fileID: 4977613805847948010}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 28.940789586466412
+    m_ClipIn: 0
+    m_Asset: {fileID: -5966967732461118431}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 29.870331939336427
+    m_ClipIn: 0
+    m_Asset: {fileID: -1709328315048270326}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 32.682393344752334
+    m_ClipIn: 0
+    m_Asset: {fileID: -8038112462873407937}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 34.557100359206224
+    m_ClipIn: 0
+    m_Asset: {fileID: -2865978998807590560}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 35.48664271207624
+    m_ClipIn: 0
+    m_Asset: {fileID: -1839920872063913795}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 40.18903167318972
+    m_ClipIn: 0
+    m_Asset: {fileID: -5638028630647136550}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 42.06373868764361
+    m_ClipIn: 0
+    m_Asset: {fileID: 6576793111893420800}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 42.99328104051362
+    m_ClipIn: 0
+    m_Asset: {fileID: 2350695901727497972}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 48.27370567302199
+    m_ClipIn: 0
+    m_Asset: {fileID: -7487067369853406535}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 50.14841268747588
+    m_ClipIn: 0
+    m_Asset: {fileID: 1099921798347783748}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 51.0779550403459
+    m_ClipIn: 0
+    m_Asset: {fileID: 458685346171730894}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 56.827056426467735
+    m_ClipIn: 0
+    m_Asset: {fileID: -7486833364354355391}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 58.701763440921624
+    m_ClipIn: 0
+    m_Asset: {fileID: -2103366910175042539}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 59.63130579379164
+    m_ClipIn: 0
+    m_Asset: {fileID: 7476186137507759710}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 62.68551584663605
+    m_ClipIn: 0
+    m_Asset: {fileID: 7167641983686326644}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 64.56022286108994
+    m_ClipIn: 0
+    m_Asset: {fileID: 2430497643054739723}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 65.48976521395996
+    m_ClipIn: 0
+    m_Asset: {fileID: 6557575837426692205}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 71.59037416529189
+    m_ClipIn: 0
+    m_Asset: {fileID: -5980385051814420817}
+    m_Duration: 0.2343383768067433
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 73.46508117974578
+    m_ClipIn: 0
+    m_Asset: {fileID: 5383586341049621608}
+    m_Duration: 0.23433837680677172
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 74.3946235326158
+    m_ClipIn: 0
+    m_Asset: {fileID: 1535893954653899761}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 5949732777874862088}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -54873,7 +56670,7 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 1
-  startTime: 3.2807373261286354
+  startTime: 5.264802374628964
 --- !u!114 &6063911147355643756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54916,20 +56713,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 48.27370567302198
---- !u!114 &6175037588663357428
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 13.47445705742062
 --- !u!114 &6233784651631089717
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55042,20 +56825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 46.86767541218158
---- !u!114 &6376662958737533982
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 21.199812529292295
 --- !u!114 &6414620641609268290
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55126,6 +56895,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 54.95234941201386
+--- !u!114 &6557575837426692205
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 65.48976521395996
 --- !u!114 &6558456136334927100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55140,6 +56923,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 73.69941955655247
+--- !u!114 &6576793111893420800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 0
+  startTime: 42.06373868764361
 --- !u!114 &6582823426908473559
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55210,6 +57007,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 5.389782717389261
+--- !u!114 &6674010535304019898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 72.52772767251884
 --- !u!114 &6724243521403853979
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55378,20 +57189,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 51.08576619470277
---- !u!114 &6960640236822652520
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 11.716919231370097
 --- !u!114 &6962678762554887772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55504,6 +57301,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 47.92219810781188
+--- !u!114 &7167641983686326644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 62.68551584663605
 --- !u!114 &7207015553343121859
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55546,6 +57357,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 19.567254514196854
+--- !u!114 &7236635491638755048
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 19.20793579462977
 --- !u!114 &7247534465309695744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55588,6 +57413,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 61.86533152781247
+--- !u!114 &7476186137507759710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
+  signId: 1
+  startTime: 59.63130579379164
 --- !u!114 &7546435500018629414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55798,6 +57637,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 74.6367730637794
+--- !u!114 &7958831151347840457
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 61.748162339409106
 --- !u!114 &8007383295676460197
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55865,7 +57718,7 @@ MonoBehaviour:
     m_Start: 1.5231995000781127
     m_ClipIn: 0
     m_Asset: {fileID: 8739441272779365684}
-    m_Duration: 0.11716918840336832
+    m_Duration: 0.23433837680673664
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -55930,149 +57783,11 @@ MonoBehaviour:
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
-  - m_Version: 1
-    m_Start: 2.4605530073050588
-    m_ClipIn: 0
-    m_Asset: {fileID: -7354889582912293786}
-    m_Duration: 0.11716918840336832
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 8059508175394973567}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignAsset
-  - m_Version: 1
-    m_Start: 3.2807373261286354
-    m_ClipIn: 0
-    m_Asset: {fileID: 6045091991785127866}
-    m_Duration: 0.11716918840336832
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 8059508175394973567}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignTrackAsset
   - m_Version: 1
     m_Start: 5.264802374628964
     m_ClipIn: 0
     m_Asset: {fileID: 5542168837228519688}
-    m_Duration: 0.11716918840336832
+    m_Duration: 0.24214953116366544
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56138,9 +57853,78 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 6.217778472113732
+    m_Start: 3.3979065145320035
     m_ClipIn: 0
-    m_Asset: {fileID: -318845150032478312}
+    m_Asset: {fileID: 5169438180840176166}
+    m_Duration: 0.2343383768067362
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 6.209967036212838
+    m_ClipIn: 0
+    m_Asset: {fileID: 4202042865464266156}
     m_Duration: 0.11716918840336832
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
@@ -56207,10 +57991,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 7.155131979340679
+    m_Start: 8.084674050666727
     m_ClipIn: 0
-    m_Asset: {fileID: 3900549785269828594}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -1360969170472378219}
+    m_Duration: 0.2343383768067362
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56276,10 +58060,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 7.975316298164255
+    m_Start: 9.951569910763688
     m_ClipIn: 0
-    m_Asset: {fileID: -8941815036612952618}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -8167294768307823628}
+    m_Duration: 0.24214953116366544
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56345,79 +58129,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 9.959381346664584
+    m_Start: 10.779565383944194
     m_ClipIn: 0
-    m_Asset: {fileID: 210738264564015659}
-    m_Duration: 0.11716918840336832
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 8059508175394973567}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignTrackAsset
-  - m_Version: 1
-    m_Start: 11.716919231370097
-    m_ClipIn: 0
-    m_Asset: {fileID: 6960640236822652520}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 1615965017904782587}
+    m_Duration: 0.2343383768067362
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56483,10 +58198,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 12.654272738597044
+    m_Start: 12.654272398398085
     m_ClipIn: 0
-    m_Asset: {fileID: 3833779825270039912}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -6792737986246215939}
+    m_Duration: 0.23433837680673442
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56552,10 +58267,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 13.47445705742062
+    m_Start: 14.521168258495045
     m_ClipIn: 0
-    m_Asset: {fileID: 6175037588663357428}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -2178106502509439293}
+    m_Duration: 0.24214953116366367
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56621,79 +58336,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 15.458522105920949
+    m_Start: 15.46633292007892
     m_ClipIn: 0
-    m_Asset: {fileID: 8436175207830217093}
-    m_Duration: 0.11716918840336832
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 8059508175394973567}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignTrackAsset
-  - m_Version: 1
-    m_Start: 17.458209654741445
-    m_ClipIn: 0
-    m_Asset: {fileID: 2270659491242287540}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -2931517503310721883}
+    m_Duration: 0.23433837680673442
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56759,10 +58405,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 18.39556316196839
+    m_Start: 17.34103993453281
     m_ClipIn: 0
-    m_Asset: {fileID: 4528964682136748615}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: 5500409986692303427}
+    m_Duration: 0.2343383768067575
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56828,10 +58474,10 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignAsset
   - m_Version: 1
-    m_Start: 19.21574748079197
+    m_Start: 19.20793579462977
     m_ClipIn: 0
-    m_Asset: {fileID: -4446836957939146311}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -887157882267922050}
+    m_Duration: 0.24214953116371518
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -56897,10 +58543,1597 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 21.199812529292295
+    m_Start: 20.504608021423824
     m_ClipIn: 0
-    m_Asset: {fileID: 6376662958737533982}
-    m_Duration: 0.11716918840336832
+    m_Asset: {fileID: -221620460954990979}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 22.379315035877713
+    m_ClipIn: 0
+    m_Asset: {fileID: -6880108848864714242}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 24.246210895974674
+    m_ClipIn: 0
+    m_Asset: {fileID: -9136027830152437322}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 26.128729064785578
+    m_ClipIn: 0
+    m_Asset: {fileID: 4471661369460761512}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 28.003436079239467
+    m_ClipIn: 0
+    m_Asset: {fileID: -738664250795804485}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 29.870331939336427
+    m_ClipIn: 0
+    m_Asset: {fileID: 2148764102808916695}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 31.745039837525383
+    m_ClipIn: 0
+    m_Asset: {fileID: -4485500597230564062}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 33.61974685197928
+    m_ClipIn: 0
+    m_Asset: {fileID: -657765057510598022}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 35.48664271207624
+    m_ClipIn: 0
+    m_Asset: {fileID: -6219851334843569037}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 39.25167816596277
+    m_ClipIn: 0
+    m_Asset: {fileID: 1303860868765370713}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 41.12638518041666
+    m_ClipIn: 0
+    m_Asset: {fileID: -5606828892122494485}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 42.99328104051362
+    m_ClipIn: 0
+    m_Asset: {fileID: 3105656448553620253}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 47.33635216579505
+    m_ClipIn: 0
+    m_Asset: {fileID: -3158586156758843252}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 49.21105918024894
+    m_ClipIn: 0
+    m_Asset: {fileID: 1750130779568433849}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 51.0779550403459
+    m_ClipIn: 0
+    m_Asset: {fileID: 5234970340689869154}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 55.88970291924079
+    m_ClipIn: 0
+    m_Asset: {fileID: 4305183785837740853}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 57.76440993369468
+    m_ClipIn: 0
+    m_Asset: {fileID: -9021565054205105651}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 59.63130579379164
+    m_ClipIn: 0
+    m_Asset: {fileID: -4840610500574754752}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 61.748162339409106
+    m_ClipIn: 0
+    m_Asset: {fileID: 7958831151347840457}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 63.622869353862995
+    m_ClipIn: 0
+    m_Asset: {fileID: 636395893437736452}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 65.48976521395996
+    m_ClipIn: 0
+    m_Asset: {fileID: -3910037087119241035}
+    m_Duration: 0.24214953116371518
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 70.65302065806495
+    m_ClipIn: 0
+    m_Asset: {fileID: -997629308617973637}
+    m_Duration: 0.23433837680673442
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 72.52772767251884
+    m_ClipIn: 0
+    m_Asset: {fileID: 6674010535304019898}
+    m_Duration: 0.2343383768067575
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 8059508175394973567}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignAsset
+  - m_Version: 1
+    m_Start: 74.3946235326158
+    m_ClipIn: 0
+    m_Asset: {fileID: -5645378256847491890}
+    m_Duration: 0.24214953116371518
     m_TimeScale: 1
     m_ParentTrack: {fileID: 8059508175394973567}
     m_EaseInDuration: 0
@@ -57064,7 +60297,7 @@ MonoBehaviour:
   m_Name: SignAsset(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
-  startTime: 1.9918762536915857
+  startTime: 2.4605530073050588
 --- !u!114 &8194512892978034168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57079,6 +60312,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 45.46164515134119
+--- !u!114 &8252739093660323339
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
+  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
+  signId: 0
+  startTime: 7.147320543439784
 --- !u!114 &8410041746378914188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57093,20 +60340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 15.466332920078917
---- !u!114 &8436175207830217093
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 1
-  startTime: 15.458522105920949
 --- !u!114 &8439902669981772974
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57163,23 +60396,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 70.18434390445148
---- !u!114 &8581339081198653899
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
-  m_Name: AudioPlayableAsset
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
-  m_Clip: {fileID: 8300000, guid: b90b91ff46aa1344da3aa9db7bde5281, type: 3}
-  m_Loop: 0
-  m_bufferingTime: 0.1
-  m_ClipProperties:
-    volume: 1
 --- !u!114 &8592388062880616123
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57194,20 +60410,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 42.063738687643564
---- !u!114 &8615290918647353058
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
-  m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
-  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 0
-  startTime: 7.623808732954151
 --- !u!114 &8619681462954461337
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -57334,102 +60536,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 2
   startTime: 2.812060572515163
---- !u!114 &8920590726629449943
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
-  m_Name: Audio Track
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
-  m_Version: 3
-  m_AnimClip: {fileID: 0}
-  m_Locked: 0
-  m_Muted: 0
-  m_CustomPlayableFullTypename: 
-  m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
-  m_Children: []
-  m_Clips:
-  - m_Version: 1
-    m_Start: 1
-    m_ClipIn: 0
-    m_Asset: {fileID: 8581339081198653899}
-    m_Duration: 77.87102040816326
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: 8920590726629449943}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: 'audio [drums]'
-  m_Markers:
-    m_Objects: []
-  m_TrackProperties:
-    volume: 1
-    stereoPan: 0
-    spatialBlend: 0
 --- !u!114 &9022935759386519433
 MonoBehaviour:
   m_ObjectHideFlags: 1

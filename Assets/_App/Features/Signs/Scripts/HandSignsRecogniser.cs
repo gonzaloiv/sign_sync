@@ -43,16 +43,10 @@ namespace DigitalLove.Game.Signs
 
         private void OnSignRecognised(SignId signId)
         {
-            // Debug.LogWarning($"Sign Recognised {signId} in hand {handId}");
+            Debug.LogWarning($"Sign Recognised {signId} in hand {handId}");
             Listener listener = listeners.FirstOrDefault(l => l.signId == signId);
             if (listener != null && listener.FinalTime >= Time.time)
-            {
                 OnRecognisedSignListenerFound(listener);
-            }
-            else
-            {
-                failed.Invoke(FailType.OutOfTime);
-            }
         }
 
         private void OnRecognisedSignListenerFound(Listener listener)
@@ -80,6 +74,7 @@ namespace DigitalLove.Game.Signs
             }
             foreach (Listener listener in toRemove)
             {
+                spawner.OnFailed(listener.visual);
                 listeners.Remove(listener);
                 failed.Invoke(FailType.NotRecognised);
             }

@@ -13,6 +13,7 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private OVROriginBehaviour origin;
         [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StageBehaviour stage;
+        [SerializeField] private AudioSource init;
 
         public override void Init(StateMachine parent)
         {
@@ -27,6 +28,7 @@ namespace DigitalLove.Game.Flow
             {
                 yield return new WaitForSeconds(1);
                 stage.Play(trackSelector.CurrentData.bpm);
+                init.Play();
                 parent.SetCurrentState(nextState.RouteId);
             }
             StartCoroutine(InitRoutine());

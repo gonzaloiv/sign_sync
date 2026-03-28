@@ -6,14 +6,16 @@ namespace DigitalLove.Game.Signs
     public class SignVisual : MonoBehaviour
     {
         [SerializeField] private HandFade fade;
+        [SerializeField] private GameObject body;
         [SerializeField] private ScalePunch scalePunch;
+        [SerializeField] private ParticleSystem ps;
 
         private float time;
         private Transform origin;
         private Transform destination;
         private float secsToBeat;
 
-        public bool IsActive => gameObject.activeInHierarchy;
+        public bool IsActive => body.activeInHierarchy;
         private float TotalActiveSecs => secsToBeat * 2;
 
         public void Show(Transform origin, Transform destination, float secsToBeat)
@@ -24,18 +26,19 @@ namespace DigitalLove.Game.Signs
             this.destination = destination;
             this.secsToBeat = secsToBeat;
             fade?.Fade(secsToBeat);
-            gameObject.SetActive(true);
+            body.SetActive(true);
         }
 
         public void Hide(bool instant)
         {
             if (instant)
             {
-                gameObject.SetActive(false);
+                body.SetActive(false);
             }
             else
             {
-                scalePunch.Animate(() => gameObject.SetActive(false));
+                ps.Play();
+                scalePunch.Animate(() => body.SetActive(false));
             }
         }
 
