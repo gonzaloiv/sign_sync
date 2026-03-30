@@ -26,8 +26,9 @@ namespace DigitalLove.Game.Flow
             statsCounter.defeated += ToTrackCompleteState;
 
             trackSelector.CurrentBehaviour.Play();
-            statsCounter.Restart();
-            spectrumVisualizer.AudioSource = trackSelector.CurrentBehaviour.AudioSource;
+            statsCounter.Restart(); 
+            if (spectrumVisualizer != null)
+                spectrumVisualizer.AudioSource = trackSelector.CurrentBehaviour.AudioSource;
         }
 
         private void ToTrackCompleteState()
@@ -40,7 +41,8 @@ namespace DigitalLove.Game.Flow
             trackSelector.CurrentBehaviour.complete -= ToTrackCompleteState;
             statsCounter.defeated -= ToTrackCompleteState;
 
-            spectrumVisualizer.AudioSource = null;
+            if (spectrumVisualizer != null)
+                spectrumVisualizer.AudioSource = null;
         }
     }
 }

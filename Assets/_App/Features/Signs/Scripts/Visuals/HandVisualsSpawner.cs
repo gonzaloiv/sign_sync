@@ -20,7 +20,7 @@ namespace DigitalLove.Game.Signs
 
         public HandId HandId => handId;
 
-        public SignVisual Spawn(SignId signId, float preloadSecs)
+        public SignVisual Spawn(SignId signId, RecognitionData recognitionData)
         {
             SignIdVisualPair pair = pairs.FirstOrDefault(p => p.id == signId && !p.visual.IsActive);
             if (pair == null)
@@ -30,7 +30,7 @@ namespace DigitalLove.Game.Signs
                 pair = new SignIdVisualPair() { id = signId, visual = visual };
                 pairs.Add(pair);
             }
-            pair.visual.Show(origin, destination, preloadSecs);
+            pair.visual.Show(origin, destination, recognitionData);
             return pair.visual;
         }
 
@@ -42,7 +42,7 @@ namespace DigitalLove.Game.Signs
             }
         }
 
-        public void OnFailed(SignVisual visual)
+        public void OnFailed()
         {
             audioSource.clip = glitchClips[UnityEngine.Random.Range(0, glitchClips.Length)];
             audioSource.Play();

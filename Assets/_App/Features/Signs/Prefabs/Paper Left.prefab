@@ -977,7 +977,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bc99293adbd1e7848a3cfd93f4693f14, type: 2}
+  - {fileID: 2100000, guid: 06af61d7678b4b54280928893d7a57e1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1798,9 +1798,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Signs::HandFade
   rend: {fileID: 7975326305833281167}
-  origin: {r: 1, g: 1, b: 1, a: 0}
-  destination: {r: 1, g: 1, b: 1, a: 0.3137255}
-  opacityKey: _Opacity
+  inactive: {fileID: 0}
+  active: {fileID: 0}
+  perfect: {fileID: 0}
+  success: {fileID: 0}
+  key: 
 --- !u!1 &6510413557979024681
 GameObject:
   m_ObjectHideFlags: 0

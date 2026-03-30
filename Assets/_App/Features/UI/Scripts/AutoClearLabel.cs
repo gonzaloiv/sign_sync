@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace DigitalLove.Game.UI
 {
@@ -11,8 +10,6 @@ namespace DigitalLove.Game.UI
 
         private float showTime;
 
-        public UnityEvent showed;
-
         private void Awake()
         {
             label.text = string.Empty;
@@ -22,7 +19,6 @@ namespace DigitalLove.Game.UI
         {
             label.text = text;
             showTime = Time.time;
-            showed.Invoke();
         }
 
         private void Update()

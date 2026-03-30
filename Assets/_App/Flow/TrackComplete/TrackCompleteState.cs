@@ -3,6 +3,7 @@ using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
 using DigitalLove.Game.Stats;
 using DigitalLove.Game.Tracks;
+using DigitalLove.Game.VFX;
 using UnityEngine;
 
 namespace DigitalLove.Game.Flow
@@ -14,10 +15,13 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StatsCounter statsCounter;
         [SerializeField] private AudioSource failed;
+        [SerializeField] private PassthroughStyler passthroughStyler;
+        [SerializeField] private PassthroughStyle menuStyle;
 
         public override void Enter()
         {
             stage.Stop();
+            passthroughStyler.SetStyle(menuStyle);
             if (!statsCounter.HasHealthBeenDepleted)
             {
                 Debug.LogWarning($"Level completed with a score of: {statsCounter.Score}");

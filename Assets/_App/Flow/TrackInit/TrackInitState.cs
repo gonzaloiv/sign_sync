@@ -2,6 +2,7 @@ using System.Collections;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
 using DigitalLove.Game.Tracks;
+using DigitalLove.Game.VFX;
 using DigitalLove.XR;
 using UnityEngine;
 
@@ -14,6 +15,8 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StageBehaviour stage;
         [SerializeField] private AudioSource init;
+        [SerializeField] private PassthroughStyler passthroughStyler;
+        [SerializeField] private PassthroughStyle playStyle;
 
         public override void Init(StateMachine parent)
         {
@@ -27,6 +30,7 @@ namespace DigitalLove.Game.Flow
             IEnumerator InitRoutine()
             {
                 yield return new WaitForSeconds(1);
+                passthroughStyler.SetStyle(playStyle);
                 stage.Play(trackSelector.CurrentData.bpm);
                 init.Play();
                 parent.SetCurrentState(nextState.RouteId);

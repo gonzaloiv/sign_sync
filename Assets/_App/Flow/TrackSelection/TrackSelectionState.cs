@@ -1,6 +1,7 @@
 using DigitalLove.DataAccess;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Tracks;
+using DigitalLove.Game.VFX;
 using Reflex.Attributes;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ namespace DigitalLove.Game.Flow
     {
         [SerializeField] private MonoState nextState;
         [SerializeField] private TrackSelector trackSelector;
+        [SerializeField] private PassthroughStyler passthroughStyler;
+        [SerializeField] private PassthroughStyle menuStyle;
 
         [Inject] private MemoryDataClient memoryDataClient;
 
@@ -18,6 +21,7 @@ namespace DigitalLove.Game.Flow
             trackSelector.SetCurrent();
             memoryDataClient.Put(trackSelector.CurrentData);
             parent.SetCurrentState(nextState.RouteId);
+            passthroughStyler.SetStyle(menuStyle);
         }
 
         public override void Exit()

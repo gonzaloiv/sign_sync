@@ -32,7 +32,7 @@ namespace DigitalLove.Game.Signs
                 SignTrackBehaviour behaviour = ((ScriptPlayable<SignTrackBehaviour>)mixer.GetInput(i)).GetBehaviour();
                 if (behaviour != null)
                 {
-                    bool isTime = timelineTime > behaviour.startTime - HandSignsRecogniser.PreloadSecs;
+                    bool isTime = timelineTime > behaviour.startTime - recogniser.ActiveSecs;
                     if (isTime && !behaviours.Contains(behaviour))
                     {
                         // Debug.LogWarning($"Current Sign Id {behaviour.signId} and Hand Id {spawner.HandId}");

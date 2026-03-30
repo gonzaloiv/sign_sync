@@ -13,7 +13,7 @@ namespace DigitalLove.Game.Signs
             recogniser.recognised += OnHandSignRecognised;
         }
 
-        private void OnHandSignRecognised(RecognitionState recognitionState)
+        private void OnHandSignRecognised(RecognitionLevel recognitionState)
         {
             label.Show($"{recognitionState}");
         }

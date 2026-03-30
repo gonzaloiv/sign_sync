@@ -8,7 +8,7 @@ namespace DigitalLove.Game.Stats
     public class StatsCounter : MonoBehaviour
     {
         [SerializeField] private HandSignsRecogniser[] recognisers;
-        [SerializeField] private RecognitionData[] recognitionValues;
+        [SerializeField] private SuccessData[] recognitionValues;
         [SerializeField] private FailData[] failValues;
 
         [SerializeField] private Stats stats;
@@ -30,9 +30,9 @@ namespace DigitalLove.Game.Stats
             }
         }
 
-        private void OnHandSignRecognised(RecognitionState recognitionState)
+        private void OnHandSignRecognised(RecognitionLevel recognitionLevel)
         {
-            RecognitionData recognitionData = recognitionValues.FirstOrDefault(p => p.recognitionState == recognitionState);
+            SuccessData recognitionData = recognitionValues.FirstOrDefault(p => p.recognitionLevel == recognitionLevel);
             stats.IncreaseScore(recognitionData.score);
             stats.IncreaseHealth(recognitionData.health);
         }
@@ -56,9 +56,9 @@ namespace DigitalLove.Game.Stats
     }
 
     [Serializable]
-    public class RecognitionData
+    public class SuccessData
     {
-        public RecognitionState recognitionState;
+        public RecognitionLevel recognitionLevel;
         public int score;
         public float health;
     }
