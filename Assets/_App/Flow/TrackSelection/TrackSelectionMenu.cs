@@ -20,6 +20,7 @@ namespace DigitalLove.Game.Flow
 
         public void Show()
         {
+            gameObject.SetActive(true);
             HideAll();
             PlayerData playerData = memoryDataClient.Get<PlayerData>();
             TrackData[] tracksData = trackSelector.TracksData;
@@ -47,6 +48,12 @@ namespace DigitalLove.Game.Flow
             {
                 panel.Hide();
             }
+        }
+
+        public void Hide()
+        {
+            HideAll();
+            gameObject.SetActive(false);
         }
     }
 }

@@ -25,7 +25,7 @@ namespace DigitalLove.Game.Flow
         public override void Init(StateMachine parent)
         {
             base.Init(parent);
-            menu.HideAll();
+            menu.Hide();
         }
 
         public override void Enter()
@@ -54,7 +54,7 @@ namespace DigitalLove.Game.Flow
         {
             menu.trackSelected -= OnTrackSelected;
 
-            menu.HideAll();
+            menu.Hide();
         }
     }
 }

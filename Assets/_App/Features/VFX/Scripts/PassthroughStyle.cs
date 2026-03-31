@@ -9,5 +9,6 @@ namespace DigitalLove.Game.VFX
         public ColorMapEditorType colorMapEditorType;
         public Gradient gradient;
         public float saturation;
+        public float brightness;
     }
 }

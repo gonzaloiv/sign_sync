@@ -14,6 +14,8 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private TextMeshProUGUI genreLabel;
         [SerializeField] private TextMeshProUGUI moodLabel;
         [SerializeField] private AudioSource audioSource;
+        [SerializeField] private GameObject highScorePanel;
+        [SerializeField] private TextMeshProUGUI highScoreLabel;
 
         [SerializeField] private float initialAudioSourceTime = 12f;
         [SerializeField] private GameObject glitch;
@@ -32,6 +34,20 @@ namespace DigitalLove.Game.Flow
             moodLabel.text = $"{trackData.mood[0]}, {trackData.mood[1]}";
             glitch.SetActive(false);
             gameObject.SetActive(true);
+            ShowHighScore(cookie);
+        }
+
+        private void ShowHighScore(Cookie cookie)
+        {
+            if (cookie != null)
+            {
+                highScorePanel.SetActive(true);
+                highScoreLabel.text = $"{cookie.metadata}";
+            }
+            else
+            {
+                highScorePanel.SetActive(false);
+            }
         }
 
         public void Hide()

@@ -11,6 +11,7 @@ namespace DigitalLove.Game.VFX
             ovrPassthroughLayer.colorMapEditorType = style.colorMapEditorType;
             ovrPassthroughLayer.colorMapEditorSaturation = style.saturation;
             ovrPassthroughLayer.colorMapEditorGradient = style.gradient;
+            ovrPassthroughLayer.colorMapEditorBrightness = style.brightness;
             ovrPassthroughLayer.SetStyleDirty();
         }
     }
