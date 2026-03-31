@@ -101,7 +101,8 @@ PrefabInstance:
       value: Rock Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6942865655984115046, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}

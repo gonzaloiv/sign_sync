@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DigitalLove.FX
+namespace DigitalLove.VFX
 {
     public class MaterialScroller : MonoBehaviour
     {

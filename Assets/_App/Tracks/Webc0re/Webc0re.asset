@@ -12,7 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b65785238263b24e9b4e4e12f3396fa, type: 3}
   m_Name: Webc0re
   m_EditorClassIdentifier: DigitalLove.Game.Tracks::DigitalLove.Game.Tracks.TrackData
-  id: Webc0re
-  timelineAsset: {fileID: 11400000, guid: 7147abd567fc36643935df431b6523bf, type: 2}
-  audioClip: {fileID: 8300000, guid: 15cc60d3e35e19848b34c7f15e7f9ea9, type: 3}
+  id: 01_01
+  prefab: {fileID: 0}
+  title: Webc0re
   bpm: 128
+  artist: BUFFER_KID
+  genre: Pop
+  mood:
+  - Upbeat
+  - Energetic
+  clip: {fileID: 8300000, guid: 15cc60d3e35e19848b34c7f15e7f9ea9, type: 3}

@@ -16,7 +16,6 @@ namespace DigitalLove.Game.Signs
         [Header("FX")]
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioClip[] glitchClips;
-        [SerializeField] private ParticleSystem failPS;
 
         public HandId HandId => handId;
 
@@ -26,7 +25,7 @@ namespace DigitalLove.Game.Signs
             if (pair == null)
             {
                 SignVisual visual = Instantiate(pairs.FirstOrDefault(p => p.id == signId).visual, transform);
-                visual.Hide(instant: true);
+                visual.Hide();
                 pair = new SignIdVisualPair() { id = signId, visual = visual };
                 pairs.Add(pair);
             }
@@ -38,7 +37,7 @@ namespace DigitalLove.Game.Signs
         {
             foreach (SignIdVisualPair pair in pairs)
             {
-                pair.visual.Hide(instant: true);
+                pair.visual.Hide();
             }
         }
 
@@ -46,7 +45,6 @@ namespace DigitalLove.Game.Signs
         {
             audioSource.clip = glitchClips[UnityEngine.Random.Range(0, glitchClips.Length)];
             audioSource.Play();
-            failPS.Play();
         }
     }
 

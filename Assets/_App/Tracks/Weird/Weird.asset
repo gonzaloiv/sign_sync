@@ -12,6 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b65785238263b24e9b4e4e12f3396fa, type: 3}
   m_Name: Weird
   m_EditorClassIdentifier: DigitalLove.Game.Tracks::DigitalLove.Game.Tracks.TrackData
-  id: Weird
-  timeline: {fileID: 11400000, guid: e917b1da1e225f64fb6f600baecd9a6a, type: 2}
+  id: 01_02
+  prefab: {fileID: 0}
+  title: Weird
+  bpm: 140
+  artist: AMALA NEON
+  genre: Electronic
+  mood:
+  - Groovy
+  - Playful
+  - Energetic
+  - Upbeat
   clip: {fileID: 8300000, guid: 0b35b1718973e1e4ba88764bf78fab6a, type: 3}

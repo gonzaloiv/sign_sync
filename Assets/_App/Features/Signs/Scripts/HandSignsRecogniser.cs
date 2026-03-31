@@ -16,7 +16,7 @@ namespace DigitalLove.Game.Signs
         private List<Listener> listeners = new();
 
         public HandId HandId => handId;
-        public float ActiveSecs => recognitionData.activeSecs;
+        public float ActiveSecs => recognitionData.ActiveSecs;
 
         public Action<RecognitionLevel> recognised = (state) => { };
         public Action<FailType> failed = (type) => { };
@@ -44,18 +44,40 @@ namespace DigitalLove.Game.Signs
         private void OnSignRecognised(SignId signId)
         {
             // Debug.LogWarning($"Sign Recognised {signId} in hand {handId}");
-            Listener listener = listeners.FirstOrDefault(l => l.signId == signId);
-            if (listener != null && listener.GetFinalTime(recognitionData.activeSecs) >= Time.time)
-                OnRecognisedSignListenerFound(listener);
+            IEnumerable<Listener> selection = GetRecognisableListeners(signId);
+            List<Listener> toRemove = new();
+            if (selection != null && selection.Count() > 0)
+            {
+                foreach (Listener listener in selection)
+                {
+                    OnRecognisedSignListenerFound(listener);
+                    toRemove.Add(listener);
+                }
+            }
+            foreach (Listener listener in toRemove)
+            {
+                listeners.Remove(listener);
+            }
+        }
+
+        private IEnumerable<Listener> GetRecognisableListeners(SignId signId)
+        {
+            return listeners.Where(l =>
+            {
+                if (l.signId != signId)
+                    return false;
+                if (recognitionData.GetFinalTime(l.startTime) < Time.time)
+                    return false;
+                return true;
+            });
         }
 
         private void OnRecognisedSignListenerFound(Listener listener)
         {
             float recognisedTime = Time.time - listener.startTime;
-            RecognitionLevel state = Mathf.Abs(recognitionData.activeSecs - recognisedTime) < recognitionData.perfectRange ?
+            RecognitionLevel state = recognitionData.IsInPerfectRange(recognisedTime) ?
                 RecognitionLevel.Perfect : RecognitionLevel.Good;
-            listener.visual.Hide(instant: false);
-            listeners.Remove(listener);
+            listener.visual.OnSuccess();
             recognised.Invoke(state);
         }
 
@@ -67,7 +89,7 @@ namespace DigitalLove.Game.Signs
             List<Listener> toRemove = new();
             foreach (Listener listener in listeners)
             {
-                if (listener.GetFinalTime(recognitionData.activeSecs) < Time.time)
+                if (recognitionData.GetFinalTime(listener.startTime) < Time.time)
                 {
                     toRemove.Add(listener);
                 }
@@ -75,6 +97,7 @@ namespace DigitalLove.Game.Signs
             foreach (Listener listener in toRemove)
             {
                 spawner.OnFailed();
+                listener.visual.OnFailure();
                 listeners.Remove(listener);
                 failed.Invoke(FailType.NotRecognised);
             }
@@ -105,11 +128,6 @@ namespace DigitalLove.Game.Signs
                     return recogniser;
             }
             return null;
-        }
-
-        public static float GetFinalTime(this Listener listener, float activeSecs)
-        {
-            return listener.startTime + activeSecs * 2;
         }
     }
 }

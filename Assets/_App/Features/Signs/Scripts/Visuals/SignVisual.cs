@@ -1,14 +1,16 @@
-using DigitalLove.FX;
+using DigitalLove.VFX;
 using UnityEngine;
 
 namespace DigitalLove.Game.Signs
 {
     public class SignVisual : MonoBehaviour
     {
-        [SerializeField] private MaterialColorHelper material;
+        [SerializeField] private SignVisualColorHelper colorHelper;
+        [SerializeField] private PlayerHandColorHelper handColorHelper;
         [SerializeField] private GameObject body;
         [SerializeField] private ScalePunch scalePunch;
-        [SerializeField] private ParticleSystem ps;
+        [SerializeField] private ParticleSystem successPS;
+        [SerializeField] private ParticleSystem failurePS;
 
         private float time;
         private Transform origin;
@@ -16,7 +18,6 @@ namespace DigitalLove.Game.Signs
         private RecognitionData recognitionData;
 
         public bool IsActive => body.activeInHierarchy;
-        private float TotalActiveSecs => recognitionData.activeSecs * 2;
 
         public void Show(Transform origin, Transform destination, RecognitionData recognitionData)
         {
@@ -25,36 +26,41 @@ namespace DigitalLove.Game.Signs
             transform.position = origin.position;
             this.destination = destination;
             this.recognitionData = recognitionData;
-            material?.Fade(recognitionData);
+            colorHelper.SetRecognitionData(recognitionData);
             body.SetActive(true);
         }
 
-        public void Hide(bool instant)
+        public void Hide()
         {
-            if (instant)
-            {
-                body.SetActive(false);
-            }
-            else
-            {
-                ps.Play();
-                material.SetSuccessColor();
-                scalePunch.Animate(() => body.SetActive(false));
-            }
+            body.SetActive(false);
+        }
+
+        public void OnSuccess()
+        {
+            successPS.Play();
+            colorHelper.SetSuccessColor();
+            scalePunch.Animate(Hide);
+            handColorHelper?.SetSuccessColor();
+        }
+
+        public void OnFailure()
+        {
+            failurePS.Play();
+            Hide();
         }
 
         private void Update()
         {
             if (recognitionData == null)
                 return;
-            if (time < TotalActiveSecs)
+            if (time < recognitionData.FinalSecs)
             {
-                transform.position = Vector3.Lerp(origin.position, destination.position, time / TotalActiveSecs);
+                transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.AnimationSecs);
                 time += Time.deltaTime;
             }
             else
             {
-                Hide(instant: true);
+                Hide();
             }
         }
     }

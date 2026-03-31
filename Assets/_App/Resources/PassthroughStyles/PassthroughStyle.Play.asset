@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6118f46329ec9458854eea05572b18, type: 3}
   m_Name: PassthroughStyle.Play
   m_EditorClassIdentifier: DigitalLove.Game.VFX::DigitalLove.Game.VFX.PassthoughStyle
-  colorMapEditorType: 1
+  colorMapEditorType: 4
   gradient:
     serializedVersion: 2
     key0: {r: 0.11922953, g: 0.15194926, b: 0.1474556, a: 1}
@@ -43,4 +43,4 @@ MonoBehaviour:
     m_ColorSpace: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  saturation: 0
+  saturation: -0.4

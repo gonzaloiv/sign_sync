@@ -1,4 +1,4 @@
-using DigitalLove.FX;
+using DigitalLove.VFX;
 using UnityEngine;
 
 namespace DigitalLove.Game.Stage
