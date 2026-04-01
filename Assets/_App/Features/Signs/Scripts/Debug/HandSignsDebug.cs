@@ -16,7 +16,7 @@ namespace DigitalLove.Game.Signs
                 if (reference.inputAction.action.WasPerformedThisFrame())
                 {
                     recognisers.GetByHandId(reference.handId).InvokeOnSignRecognised(reference.signId);
-                    Debug.LogWarning($"InvokeOnSignRecognised {reference.signId} in hand {reference.handId}");
+                    Debug.Log($"InvokeOnSignRecognised {reference.signId} in hand {reference.handId}");
                 }
             }
         }

@@ -17,8 +17,7 @@ namespace DigitalLove.Game.Stage
         {
             SetActive(true);
             grid.SetSpeed(bpm / 1000f);
-            reactiveProps.AudioSource = audioSource;
-            reactiveProps.Show();
+            reactiveProps.Show(audioSource);
 
         }
 

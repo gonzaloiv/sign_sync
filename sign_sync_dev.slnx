@@ -50,6 +50,7 @@
   <Project Path="DigitalLove.Analytics.GameAnalytics.csproj" />
   <Project Path="Timeline.Samples.Utilities.csproj" />
   <Project Path="DigitalLove.Audio.Runtime.csproj" />
+  <Project Path="DigitalLove.Game.Stage.csproj" />
   <Project Path="DigitalLove.XR.Platform.csproj" />
   <Project Path="DigitalLove.XR.ARFoundation.csproj" />
   <Project Path="Timeline.Samples.Tween.csproj" />
@@ -64,7 +65,6 @@
   <Project Path="DigitalLove.Casual.Flow.csproj" />
   <Project Path="DigitalLove.Global.Editor.csproj" />
   <Project Path="Vendor.UniGif.Samples.csproj" />
-  <Project Path="DigitalLove.Game.Stage.csproj" />
   <Project Path="DigitalLove.Casual.Flow.Setup.MRUK.csproj" />
   <Project Path="DigitalLove.Reflex.csproj" />
   <Project Path="DigitalLove.FlowControl.Routes.Editor.csproj" />

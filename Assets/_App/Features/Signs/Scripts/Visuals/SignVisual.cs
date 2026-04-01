@@ -6,7 +6,7 @@ namespace DigitalLove.Game.Signs
     public class SignVisual : MonoBehaviour
     {
         [SerializeField] private SignVisualColorHelper colorHelper;
-        [SerializeField] private PlayerHandColorHelper handColorHelper;
+        [SerializeField] private HighlightColorFade[] fadeColors;
         [SerializeField] private GameObject body;
         [SerializeField] private ScalePunch scalePunch;
         [SerializeField] private ParticleSystem successPS;
@@ -40,7 +40,13 @@ namespace DigitalLove.Game.Signs
             successPS.Play();
             colorHelper.SetSuccessColor();
             scalePunch.Animate(Hide);
-            handColorHelper?.SetSuccessColor();
+            if (fadeColors != null && fadeColors.Length > 0)
+            {
+                foreach (HighlightColorFade fadeColor in fadeColors)
+                {
+                    fadeColor.SetHighligthColor();
+                }
+            }
         }
 
         public void OnFailure()

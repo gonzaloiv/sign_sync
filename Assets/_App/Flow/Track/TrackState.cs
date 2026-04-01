@@ -18,6 +18,8 @@ namespace DigitalLove.Game.Flow
         public override void Init(StateMachine parent)
         {
             base.Init(parent);
+            if (Application.isEditor)
+                Camera.main.clearFlags = CameraClearFlags.Skybox;
         }
 
         public override void Enter()
@@ -26,7 +28,7 @@ namespace DigitalLove.Game.Flow
             statsCounter.defeated += ToTrackCompleteState;
 
             trackSelector.CurrentBehaviour.Play();
-            statsCounter.Restart(); 
+            statsCounter.Restart();
             if (spectrumVisualizer != null)
                 spectrumVisualizer.AudioSource = trackSelector.CurrentBehaviour.AudioSource;
         }
