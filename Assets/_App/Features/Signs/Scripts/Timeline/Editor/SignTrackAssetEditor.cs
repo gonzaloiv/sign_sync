@@ -22,6 +22,10 @@ namespace DigitalLove.Game.Signs
                     return Color.red;
                 case SignId.Paper:
                     return Color.blue;
+                case SignId.Scissors:
+                    return Color.limeGreen;
+                case SignId.Stop:
+                    return Color.yellow;
                 default:
                     return Color.gray;
             }

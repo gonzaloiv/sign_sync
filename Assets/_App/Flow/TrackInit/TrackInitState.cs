@@ -31,7 +31,7 @@ namespace DigitalLove.Game.Flow
             {
                 yield return new WaitForSeconds(1);
                 passthroughStyler.SetStyle(playStyle);
-                stage.Play(trackSelector.CurrentData.bpm);
+                stage.Play(trackSelector.CurrentData.bpm, trackSelector.CurrentBehaviour.AudioSource);
                 init.Play();
                 parent.SetCurrentState(nextState.RouteId);
             }

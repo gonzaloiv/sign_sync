@@ -1,0 +1,18 @@
+{
+    "name": "DigitalLove.Game.Signs.Debug",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2a230cb87a1d3ba4a98bdc0ddae76e6c",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:64927918121129f4f89ca940670289a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

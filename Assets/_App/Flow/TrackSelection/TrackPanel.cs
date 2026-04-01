@@ -13,13 +13,17 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private TextMeshProUGUI artistLabel;
         [SerializeField] private TextMeshProUGUI genreLabel;
         [SerializeField] private TextMeshProUGUI moodLabel;
-        [SerializeField] private AudioSource audioSource;
-        [SerializeField] private GameObject highScorePanel;
+
+        [Header("High Score")]
         [SerializeField] private TextMeshProUGUI highScoreLabel;
+        [SerializeField] private GameObject highScorePanel;
 
-        [SerializeField] private float initialAudioSourceTime = 12f;
+
+        [Header("Idle-Hover")]
+        [SerializeField] private AudioSource hoverAudioSource;
+        [SerializeField] private float initialHoverAudioSourceTime = 12f;
         [SerializeField] private GameObject glitch;
-
+        [SerializeField] private AudioSource idleAudioSource;
 
         private TrackData trackData;
         private Action<string> clicked;
@@ -28,13 +32,19 @@ namespace DigitalLove.Game.Flow
         {
             this.trackData = trackData;
             this.clicked = clicked;
+
+            gameObject.SetActive(true);
+            ShowTrackData(trackData);
+            ShowHighScore(cookie);
+            ShowIdle();
+        }
+
+        private void ShowTrackData(TrackData trackData)
+        {
             titleLabel.text = trackData.title;
             artistLabel.text = trackData.artist;
             genreLabel.text = trackData.genre;
             moodLabel.text = $"{trackData.mood[0]}, {trackData.mood[1]}";
-            glitch.SetActive(false);
-            gameObject.SetActive(true);
-            ShowHighScore(cookie);
         }
 
         private void ShowHighScore(Cookie cookie)
@@ -50,28 +60,36 @@ namespace DigitalLove.Game.Flow
             }
         }
 
-        public void Hide()
+        private void ShowIdle()
         {
-            gameObject.SetActive(false);
+            glitch.SetActive(false);
+            idleAudioSource.Play();
         }
 
         public void OnPointerEnter(PointerEventData eventData)
         {
-            audioSource.clip = trackData.clip;
-            audioSource.time = initialAudioSourceTime;
-            audioSource.Play();
+            hoverAudioSource.clip = trackData.clip;
+            hoverAudioSource.time = initialHoverAudioSourceTime;
+            hoverAudioSource.Play();
             glitch.SetActive(true);
+            idleAudioSource.Pause();
         }
 
         public void OnPointerExit(PointerEventData eventData)
         {
-            glitch.SetActive(false);
-            audioSource.Stop();
+            hoverAudioSource.Stop();
+            ShowIdle();
         }
 
         public void OnPointerClick(PointerEventData eventData)
         {
             clicked(trackData.id);
         }
+
+        public void Hide()
+        {
+            gameObject.SetActive(false);
+        }
+
     }
 }

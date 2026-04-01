@@ -24,6 +24,7 @@
   <Project Path="DOTween.Modules.csproj" />
   <Project Path="DigitalLove.Game.Flow.TrackComplete.csproj" />
   <Project Path="Klak.Motion.Editor.csproj" />
+  <Project Path="DigitalLove.Game.Signs.Debug.csproj" />
   <Project Path="Vendor.UnityGif.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj" />
   <Project Path="DigitalLove.Game.Stats.csproj" />
