@@ -31,6 +31,18 @@ MonoBehaviour:
     m_Key: exit_button
     m_Metadata:
       m_Items: []
+  - m_Id: 2917445937057792
+    m_Key: new_high_score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2896547049820160
+    m_Key: back_to_track_selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977299712102400
+    m_Key: replay_current_song
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

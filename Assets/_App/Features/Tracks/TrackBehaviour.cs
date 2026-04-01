@@ -1,4 +1,5 @@
 using System;
+using DigitalLove.Global;
 using DigitalLove.Timeline;
 using UnityEngine;
 
@@ -9,6 +10,9 @@ namespace DigitalLove.Game.Tracks
         [SerializeField] private string id;
         [SerializeField] private PlayableDirectorWrapper director;
         [SerializeField] private AudioSource audioSource;
+
+        [Header("Debug")]
+        [SerializeField] private float timeToRestart;
 
         public string Id => id;
         public AudioSource AudioSource => audioSource;
@@ -31,6 +35,14 @@ namespace DigitalLove.Game.Tracks
         {
             director.Stop();
             gameObject.SetActive(false);
+        }
+
+        [Button]
+        public void Restart()
+        {
+            director.Stop();
+            director.SetTime(timeToRestart);
+            director.Play(onComplete: OnComplete);
         }
     }
 }

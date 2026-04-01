@@ -1,26 +1,19 @@
 using DigitalLove.FlowControl;
-using DigitalLove.Game.Stage;
 using DigitalLove.Game.Stats;
 using DigitalLove.Game.Tracks;
+using DigitalLove.Global;
 using UnityEngine;
 
 namespace DigitalLove.Game.Flow
 {
     public class TrackState : MonoState
     {
-        [SerializeField] private MonoState nextState;
+        [SerializeField] private MonoState trackCompleteState;
         [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StatsCounter statsCounter;
 
-        [Header("FX")]
-        [SerializeField] private SpectrumVisualizer spectrumVisualizer;
-
-        public override void Init(StateMachine parent)
-        {
-            base.Init(parent);
-            if (Application.isEditor)
-                Camera.main.clearFlags = CameraClearFlags.Skybox;
-        }
+        [Header("Debug")]
+        [SerializeField] private DebugBool forceTrackComplete;
 
         public override void Enter()
         {
@@ -29,22 +22,20 @@ namespace DigitalLove.Game.Flow
 
             trackSelector.CurrentBehaviour.Play();
             statsCounter.Restart();
-            if (spectrumVisualizer != null)
-                spectrumVisualizer.AudioSource = trackSelector.CurrentBehaviour.AudioSource;
+
+            if (forceTrackComplete.Value)
+                ToTrackCompleteState();
         }
 
         private void ToTrackCompleteState()
         {
-            parent.SetCurrentState(nextState.RouteId);
+            parent.SetCurrentState(trackCompleteState.RouteId);
         }
 
         public override void Exit()
         {
             trackSelector.CurrentBehaviour.complete -= ToTrackCompleteState;
             statsCounter.defeated -= ToTrackCompleteState;
-
-            if (spectrumVisualizer != null)
-                spectrumVisualizer.AudioSource = null;
         }
     }
 }

@@ -7,6 +7,7 @@ namespace DigitalLove.Game.Stage
     {
         [SerializeField] private MaterialScroller grid;
         [SerializeField] private ReactiveProps reactiveProps;
+        [SerializeField] private GameObject zones;
 
         public void SetActive(bool isActive)
         {
@@ -18,13 +19,14 @@ namespace DigitalLove.Game.Stage
             SetActive(true);
             grid.SetSpeed(bpm / 1000f);
             reactiveProps.Show(audioSource);
-
+            zones.SetActive(true);
         }
 
         public void Stop()
         {
             grid.SetSpeed(0);
             reactiveProps.Hide();
+            zones.SetActive(false);
         }
     }
 }

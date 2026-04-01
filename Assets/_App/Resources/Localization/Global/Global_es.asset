@@ -36,6 +36,18 @@ MonoBehaviour:
     m_Localized: Salida {0}
     m_Metadata:
       m_Items: []
+  - m_Id: 2896547049820160
+    m_Localized: "Volver a la selecci\xF3n de pista en {0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2917445937057792
+    m_Localized: "Nueva puntuaci\xF3n m\xE1xima"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977299712102400
+    m_Localized: "Reproducir canci\xF3n actual"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

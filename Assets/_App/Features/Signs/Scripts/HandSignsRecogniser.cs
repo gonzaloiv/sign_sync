@@ -43,7 +43,6 @@ namespace DigitalLove.Game.Signs
 
         private void OnSignRecognised(SignId signId)
         {
-            // Debug.LogWarning($"Sign Recognised {signId} in hand {handId}");
             IEnumerable<Listener> selection = GetRecognisableListeners(signId);
             List<Listener> toRemove = new();
             if (selection != null && selection.Count() > 0)

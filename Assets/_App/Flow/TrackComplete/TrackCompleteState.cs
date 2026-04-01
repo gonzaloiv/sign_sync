@@ -1,10 +1,10 @@
-using System.Collections;
 using DigitalLove.DataAccess;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
 using DigitalLove.Game.Stats;
 using DigitalLove.Game.Tracks;
 using DigitalLove.Game.VFX;
+using DigitalLove.Global;
 using Reflex.Attributes;
 using UnityEngine;
 
@@ -13,67 +13,73 @@ namespace DigitalLove.Game.Flow
     public class TrackCompleteState : MonoState
     {
         [SerializeField] private MonoState trackSelectionState;
+        [SerializeField] private MonoState replayState;
+
         [SerializeField] private StageBehaviour stage;
         [SerializeField] private TrackSelector trackSelector;
         [SerializeField] private StatsCounter statsCounter;
+        [SerializeField] private TrackCompletePanel trackCompletePanel;
+
+        [Header("FX")]
         [SerializeField] private AudioSource failed;
         [SerializeField] private PassthroughStyler passthroughStyler;
         [SerializeField] private PassthroughStyle menuStyle;
+
+        [Header("Debug")]
+        [SerializeField] private DebugBool forceNewHighScore;
 
         [Inject] private MemoryDataClient memoryDataClient;
         [Inject] private UnityPlayerDataClient unityPlayerDataClient;
 
         private PlayerData playerData;
 
+        public override void Init(StateMachine parent)
+        {
+            base.Init(parent);
+            trackCompletePanel.Hide();
+        }
+
         public override void Enter()
         {
+            trackCompletePanel.countdownComplete += OnCountdownComplete;
+            trackCompletePanel.replayButtonClick += OnReplayButtonClick;
+
             playerData = memoryDataClient.Get<PlayerData>();
-            if (!statsCounter.HasHealthBeenDepleted)
-            {
-                OnTrackComplete();
-            }
-            else
-            {
-                failed.Play();
-                trackSelector.CurrentBehaviour.Stop();
-            }
-            StartTrackCompleteRoutine();
+            stage.Stop();
+            passthroughStyler.SetStyle(menuStyle);
+            trackSelector.CurrentBehaviour.Stop();
+
+            DoEnter();
         }
 
-        private void StartTrackCompleteRoutine()
-        {
-            IEnumerator InitRoutine()
-            {
-                stage.Stop();
-                passthroughStyler.SetStyle(menuStyle);
-                yield return new WaitForSeconds(3);
-                ToLevelSelection();
-            }
-            StartCoroutine(InitRoutine());
-        }
+        private void OnCountdownComplete() => parent.SetCurrentState(trackSelectionState.RouteId);
 
-        private void ToLevelSelection()
-        {
-            stage.SetActive(false);
-            parent.SetCurrentState(trackSelectionState.RouteId);
-        }
+        private void OnReplayButtonClick() => parent.SetCurrentState(replayState.RouteId);
 
-        private void OnTrackComplete()
+        private async void DoEnter()
         {
-            Debug.LogWarning($"Level completed with a score of: {statsCounter.Score}");
-            bool isHighestScore = CheckScore();
+            bool isHighestScore = IsNewHighScore();
             if (isHighestScore)
             {
-                SaveScore();
-                // TODO: Show highest score panel before replay button
+                trackCompletePanel.ShowWithNewHighScore(statsCounter.Score);
+                await unityPlayerDataClient.Put(playerData);
+            }
+            else if (forceNewHighScore.Value) // ! Debug
+            {
+                trackCompletePanel.ShowWithNewHighScore(999);
+            }
+            else if (statsCounter.HasHealthBeenDepleted)
+            {
+                failed.Play();
+                trackCompletePanel.Show();
             }
             else
             {
-                // TODO: Show replay button
+                trackCompletePanel.Show();
             }
         }
 
-        private bool CheckScore()
+        private bool IsNewHighScore()
         {
             TrackData trackData = trackSelector.CurrentData;
             Cookie current = playerData.GetCookieById(trackData.id);
@@ -94,14 +100,13 @@ namespace DigitalLove.Game.Flow
             }
         }
 
-        private async void SaveScore()
-        {
-            await unityPlayerDataClient.Put(playerData);
-        }
-
         public override void Exit()
         {
+            trackCompletePanel.countdownComplete -= OnCountdownComplete;
+            trackCompletePanel.replayButtonClick -= OnReplayButtonClick;
 
+            stage.SetActive(false);
+            trackCompletePanel.Hide();
         }
     }
 }

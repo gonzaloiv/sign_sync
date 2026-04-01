@@ -34,6 +34,18 @@ MonoBehaviour:
     m_Localized: Exit {0}
     m_Metadata:
       m_Items: []
+  - m_Id: 2896547049820160
+    m_Localized: Back to Track Selection in {0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2917445937057792
+    m_Localized: New High Score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2977299712102400
+    m_Localized: Replay Current Song
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

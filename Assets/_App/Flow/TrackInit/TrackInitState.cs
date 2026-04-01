@@ -29,10 +29,10 @@ namespace DigitalLove.Game.Flow
             origin.Setup();
             IEnumerator InitRoutine()
             {
+                init.Play();
                 yield return new WaitForSeconds(1);
                 passthroughStyler.SetStyle(playStyle);
                 stage.Play(trackSelector.CurrentData.bpm, trackSelector.CurrentBehaviour.AudioSource);
-                init.Play();
                 parent.SetCurrentState(nextState.RouteId);
             }
             StartCoroutine(InitRoutine());
