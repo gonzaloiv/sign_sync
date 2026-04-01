@@ -282,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2588925041195329607, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
       propertyPath: _activeStates.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2588925041195329607, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
       propertyPath: '_activeStates.Array.data[3]'
@@ -363,7 +363,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4400382850623880995, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
     - {fileID: 8084449565680659330, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1647136311250998403, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
@@ -924,7 +925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bcae75ac51ccc14a94b9512f79c0a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.XR.OVR::DigitalLove.XR.OVROriginBehaviour
-  camYOffset: 0.35
+  camYOffset: 0.5
   camZOffset: 0.5
   hasToRotate: 1
   ovrSessionHelper: {fileID: 1456328247}
@@ -1394,7 +1395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stage::DigitalLove.Game.Stage.ScaleListener
   bandIndex: 0
   multiplier: 1
-  offset: 0.2
+  offset: 0.25
   body: {fileID: 142080622}
 --- !u!23 &142080626
 MeshRenderer:
@@ -3655,7 +3656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stage::DigitalLove.Game.Stage.MaterialFloatListener
   bandIndex: 1
   key: Vector1_CFBBCBA
-  offset: 0.75
+  offset: 2
   multiplier: 100
   rend: {fileID: 375357457}
 --- !u!114 &375357461
@@ -4792,7 +4793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stage::DigitalLove.Game.Stage.MaterialFloatListener
   bandIndex: 1
   key: Vector1_CFBBCBA
-  offset: -0.5
+  offset: 0.125
   multiplier: 100
   rend: {fileID: 508246483}
 --- !u!114 &508246482
@@ -7745,7 +7746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToCamera: 0.66
-  yDistanceFromCenter: 0.1
+  yDistanceFromCenter: 0.25
   content: {fileID: 1672992445}
   tween:
     secs: 0.1
@@ -11036,7 +11037,7 @@ MonoBehaviour:
     - id: 01_01
       metadata: 250
   forceLocalPlayerData:
-    value: 1
+    value: 0
 --- !u!114 &1343067421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11335,6 +11336,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2588925041195329607, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
+      propertyPath: _activeStates.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4400382850623880995, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
       propertyPath: _hand
       value: 
@@ -11414,7 +11419,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4400382850623880995, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
     - {fileID: 8084449565680659330, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1647136311250998403, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e1b2ff3bedb5c0498180178216f13d0, type: 3}
@@ -12961,7 +12967,7 @@ RectTransform:
   m_GameObject: {fileID: 1672992444}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.00033, y: 0.00033, z: 1}
+  m_LocalScale: {x: 0.0004, y: 0.0004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 766360600}
@@ -16040,7 +16046,7 @@ MonoBehaviour:
   menuStyle: {fileID: 11400000, guid: eb0e0674668cfd94c8e05000027610ad, type: 2}
   menu: {fileID: 843475271}
   autoSelectTrack:
-    value: 1
+    value: 0
   trackToSelect: {fileID: 11400000, guid: 9082b7581a2395649bda07560ef57494, type: 2}
 --- !u!1 &1943848331
 GameObject:
