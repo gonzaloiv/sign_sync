@@ -12,6 +12,34 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9622502
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.25783423
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.02255758
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.084186025
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 713018375482117846, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1795202115773023033, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -54,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3946735020792153036, guid: d1ef4a84add312147adaf8dc43a8653d, type: 3}
       propertyPath: m_Name
-      value: Scissors Right
+      value: Victory Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

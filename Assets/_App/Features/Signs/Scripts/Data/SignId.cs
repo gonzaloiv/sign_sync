@@ -5,7 +5,7 @@ namespace DigitalLove.Game.Signs
         None,
         Fist,
         Paper,
-        Scissors,
+        Victory,
         Stop
     }
 }

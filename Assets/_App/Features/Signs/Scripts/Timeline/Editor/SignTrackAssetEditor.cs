@@ -22,7 +22,7 @@ namespace DigitalLove.Game.Signs
                     return Color.red;
                 case SignId.Paper:
                     return Color.blue;
-                case SignId.Scissors:
+                case SignId.Victory:
                     return Color.limeGreen;
                 case SignId.Stop:
                     return Color.yellow;

@@ -50,12 +50,33 @@ namespace DigitalLove.Game.Signs
         {
             if (!signsInRecognition.Contains(signId))
                 signsInRecognition.Add(signId);
-            IEnumerable<HandSignListener> selection = GetRecognisableListeners(signId);
-            if (selection != null && selection.Count() > 0)
+        }
+
+        private void OnSignUnRecognised(SignId signId)
+        {
+            if (signsInRecognition.Contains(signId))
+                signsInRecognition.Remove(signId);
+        }
+
+        private void Update()
+        {
+            CheckRecognised();
+            IncreaseFrames();
+            CheckRecognisedToGo();
+            CheckNotRecognised();
+        }
+
+        private void CheckRecognised()
+        {
+            foreach (SignId signId in signsInRecognition)
             {
-                foreach (HandSignListener listener in selection)
+                IEnumerable<HandSignListener> selection = GetRecognisableListeners(signId);
+                if (selection != null && selection.Count() > 0)
                 {
-                    OnRecognisedSignListenerFound(listener);
+                    foreach (HandSignListener listener in selection)
+                    {
+                        OnListenerRecognised(listener);
+                    }
                 }
             }
         }
@@ -66,6 +87,8 @@ namespace DigitalLove.Game.Signs
             {
                 if (l.signId != signId)
                     return false;
+                if (l.HasBeenRecognised)
+                    return false;
                 if (Time.time < l.launchTime + recognitionData.InitialRecognitionSecs)
                     return false;
                 if (Time.time > l.launchTime + recognitionData.GetFinalRecognitionSecs(l.duration))
@@ -74,27 +97,12 @@ namespace DigitalLove.Game.Signs
             });
         }
 
-        private void OnRecognisedSignListenerFound(HandSignListener listener)
+        private void OnListenerRecognised(HandSignListener listener)
         {
             listener.percentage = recognitionData.GetAccuracyPercentage(listener.launchTime);
             listener.visual.OnRecognised();
             recognitionStarted.Invoke(listener.percentage);
             listenersInRecognition.Add(listener);
-        }
-
-        private void OnSignUnRecognised(SignId signId)
-        {
-            if (signsInRecognition.Contains(signId))
-            {
-                signsInRecognition.Remove(signId);
-            }
-        }
-
-        private void Update()
-        {
-            IncreaseFrames();
-            CheckRecognisedToGo();
-            CheckNotRecognised();
         }
 
         private void IncreaseFrames()
