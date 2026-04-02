@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 10.193719434106706
 --- !u!114 &-6818540183155110196
 MonoBehaviour:
@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 14.880486978062102
 --- !u!114 &-5790195500101904844
 MonoBehaviour:
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 3
+  signId: 1
   startTime: 17.692547491922284
 --- !u!114 &-5750054050948092434
 MonoBehaviour:
@@ -950,7 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 2
   startTime: 20.504608013603132
 --- !u!114 &-3827870896920177863
 MonoBehaviour:
@@ -1233,7 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 2.2262146226776593
 --- !u!114 &-1674890028992935921
 MonoBehaviour:
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 3
+  signId: 1
   startTime: 18.629900999149243
 --- !u!114 &-1670489849294336774
 MonoBehaviour:
@@ -1331,7 +1331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 5.9756286515854455
 --- !u!114 &-1097028174932744651
 MonoBehaviour:
@@ -1359,7 +1359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignAsset(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
-  signId: 3
+  signId: 1
   startTime: 16.755193984695342
 --- !u!114 &-1027714252881290927
 MonoBehaviour:
@@ -1951,7 +1951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 2
   startTime: 20.50460801360313
 --- !u!114 &1632228273280207481
 MonoBehaviour:
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 7.381658920246522
 --- !u!114 &4370640681183839082
 MonoBehaviour:
@@ -2455,7 +2455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 3
+  signId: 1
   startTime: 19.567254506376184
 --- !u!114 &4424829691235566819
 MonoBehaviour:
@@ -14390,7 +14390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 13.474456709401025
 --- !u!114 &6508659005751223699
 MonoBehaviour:
@@ -14474,7 +14474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 3.632244891338736
 --- !u!114 &7059052923460694428
 MonoBehaviour:
@@ -16751,7 +16751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 11.599749702767783
 --- !u!114 &9192128691094170587
 MonoBehaviour:

@@ -1,6 +1,7 @@
 using System;
 using DigitalLove.DataAccess;
 using DigitalLove.Game.Tracks;
+using DigitalLove.Global;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -90,6 +91,9 @@ namespace DigitalLove.Game.Flow
         {
             gameObject.SetActive(false);
         }
+
+        [Button]
+        private void InvokeClicked() => clicked(trackData.id);
 
     }
 }

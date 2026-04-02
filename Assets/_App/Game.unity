@@ -6557,17 +6557,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Perfect
+  m_text: 66%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6af7c02cdce125349883fa1f2e26aab7, type: 2}
-  m_sharedMaterial: {fileID: -907350139341187606, guid: 6af7c02cdce125349883fa1f2e26aab7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ed57cef55893f52448535f4e3bb194de, type: 2}
+  m_sharedMaterial: {fileID: -6779067389340287926, guid: ed57cef55893f52448535f4e3bb194de, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291877092
-  m_fontColor: {r: 0.8941177, g: 0.8470589, b: 0.81568635, a: 1}
+    rgba: 4292271069
+  m_fontColor: {r: 0.86666673, g: 0.8588236, b: 0.83921576, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6584,8 +6584,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 54.8
@@ -7222,7 +7222,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2475854338506327492, guid: f57371f841e86a04380f7f02e737a6b1, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 40e84135d33ef6c428559d49af71519d, type: 3}
+  m_Resource: {fileID: 8300000, guid: 0a73aa8126c15574c8edfb4b1fc3852e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -7376,7 +7376,7 @@ GameObject:
   - component: {fileID: 795336583}
   - component: {fileID: 795336585}
   m_Layer: 0
-  m_Name: SignRecognition
+  m_Name: Recognition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7414,15 +7414,10 @@ MonoBehaviour:
   recognisers:
   - {fileID: 935458413}
   - {fileID: 568179860}
-  recognitionValues:
-  - recognitionLevel: 0
-    score: 1
-    health: 0.1
-  - recognitionLevel: 1
+  successData:
     score: 2
-    health: 0.2
-  failValues:
-  - failType: 0
+    health: 0.1
+  failData:
     health: 1
   stats:
     score: 0
@@ -9045,8 +9040,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028d044376812bd4da608530c039d3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.HandSignsRecogniserPanel
-  label: {fileID: 705615996}
+  autoClearLabel: {fileID: 705615996}
   recogniser: {fileID: 568179860}
+  highlightColor: {fileID: 11400000, guid: 662250d688224a94d9cc7ee06fe9809b, type: 2}
 --- !u!1 &1043618576 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
@@ -12552,17 +12548,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Perfect
+  m_text: 77%
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6af7c02cdce125349883fa1f2e26aab7, type: 2}
-  m_sharedMaterial: {fileID: -907350139341187606, guid: 6af7c02cdce125349883fa1f2e26aab7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ed57cef55893f52448535f4e3bb194de, type: 2}
+  m_sharedMaterial: {fileID: -6779067389340287926, guid: ed57cef55893f52448535f4e3bb194de, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4291877092
-  m_fontColor: {r: 0.8941177, g: 0.8470589, b: 0.81568635, a: 1}
+    rgba: 4292271069
+  m_fontColor: {r: 0.86666673, g: 0.8588236, b: 0.83921576, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12579,8 +12575,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
-  m_fontSizeBase: 150
+  m_fontSize: 200
+  m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 54.8
@@ -15191,8 +15187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 028d044376812bd4da608530c039d3cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.HandSignsRecogniserPanel
-  label: {fileID: 1615070058}
+  autoClearLabel: {fileID: 1615070058}
   recogniser: {fileID: 935458413}
+  highlightColor: {fileID: 11400000, guid: 662250d688224a94d9cc7ee06fe9809b, type: 2}
 --- !u!1 &1848275335
 GameObject:
   m_ObjectHideFlags: 0
@@ -16046,7 +16043,7 @@ MonoBehaviour:
   menuStyle: {fileID: 11400000, guid: eb0e0674668cfd94c8e05000027610ad, type: 2}
   menu: {fileID: 843475271}
   autoSelectTrack:
-    value: 0
+    value: 1
   trackToSelect: {fileID: 11400000, guid: 9082b7581a2395649bda07560ef57494, type: 2}
 --- !u!1 &1943848331
 GameObject:

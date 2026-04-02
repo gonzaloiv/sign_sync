@@ -59,14 +59,14 @@ namespace DigitalLove.Game.Signs
             if (recognitionData == null)
                 return;
             Color color = inactive.value;
-            if (time < recognitionData.PrePerfectSecs)
+            if (time < recognitionData.ActiveSecs)
             {
-                float percentage = time / recognitionData.PrePerfectSecs;
+                float percentage = time / recognitionData.ActiveSecs;
                 color = Color.Lerp(inactive.value, active.value, percentage);
             }
-            else if (time < recognitionData.FinalSecs)
+            else if (time < recognitionData.AnimationSecs)
             {
-                float percentage = time / recognitionData.FinalSecs;
+                float percentage = time / recognitionData.AnimationSecs;
                 color = Color.Lerp(inactive.value, perfect.value, percentage);
             }
             if (!isDissolving && time >= recognitionData.ActiveSecs)
@@ -78,7 +78,7 @@ namespace DigitalLove.Game.Signs
         private void Dissolve()
         {
             isDissolving = true;
-            SetCutoffHeight(cutoffHeight, dissolveCutoffHeight, recognitionData.FinalSecs - recognitionData.ActiveSecs);
+            SetCutoffHeight(cutoffHeight, dissolveCutoffHeight, recognitionData.AnimationSecs - recognitionData.ActiveSecs);
         }
 
         private void OnDisable() => recognitionData = null;

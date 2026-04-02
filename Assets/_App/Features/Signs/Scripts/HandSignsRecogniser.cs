@@ -18,13 +18,13 @@ namespace DigitalLove.Game.Signs
         public HandId HandId => handId;
         public float ActiveSecs => recognitionData.ActiveSecs;
 
-        public Action<RecognitionLevel> recognised = (state) => { };
-        public Action<FailType> failed = (type) => { };
+        public Action<float> recognised = (percentage) => { };
+        public Action failed = () => { };
 
         public void ListenTo(SignId signId)
         {
             SignVisual visual = spawner.Spawn(signId, recognitionData);
-            Listener listener = new() { signId = signId, startTime = Time.time, visual = visual };
+            Listener listener = new() { signId = signId, launchTime = Time.time, visual = visual };
             listeners.Add(listener);
         }
 
@@ -65,7 +65,9 @@ namespace DigitalLove.Game.Signs
             {
                 if (l.signId != signId)
                     return false;
-                if (recognitionData.GetFinalTime(l.startTime) < Time.time)
+                if (Time.time > recognitionData.GetFinalTime(l.launchTime))
+                    return false;
+                if (Time.time < recognitionData.GetStartTime(l.launchTime))
                     return false;
                 return true;
             });
@@ -73,11 +75,9 @@ namespace DigitalLove.Game.Signs
 
         private void OnRecognisedSignListenerFound(Listener listener)
         {
-            float recognisedTime = Time.time - listener.startTime;
-            RecognitionLevel state = recognitionData.IsInPerfectRange(recognisedTime) ?
-                RecognitionLevel.Perfect : RecognitionLevel.Good;
+            float percentage = recognitionData.GetPercentage(listener.launchTime);
             listener.visual.OnSuccess();
-            recognised.Invoke(state);
+            recognised.Invoke(percentage);
         }
 
         private void Update()
@@ -88,7 +88,7 @@ namespace DigitalLove.Game.Signs
             List<Listener> toRemove = new();
             foreach (Listener listener in listeners)
             {
-                if (recognitionData.GetFinalTime(listener.startTime) < Time.time)
+                if (Time.time > recognitionData.GetFinalTime(listener.launchTime))
                 {
                     toRemove.Add(listener);
                 }
@@ -98,7 +98,7 @@ namespace DigitalLove.Game.Signs
                 spawner.OnFailed();
                 listener.visual.OnFailure();
                 listeners.Remove(listener);
-                failed.Invoke(FailType.NotRecognised);
+                failed.Invoke();
             }
         }
     }
@@ -113,7 +113,7 @@ namespace DigitalLove.Game.Signs
     public class Listener
     {
         public SignId signId;
-        public float startTime;
+        public float launchTime;
         public SignVisual visual;
     }
 

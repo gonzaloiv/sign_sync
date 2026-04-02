@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace DigitalLove.Game.Signs
@@ -6,22 +7,27 @@ namespace DigitalLove.Game.Signs
     public class RecognitionData : ScriptableObject
     {
         [SerializeField] private float activeSecs = 1;
-        [SerializeField] private float goodRange = 0.25f;
-        [SerializeField] private float perfectRange = 0.125f;
+        [SerializeField] private float recognitionRange = 0.25f;
 
-        public float PrePerfectSecs => activeSecs - perfectRange;
-        public float FinalSecs => activeSecs + perfectRange;
         public float AnimationSecs => activeSecs * 2;
         public float ActiveSecs => activeSecs;
 
-        public bool IsInPerfectRange(float time)
+        public float GetPercentage(float launchTime)
         {
-            return Mathf.Abs(activeSecs - time) < perfectRange;
+            float recognisedTime = Time.time;
+            float perfectTime = launchTime + activeSecs;
+            float deviation = Math.Abs(recognisedTime - perfectTime);
+            return 1f - deviation / recognitionRange;
         }
 
-        public float GetFinalTime(float startTime)
+        public float GetFinalTime(float launchTime)
         {
-            return startTime + ActiveSecs + goodRange;
+            return launchTime + ActiveSecs + recognitionRange;
+        }
+
+        public float GetStartTime(float launchTime)
+        {
+            return launchTime + ActiveSecs - recognitionRange;
         }
     }
 }

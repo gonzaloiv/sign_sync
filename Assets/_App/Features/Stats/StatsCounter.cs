@@ -8,9 +8,10 @@ namespace DigitalLove.Game.Stats
     public class StatsCounter : MonoBehaviour
     {
         [SerializeField] private HandSignsRecogniser[] recognisers;
-        [SerializeField] private SuccessData[] recognitionValues;
-        [SerializeField] private FailData[] failValues;
+        [SerializeField] private SuccessData successData;
+        [SerializeField] private FailData failData;
 
+        [Header("Debug")]
         [SerializeField] private Stats stats;
 
         public int Score => stats.score;
@@ -30,16 +31,15 @@ namespace DigitalLove.Game.Stats
             }
         }
 
-        private void OnHandSignRecognised(RecognitionLevel recognitionLevel)
+        private void OnHandSignRecognised(float percentage)
         {
-            SuccessData recognitionData = recognitionValues.FirstOrDefault(p => p.recognitionLevel == recognitionLevel);
-            stats.IncreaseScore(recognitionData.score);
-            stats.IncreaseHealth(recognitionData.health);
+            int score = (int)(successData.score * percentage);
+            stats.IncreaseScore(score);
+            stats.IncreaseHealth(successData.health * percentage);
         }
 
-        private void OnFailed(FailType failType)
+        private void OnFailed()
         {
-            FailData failData = failValues.FirstOrDefault(p => p.failType == failType);
             stats.DecreaseHealth(failData.health);
             if (HasHealthBeenDepleted)
                 defeated.Invoke();
@@ -58,7 +58,6 @@ namespace DigitalLove.Game.Stats
     [Serializable]
     public class SuccessData
     {
-        public RecognitionLevel recognitionLevel;
         public int score;
         public float health;
     }
@@ -66,7 +65,6 @@ namespace DigitalLove.Game.Stats
     [Serializable]
     public class FailData
     {
-        public FailType failType;
         public float health;
     }
 }
