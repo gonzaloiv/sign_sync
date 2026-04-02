@@ -11,6 +11,8 @@ namespace DigitalLove.Game.Signs
 
         public float TotalAnimationSecs => activeSecs * 2;
         public float SecsToPerfect => activeSecs;
+        public float InitialRecognitionSecs => SecsToPerfect - recognitionRange;
+        public float FinalRecognitionSecs => SecsToPerfect + recognitionRange;
 
         public float GetPercentage(float launchTime)
         {
@@ -20,22 +22,9 @@ namespace DigitalLove.Game.Signs
             return 1f - deviation / recognitionRange;
         }
 
-        public float GetFinalTime(float launchTime)
-        {
-            return launchTime + SecsToPerfect + recognitionRange;
-        }
-
-        public float GetStartTime(float launchTime)
-        {
-            return launchTime + SecsToPerfect - recognitionRange;
-        }
-
         public bool IsInRecognitionRange(float time)
         {
-            Debug.LogWarning($"time = {time}");
-            Debug.LogWarning($"SecsToPerfect + recognitionRange = {SecsToPerfect + recognitionRange}");
-            Debug.LogWarning($"SecsToPerfect - recognitionRange = {SecsToPerfect - recognitionRange}");
-            return time < SecsToPerfect + recognitionRange && time > SecsToPerfect - recognitionRange;
+            return time < FinalRecognitionSecs && time > SecsToPerfect - recognitionRange;
         }
     }
 }

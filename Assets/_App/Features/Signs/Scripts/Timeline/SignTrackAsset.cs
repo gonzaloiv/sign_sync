@@ -8,6 +8,7 @@ namespace DigitalLove.Game.Signs
     {
         public SignId signId;
         [HideInInspector] public double startTime;
+        [HideInInspector] public double finalTime;
 
         public override Playable CreatePlayable(PlayableGraph graph, GameObject go)
         {
@@ -15,7 +16,7 @@ namespace DigitalLove.Game.Signs
             SignTrackBehaviour behaviour = scriptPlayable.GetBehaviour();
             behaviour.signId = signId;
             behaviour.startTime = startTime;
-            behaviour.duration = duration;
+            behaviour.finalTime = finalTime;
             return scriptPlayable;
         }
     }

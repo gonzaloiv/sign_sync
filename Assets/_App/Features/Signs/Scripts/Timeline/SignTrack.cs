@@ -14,7 +14,10 @@ namespace DigitalLove.Game.Signs
             {
                 SignTrackAsset asset = clip.asset as SignTrackAsset;
                 if (asset != null)
+                {
                     asset.startTime = clip.start;
+                    asset.finalTime = clip.end;
+                }
             }
             return ScriptPlayable<SignTrackMixerBehaviour>.Create(graph, inputCount);
         }

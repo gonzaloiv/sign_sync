@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DigitalLove.Global;
 using UnityEngine;
@@ -20,17 +21,29 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private float cutoffHeight;
         [SerializeField] private float dissolveCutoffHeight;
 
+        [Header("Trail")]
+        [SerializeField] private TrailRenderer trailRenderer;
+
         private float time;
         private RecognitionData recognitionData;
 
         public bool IsActive => gameObject.activeInHierarchy;
 
-        public void SetRecognitionData(RecognitionData recognitionData)
+        public void Show(RecognitionData recognitionData, float duration)
         {
             time = 0;
             this.recognitionData = recognitionData;
             dissolver.Dissolve(dissolveCutoffHeight, cutoffHeight);
             rend.material.SetColor(colorKey, inactive.value);
+            ShowTrail(duration);
+        }
+
+        private void ShowTrail(float duration)
+        {
+            trailRenderer.Clear();
+            trailRenderer.time = duration;
+            trailRenderer.gameObject.SetActive(true);
+            trailRenderer.material.color = inactive.value;
         }
 
         private void Update()
@@ -40,29 +53,57 @@ namespace DigitalLove.Game.Signs
             Color color = inactive.value;
             if (recognitionData.IsInRecognitionRange(time))
             {
-                color = inRecognitionRange.value;
+                float percentage = time - recognitionData.InitialRecognitionSecs / recognitionData.FinalRecognitionSecs;
+                color = Color.Lerp(active.value, inRecognitionRange.value, percentage);
             }
             else if (time < recognitionData.SecsToPerfect) // ? PRE-RECOGNITION
             {
                 float percentage = time / recognitionData.SecsToPerfect;
                 color = Color.Lerp(inactive.value, active.value, percentage);
             }
-            else if (time < recognitionData.TotalAnimationSecs) // ? POST-RECOGNITION
-            {
-                float percentage = time / recognitionData.TotalAnimationSecs;
-                color = Color.Lerp(inRecognitionRange.value, inactive.value, percentage);
-                dissolver.Dissolve(cutoffHeight, dissolveCutoffHeight, recognitionData.TotalAnimationSecs - recognitionData.SecsToPerfect);
-            }
             rend.material.SetColor(colorKey, color);
+            trailRenderer.material.color = color;
             time += Time.deltaTime;
         }
 
-        private void OnDisable() => recognitionData = null;
+        public void Hide()
+        {
+            recognitionData = null;
+            HideTrail();
+        }
+
+        private void HideTrail()
+        {
+            trailRenderer.gameObject.SetActive(false);
+            trailRenderer.time = 0;
+        }
 
         public void SetSuccessColor()
         {
             recognitionData = null;
             rend.material.SetColor(colorKey, success.value);
+            trailRenderer.material.color = success.value;
+        }
+
+        public void ShowFailure(Action onComplete)
+        {
+            float animationSecs = 0.5f;
+            float timer = 0;
+            dissolver.Dissolve(cutoffHeight, dissolveCutoffHeight, animationSecs);
+            HideTrail();
+            IEnumerator DissolveRoutine()
+            {
+                while (timer < animationSecs)
+                {
+                    float percentage = time / recognitionData.TotalAnimationSecs;
+                    Color color = Color.Lerp(inRecognitionRange.value, inactive.value, percentage);
+                    timer += Time.deltaTime;
+                    rend.material.SetColor(colorKey, color);
+                    yield return null;
+                }
+                onComplete.Invoke();
+            }
+            StartCoroutine(DissolveRoutine());
         }
     }
 }

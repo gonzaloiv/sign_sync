@@ -19,20 +19,21 @@ namespace DigitalLove.Game.Signs
 
         public bool IsActive => body.activeInHierarchy;
 
-        public void Show(Transform origin, Transform destination, RecognitionData recognitionData)
+        public void Show(Transform origin, Transform destination, RecognitionData recognitionData, float duration)
         {
             time = 0;
             this.origin = origin;
             transform.position = origin.position;
             this.destination = destination;
             this.recognitionData = recognitionData;
-            colorHelper.SetRecognitionData(recognitionData);
+            colorHelper.Show(recognitionData, duration);
             body.SetActive(true);
         }
 
         public void Hide()
         {
             body.SetActive(false);
+            colorHelper.Hide();
         }
 
         public void OnSuccess()
@@ -52,21 +53,18 @@ namespace DigitalLove.Game.Signs
         public void OnFailure()
         {
             failurePS.Play();
-            Hide();
+            scalePunch.Animate();
+            colorHelper.ShowFailure(Hide);
         }
 
         private void Update()
         {
             if (recognitionData == null)
                 return;
-            if (time < recognitionData.SecsToPerfect)
+            if (time < recognitionData.FinalRecognitionSecs)
             {
                 transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.TotalAnimationSecs);
                 time += Time.deltaTime;
-            }
-            else if (time > recognitionData.TotalAnimationSecs)
-            {
-                Hide();
             }
         }
     }

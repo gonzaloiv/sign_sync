@@ -6,6 +6,6 @@ namespace DigitalLove.Game.Signs
     {
         public SignId signId;
         public double startTime;
-        public double duration;
+        public double finalTime;
     }
 }

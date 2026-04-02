@@ -19,7 +19,7 @@ namespace DigitalLove.Game.Signs
 
         public HandId HandId => handId;
 
-        public SignVisual Spawn(SignId signId, RecognitionData recognitionData)
+        public SignVisual Spawn(SignId signId, RecognitionData recognitionData, float duration)
         {
             SignIdVisualPair pair = pairs.FirstOrDefault(p => p.id == signId && !p.visual.IsActive);
             if (pair == null)
@@ -29,7 +29,7 @@ namespace DigitalLove.Game.Signs
                 pair = new SignIdVisualPair() { id = signId, visual = visual };
                 pairs.Add(pair);
             }
-            pair.visual.Show(origin, destination, recognitionData);
+            pair.visual.Show(origin, destination, recognitionData, duration);
             return pair.visual;
         }
 

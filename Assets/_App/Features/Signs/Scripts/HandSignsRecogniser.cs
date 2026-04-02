@@ -23,7 +23,7 @@ namespace DigitalLove.Game.Signs
 
         public void ListenTo(SignId signId, float duration)
         {
-            SignVisual visual = spawner.Spawn(signId, recognitionData);
+            SignVisual visual = spawner.Spawn(signId, recognitionData, duration);
             Listener listener = new() { signId = signId, launchTime = Time.time, duration = duration, visual = visual };
             listeners.Add(listener);
         }
@@ -65,9 +65,9 @@ namespace DigitalLove.Game.Signs
             {
                 if (l.signId != signId)
                     return false;
-                if (Time.time > recognitionData.GetFinalTime(l.launchTime))
+                if (Time.time < l.launchTime + recognitionData.InitialRecognitionSecs)
                     return false;
-                if (Time.time < recognitionData.GetStartTime(l.launchTime))
+                if (Time.time > l.launchTime + recognitionData.FinalRecognitionSecs)
                     return false;
                 return true;
             });
@@ -85,14 +85,7 @@ namespace DigitalLove.Game.Signs
             // ? This is when reduces score
             if (listeners.Count <= 0)
                 return;
-            List<Listener> toRemove = new();
-            foreach (Listener listener in listeners)
-            {
-                if (Time.time > recognitionData.GetFinalTime(listener.launchTime))
-                {
-                    toRemove.Add(listener);
-                }
-            }
+            List<Listener> toRemove = listeners.Where(l => Time.time > l.launchTime + recognitionData.FinalRecognitionSecs).ToList();
             foreach (Listener listener in toRemove)
             {
                 spawner.OnFailed();
