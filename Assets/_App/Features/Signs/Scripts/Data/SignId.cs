@@ -3,7 +3,7 @@ namespace DigitalLove.Game.Signs
     public enum SignId
     {
         None,
-        Rock,
+        Fist,
         Paper,
         Scissors,
         Stop

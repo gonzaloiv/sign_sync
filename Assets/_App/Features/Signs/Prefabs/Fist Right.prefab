@@ -73,6 +73,30 @@ PrefabInstance:
       value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.66446304
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.06162838
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70441604
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2418448
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931037365049796354, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
@@ -98,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800167844700051545, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
       propertyPath: m_Name
-      value: Rock Right
+      value: Fist Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

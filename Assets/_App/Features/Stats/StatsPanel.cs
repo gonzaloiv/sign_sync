@@ -1,4 +1,5 @@
 using System;
+using DigitalLove.VFX;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,11 +11,19 @@ namespace DigitalLove.Game.Stats
     {
         [SerializeField] private StatsCounter statsCounter;
         [SerializeField] private TextMeshProUGUI scoreLabel;
+        [SerializeField] private ScalePunch scalePunch;
         [SerializeField] private Image healthImage;
+
+        private int previousScore;
 
         private void Update()
         {
-            scoreLabel.text = statsCounter.Score.ToString();
+            if (statsCounter.Score != previousScore)
+            {
+                scalePunch.Animate();
+                previousScore = statsCounter.Score;
+                scoreLabel.text = statsCounter.Score.ToString();
+            }
             healthImage.fillAmount = statsCounter.HealthPercentage;
         }
 

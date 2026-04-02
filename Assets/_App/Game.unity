@@ -1648,7 +1648,7 @@ PrefabInstance:
       objectReference: {fileID: 508246485}
     - target: {fileID: 7800167844700051545, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
       propertyPath: m_Name
-      value: Rock Left (1)
+      value: Fist Left (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3614,6 +3614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stats::DigitalLove.Game.Stats.StatsPanel
   statsCounter: {fileID: 795336585}
   scoreLabel: {fileID: 1213347567}
+  scalePunch: {fileID: 1213347569}
   healthImage: {fileID: 1395365192}
 --- !u!1 &414285950
 GameObject:
@@ -7741,81 +7742,6 @@ MonoBehaviour:
     selector: {fileID: 8252656718272361857}
   - id: 4
     selector: {fileID: 7906974645200001323}
---- !u!1 &939120887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 939120888}
-  - component: {fileID: 939120890}
-  - component: {fileID: 939120889}
-  m_Layer: 5
-  m_Name: StarIcon
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &939120888
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939120887}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1881558707}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 191.2, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &939120889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939120887}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.7372549, g: 0.10196079, b: 0.3529412, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4f4d3ccf1796cc54da6510b4e375efd3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &939120890
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939120887}
-  m_CullTransparentMesh: 1
 --- !u!1 &943649014
 GameObject:
   m_ObjectHideFlags: 0
@@ -9442,6 +9368,7 @@ GameObject:
   - component: {fileID: 1213347565}
   - component: {fileID: 1213347568}
   - component: {fileID: 1213347567}
+  - component: {fileID: 1213347569}
   m_Layer: 5
   m_Name: Label
   m_TagString: Untagged
@@ -9568,6 +9495,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1213347564}
   m_CullTransparentMesh: 1
+--- !u!114 &1213347569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213347564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ab5b04e989e448497c2c13773dc7c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.VFX.Animation::DigitalLove.VFX.ScalePunch
+  content: {fileID: 1213347565}
+  animationSecs: 0.1
+  multiplier: 0.1
 --- !u!1 &1228382864
 GameObject:
   m_ObjectHideFlags: 0
@@ -14711,7 +14653,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 939120888}
   - {fileID: 1213347565}
   m_Father: {fileID: 1048470295}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14733,7 +14674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.HorizontalLayoutGroup
   m_Padding:
-    m_Left: 0
+    m_Left: 200
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
@@ -15854,7 +15795,7 @@ GameObject:
   - component: {fileID: 3005601683362837090}
   - component: {fileID: 3005601683362837095}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15877,8 +15818,8 @@ MonoBehaviour:
   _transformFeatureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
-      _state: 0
+      _feature: 2
+      _state: 6
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -15915,7 +15856,7 @@ GameObject:
   - component: {fileID: 3005601684302431456}
   - component: {fileID: 3005601684302431461}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Fist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15969,8 +15910,8 @@ MonoBehaviour:
   _transformFeatureConfigs:
     _values:
     - _mode: 0
-      _feature: 0
-      _state: 0
+      _feature: 2
+      _state: 6
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -15991,10 +15932,7 @@ MonoBehaviour:
   _hand: {fileID: 0}
   _transformFeatureStateProvider: {fileID: 633867159}
   _transformFeatureConfigs:
-    _values:
-    - _mode: 0
-      _feature: 0
-      _state: 0
+    _values: []
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -16149,10 +16087,7 @@ MonoBehaviour:
   _hand: {fileID: 0}
   _transformFeatureStateProvider: {fileID: 663586641}
   _transformFeatureConfigs:
-    _values:
-    - _mode: 0
-      _feature: 0
-      _state: 0
+    _values: []
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -16484,7 +16419,7 @@ PrefabInstance:
       objectReference: {fileID: 508246485}
     - target: {fileID: 1621252001841599087, guid: 5dfe3e4f7797a7348b93b72bb52ed15d, type: 3}
       propertyPath: m_Name
-      value: Rock Right (1)
+      value: Fist Right (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4058746415066616474, guid: 5dfe3e4f7797a7348b93b72bb52ed15d, type: 3}
       propertyPath: m_LocalPosition.x

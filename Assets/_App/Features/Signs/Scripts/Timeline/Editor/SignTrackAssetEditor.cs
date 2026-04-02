@@ -18,7 +18,7 @@ namespace DigitalLove.Game.Signs
         {
             switch (((SignTrackAsset)clip.asset).signId)
             {
-                case SignId.Rock:
+                case SignId.Fist:
                     return Color.red;
                 case SignId.Paper:
                     return Color.blue;
