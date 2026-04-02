@@ -59,12 +59,12 @@ namespace DigitalLove.Game.Signs
         {
             if (recognitionData == null)
                 return;
-            if (time < recognitionData.AnimationSecs)
+            if (time < recognitionData.SecsToPerfect)
             {
-                transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.AnimationSecs);
+                transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.TotalAnimationSecs);
                 time += Time.deltaTime;
             }
-            else
+            else if (time > recognitionData.TotalAnimationSecs)
             {
                 Hide();
             }

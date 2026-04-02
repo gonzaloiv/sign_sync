@@ -16,15 +16,15 @@ namespace DigitalLove.Game.Signs
         private List<Listener> listeners = new();
 
         public HandId HandId => handId;
-        public float ActiveSecs => recognitionData.ActiveSecs;
+        public float ActiveSecs => recognitionData.SecsToPerfect;
 
         public Action<float> recognised = (percentage) => { };
         public Action failed = () => { };
 
-        public void ListenTo(SignId signId)
+        public void ListenTo(SignId signId, float duration)
         {
             SignVisual visual = spawner.Spawn(signId, recognitionData);
-            Listener listener = new() { signId = signId, launchTime = Time.time, visual = visual };
+            Listener listener = new() { signId = signId, launchTime = Time.time, duration = duration, visual = visual };
             listeners.Add(listener);
         }
 
@@ -114,6 +114,7 @@ namespace DigitalLove.Game.Signs
     {
         public SignId signId;
         public float launchTime;
+        public float duration;
         public SignVisual visual;
     }
 

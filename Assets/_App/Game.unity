@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Klak.Motion::Klak.Motion.BrownianMotion
   positionAmount:
-    x: 0.01
+    x: 0.1
     y: 0.01
     z: 0.01
   rotationAmount:
@@ -3672,7 +3672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Klak.Motion::Klak.Motion.BrownianMotion
   positionAmount:
-    x: 0.01
+    x: 0.1
     y: 0.01
     z: 0.01
   rotationAmount:
@@ -4769,7 +4769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Klak.Motion::Klak.Motion.BrownianMotion
   positionAmount:
-    x: 0.01
+    x: 0.1
     y: 0.01
     z: 0.01
   rotationAmount:
@@ -7418,7 +7418,7 @@ MonoBehaviour:
     score: 2
     health: 0.1
   failData:
-    health: 1
+    health: 0
   stats:
     score: 0
     health: 0

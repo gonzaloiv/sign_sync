@@ -1801,12 +1801,11 @@ MonoBehaviour:
   colorKey: 
   inactive: {fileID: 0}
   active: {fileID: 0}
-  perfect: {fileID: 0}
+  inRecognitionRange: {fileID: 0}
   success: {fileID: 0}
-  cutoffKey: 
+  dissolver: {fileID: 0}
   cutoffHeight: 0
   dissolveCutoffHeight: 0
-  dissolveSecs: 0
 --- !u!1 &6510413557979024681
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,6 +2690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3732942899662788395, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: rend
+      value: 
+      objectReference: {fileID: 7975326305833281167}
     - target: {fileID: 4761302152322881708, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

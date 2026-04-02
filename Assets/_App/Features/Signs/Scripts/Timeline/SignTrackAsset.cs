@@ -15,6 +15,7 @@ namespace DigitalLove.Game.Signs
             SignTrackBehaviour behaviour = scriptPlayable.GetBehaviour();
             behaviour.signId = signId;
             behaviour.startTime = startTime;
+            behaviour.duration = duration;
             return scriptPlayable;
         }
     }

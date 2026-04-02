@@ -12,18 +12,16 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private string colorKey;
         [SerializeField] private ColorValue inactive;
         [SerializeField] private ColorValue active;
-        [SerializeField] private ColorValue perfect;
+        [SerializeField] private ColorValue inRecognitionRange;
         [SerializeField] private ColorValue success;
 
         [Header("Cutoff")]
-        [SerializeField] private string cutoffKey;
+        [SerializeField] private Dissolver dissolver;
         [SerializeField] private float cutoffHeight;
         [SerializeField] private float dissolveCutoffHeight;
-        [SerializeField] private float dissolveSecs;
 
         private float time;
         private RecognitionData recognitionData;
-        private bool isDissolving;
 
         public bool IsActive => gameObject.activeInHierarchy;
 
@@ -31,54 +29,32 @@ namespace DigitalLove.Game.Signs
         {
             time = 0;
             this.recognitionData = recognitionData;
-            SetCutoffHeight(dissolveCutoffHeight, cutoffHeight, dissolveSecs);
+            dissolver.Dissolve(dissolveCutoffHeight, cutoffHeight);
             rend.material.SetColor(colorKey, inactive.value);
-            isDissolving = false;
-        }
-
-        private void SetCutoffHeight(float initial, float final, float secs)
-        {
-            float timer = 0;
-            rend.material.SetFloat(cutoffKey, initial);
-            IEnumerator DissolveRoutine()
-            {
-                while (timer < dissolveSecs)
-                {
-                    float value = Mathf.Lerp(initial, final, timer / dissolveSecs);
-                    rend.material.SetFloat(cutoffKey, value);
-                    timer += Time.deltaTime;
-                    yield return null;
-                }
-                rend.material.SetFloat(cutoffKey, final);
-            }
-            StartCoroutine(DissolveRoutine());
         }
 
         private void Update()
         {
-            if (recognitionData == null)
+            if (recognitionData == null || time > recognitionData.TotalAnimationSecs)
                 return;
             Color color = inactive.value;
-            if (time < recognitionData.ActiveSecs)
+            if (recognitionData.IsInRecognitionRange(time))
             {
-                float percentage = time / recognitionData.ActiveSecs;
+                color = inRecognitionRange.value;
+            }
+            else if (time < recognitionData.SecsToPerfect) // ? PRE-RECOGNITION
+            {
+                float percentage = time / recognitionData.SecsToPerfect;
                 color = Color.Lerp(inactive.value, active.value, percentage);
             }
-            else if (time < recognitionData.AnimationSecs)
+            else if (time < recognitionData.TotalAnimationSecs) // ? POST-RECOGNITION
             {
-                float percentage = time / recognitionData.AnimationSecs;
-                color = Color.Lerp(inactive.value, perfect.value, percentage);
+                float percentage = time / recognitionData.TotalAnimationSecs;
+                color = Color.Lerp(inRecognitionRange.value, inactive.value, percentage);
+                dissolver.Dissolve(cutoffHeight, dissolveCutoffHeight, recognitionData.TotalAnimationSecs - recognitionData.SecsToPerfect);
             }
-            if (!isDissolving && time >= recognitionData.ActiveSecs)
-                Dissolve();
             rend.material.SetColor(colorKey, color);
             time += Time.deltaTime;
-        }
-
-        private void Dissolve()
-        {
-            isDissolving = true;
-            SetCutoffHeight(cutoffHeight, dissolveCutoffHeight, recognitionData.AnimationSecs - recognitionData.ActiveSecs);
         }
 
         private void OnDisable() => recognitionData = null;
@@ -88,6 +64,5 @@ namespace DigitalLove.Game.Signs
             recognitionData = null;
             rend.material.SetColor(colorKey, success.value);
         }
-
     }
 }

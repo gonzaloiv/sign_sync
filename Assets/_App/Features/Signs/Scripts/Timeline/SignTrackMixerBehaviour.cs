@@ -37,7 +37,7 @@ namespace DigitalLove.Game.Signs
                     {
                         // Debug.LogWarning($"Current Sign Id {behaviour.signId} and Hand Id {spawner.HandId}");
                         if (Application.isPlaying)
-                            recogniser.ListenTo(behaviour.signId);
+                            recogniser.ListenTo(behaviour.signId, (float)behaviour.duration);
                         behaviours.Add(behaviour);
                     }
                 }

@@ -2331,6 +2331,7 @@ GameObject:
   - component: {fileID: 7792955189214816208}
   - component: {fileID: 5531700185577803987}
   - component: {fileID: 6462062608951049658}
+  - component: {fileID: 3732942899662788395}
   m_Layer: 0
   m_Name: Rock Left
   m_TagString: Untagged
@@ -2368,7 +2369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignVisual
   colorHelper: {fileID: 5531700185577803987}
-  handColorHelper: {fileID: 0}
+  fadeColors: []
   body: {fileID: 6031866450497237803}
   scalePunch: {fileID: 6462062608951049658}
   successPS: {fileID: 8072245559676339157}
@@ -2389,12 +2390,11 @@ MonoBehaviour:
   colorKey: Color_87DA54D1
   inactive: {fileID: 11400000, guid: 6555a0177098d354fb73363eff78993b, type: 2}
   active: {fileID: 11400000, guid: 361f27423ac36264a9eb367fc11a1c14, type: 2}
-  perfect: {fileID: 11400000, guid: be898b30bc08b2846a480e7f2fc2f66f, type: 2}
+  inRecognitionRange: {fileID: 11400000, guid: be898b30bc08b2846a480e7f2fc2f66f, type: 2}
   success: {fileID: 11400000, guid: 662250d688224a94d9cc7ee06fe9809b, type: 2}
-  cutoffKey: Vector1_CFBBCBA
+  dissolver: {fileID: 3732942899662788395}
   cutoffHeight: 3
   dissolveCutoffHeight: -1
-  dissolveSecs: 0.5
 --- !u!114 &6462062608951049658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2410,6 +2410,21 @@ MonoBehaviour:
   content: {fileID: 4931037365049796354}
   animationSecs: 0.2
   multiplier: 0.5
+--- !u!114 &3732942899662788395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800167844700051545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb434773796e2a24eb17303fa529fea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.Dissolver
+  rend: {fileID: 8241465709159528867}
+  cutoffKey: Vector1_CFBBCBA
+  dissolveSecs: 0.5
 --- !u!1 &8312574274551192700
 GameObject:
   m_ObjectHideFlags: 0

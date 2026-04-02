@@ -1,4 +1,5 @@
 ﻿<Solution>
+  <Project Path="DigitalLove.Game.Signs.csproj" />
   <Project Path="DigitalLove.TTS.csproj" />
   <Project Path="Timeline.Samples.Text.csproj" />
   <Project Path="DigitalLove.Game.UI.csproj" />
@@ -8,7 +9,6 @@
   <Project Path="DigitalLove.Global.csproj" />
   <Project Path="DigitalLove.DataAccess.Remote.csproj" />
   <Project Path="Timeline.Samples.Tween.Editor.csproj" />
-  <Project Path="DigitalLove.Game.Signs.csproj" />
   <Project Path="DigitalLove.Game.Flow.TrackInit.csproj" />
   <Project Path="DigitalLove.App.States.Setup.csproj" />
   <Project Path="DigitalLove.Interactables.csproj" />
