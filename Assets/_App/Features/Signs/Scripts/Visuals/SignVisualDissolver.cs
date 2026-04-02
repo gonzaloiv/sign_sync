@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace DigitalLove.Game.Signs
 {
-    public class Dissolver : MonoBehaviour
+    public class SignVisualDissolver : MonoBehaviour
     {
         [SerializeField] private Renderer rend;
         [SerializeField] private string cutoffKey;

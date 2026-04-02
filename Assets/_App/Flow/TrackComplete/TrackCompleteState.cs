@@ -56,22 +56,30 @@ namespace DigitalLove.Game.Flow
 
         private void OnReplayButtonClick() => parent.SetCurrentState(replayState.RouteId);
 
-        private async void DoEnter()
+        private void DoEnter()
+        {
+            if (forceNewHighScore.Value) // ? Debug
+            {
+                trackCompletePanel.ShowWithNewHighScore(999);
+            }
+            else if (statsCounter.HasHealthBeenDepleted) // ? OnFailure
+            {
+                failed.Play();
+                trackCompletePanel.Show();
+            }
+            else
+            {
+                OnComplete();
+            }
+        }
+
+        private async void OnComplete()
         {
             bool isHighestScore = IsNewHighScore();
             if (isHighestScore)
             {
                 trackCompletePanel.ShowWithNewHighScore(statsCounter.Score);
                 await unityPlayerDataClient.Put(playerData);
-            }
-            else if (forceNewHighScore.Value) // ! Debug
-            {
-                trackCompletePanel.ShowWithNewHighScore(999);
-            }
-            else if (statsCounter.HasHealthBeenDepleted)
-            {
-                failed.Play();
-                trackCompletePanel.Show();
             }
             else
             {

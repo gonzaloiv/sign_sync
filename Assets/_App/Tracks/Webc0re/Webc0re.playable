@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 65.02889960688309
+  finalTime: 65.49757636049657
 --- !u!114 &-9053394978458840455
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28,6 +29,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 50.03124349125194
+  finalTime: 50.499920244865415
 --- !u!114 &-8992700635644921923
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42,6 +44,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 30.815496593099525
+  finalTime: 31.284173346712997
 --- !u!114 &-8916687964660693976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -56,6 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 23.316668535283956
+  finalTime: 23.785345288897428
 --- !u!114 &-8886062640464994996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -70,6 +74,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 21.441961520830066
+  finalTime: 21.91063827444354
 --- !u!114 &-8738267278166610454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -84,6 +89,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 35.033587375620826
+  finalTime: 35.5022641292343
 --- !u!114 &-8699255047159813510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -98,6 +104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 5.50695189797197
+  finalTime: 5.975628651585443
 --- !u!114 &-8678373260696797803
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -112,6 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 14.880486970241448
+  finalTime: 15.349163723854922
 --- !u!114 &-8676083687056993879
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 46.75050621595763
+  finalTime: 47.2191829695711
 --- !u!114 &-8570041856294998199
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 67.37228337495048
+  finalTime: 67.84096012856396
 --- !u!114 &-8538040177347116734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,6 +164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 64.56022285326961
+  finalTime: 65.02889960688309
 --- !u!114 &-8448016997162043191
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -168,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 42.063738679822904
+  finalTime: 42.53241543343638
 --- !u!114 &-8337972558826645757
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -182,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 41.59506192620944
+  finalTime: 42.06373867982291
 --- !u!114 &-8240490232125575428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -196,6 +209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 20.03593125998965
+  finalTime: 20.50460801360312
 --- !u!114 &-8205627830710274371
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -210,6 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 6.444305405198916
+  finalTime: 6.912982158812389
 --- !u!114 &-8052461815855662016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -224,6 +239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 9.256365926879758
+  finalTime: 9.725042680493232
 --- !u!114 &-8013272362076179690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -238,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 3
   startTime: 65.49757636049657
+  finalTime: 65.96625311411005
 --- !u!114 &-7900442352018629368
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 42.063738679822904
+  finalTime: 42.53241542561572
 --- !u!114 &-7894013005916814688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -266,6 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 76.2771416936066
+  finalTime: 76.74581844722007
 --- !u!114 &-7871762151437944195
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -280,6 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 35.97094088284777
+  finalTime: 36.43961763646124
 --- !u!114 &-7723950304327567908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -294,6 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 73.93375792553913
+  finalTime: 74.40243467133195
 --- !u!114 &-7546308959058101803
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -308,6 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 48.625213230411525
+  finalTime: 49.093889984025
 --- !u!114 &-7477401387290352895
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -322,6 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 16.28651723108187
+  finalTime: 16.755193984695342
 --- !u!114 &-7418963039462217044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -336,6 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 39.25167815814207
+  finalTime: 39.72035491175554
 --- !u!114 &-7372441484528090964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -350,6 +374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 62.216839085202224
+  finalTime: 62.6855158388157
 --- !u!114 &-7351108181602767693
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -364,6 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 19.567254506376177
+  finalTime: 20.03593125998965
 --- !u!114 &-7164261721383058943
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -378,6 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 78.15184870806051
+  finalTime: 78.62052546167399
 --- !u!114 &-7089212810527932594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -392,6 +419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 70.65302065024484
+  finalTime: 71.12169740385832
 --- !u!114 &-7052773462315131420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -406,6 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 51.437273752092366
+  finalTime: 51.90595049788518
 --- !u!114 &-6949505004089167193
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -420,6 +449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 9.725042680493232
+  finalTime: 10.193719434106706
 --- !u!114 &-6942781203635876918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -434,6 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 10.193719434106706
+  finalTime: 10.66239618772018
 --- !u!114 &-6847483346928190915
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -448,6 +479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 35.50226412923429
+  finalTime: 35.97094088284776
 --- !u!114 &-6843575541935883722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -460,8 +492,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 10.193719434106706
+  finalTime: 10.66239617989952
 --- !u!114 &-6818540183155110196
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -476,6 +509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 23.316668535283956
+  finalTime: 23.785345288897428
 --- !u!114 &-6626724560419309612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -490,6 +524,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 34.09623386839388
+  finalTime: 34.56491062200735
 --- !u!114 &-6426510012446220915
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -504,6 +539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 57.061394795454035
+  finalTime: 57.53007154124685
 --- !u!114 &-6022709588077826420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -518,6 +554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 28.472112825032152
+  finalTime: 28.940789578645624
 --- !u!114 &-5946839085811720478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -532,6 +569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 58.467425056294445
+  finalTime: 58.93610180990792
 --- !u!114 &-5932180687290622896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -546,6 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 66.43492986772353
+  finalTime: 66.90360661351635
 --- !u!114 &-5907704260800790708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -560,6 +599,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 14.880486978062102
+  finalTime: 15.349163723854915
 --- !u!114 &-5790195500101904844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -574,6 +614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 57.06139479545405
+  finalTime: 57.53007154124686
 --- !u!114 &-5787673585771656160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -588,6 +629,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 15.349163723854922
+  finalTime: 15.817840477468396
 --- !u!114 &-5776442461982133550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -602,6 +644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 4
   startTime: 17.692547491922284
+  finalTime: 18.161224245535756
 --- !u!114 &-5750054050948092434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -616,6 +659,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 72.52772766469876
+  finalTime: 72.99640441831224
 --- !u!114 &-5692118457031345369
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -630,6 +674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 72.05905091108528
+  finalTime: 72.52772766469876
 --- !u!114 &-5584562661933092721
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -644,6 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 50.49992024486541
+  finalTime: 50.96859699847888
 --- !u!114 &-5516537521961947759
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -658,6 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 22.847991781670483
+  finalTime: 23.316668535283956
 --- !u!114 &-5441834149300840616
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -672,6 +719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 10.66239618772018
+  finalTime: 11.131072941333654
 --- !u!114 &-5430617958034010821
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -686,6 +734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 55.18668778100015
+  finalTime: 55.655364534613625
 --- !u!114 &-5334701585881556100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -700,6 +749,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 29.409466332259097
+  finalTime: 29.87814308587257
 --- !u!114 &-5275417852686151266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -714,6 +764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 50.96859699847889
+  finalTime: 51.43727375209236
 --- !u!114 &-5149034436714233740
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -728,6 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 51.90595050570583
+  finalTime: 52.374627259319304
 --- !u!114 &-5097765367222955939
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -742,6 +794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 58.93610180990791
+  finalTime: 59.40477856352138
 --- !u!114 &-5052896665200115701
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -756,6 +809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 22.37931502805701
+  finalTime: 22.847991781670483
 --- !u!114 &-4831429687289775511
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -770,6 +824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 77.21449520083355
+  finalTime: 77.68317195444703
 --- !u!114 &-4696234577282428335
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -784,6 +839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 43.00109218704985
+  finalTime: 43.46976894066332
 --- !u!114 &-4589423157725443072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -798,6 +854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 63.62286934604268
+  finalTime: 64.09154609965616
 --- !u!114 &-4405540904849533187
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -812,6 +869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 36.439617636461236
+  finalTime: 36.90829439007471
 --- !u!114 &-4401971560307946593
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -826,6 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 54.718011027386666
+  finalTime: 55.18668778100014
 --- !u!114 &-4389840718188775994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -840,6 +899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 19.098577752762704
+  finalTime: 19.567254506376177
 --- !u!114 &-4380393511728615052
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -854,6 +914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 12.068426448560603
+  finalTime: 12.537103202174077
 --- !u!114 &-4361674156347411671
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -868,6 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 51.43727375209236
+  finalTime: 51.90595049788517
 --- !u!114 &-4340022637493013761
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -882,6 +944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 43.46976894066333
+  finalTime: 43.9384456942768
 --- !u!114 &-4286568605432383717
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -896,6 +959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 43.938445694276794
+  finalTime: 44.407122447890266
 --- !u!114 &-4202672620467677028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -910,6 +974,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 25.19137554973785
+  finalTime: 25.66005230335132
 --- !u!114 &-4195477172254527892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -924,6 +989,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 70.18434389663136
+  finalTime: 70.65302065024484
 --- !u!114 &-4168891171313193224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -938,6 +1004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 11.131072941333654
+  finalTime: 11.599749694947128
 --- !u!114 &-4042069100985353438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -952,6 +1019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 20.504608013603132
+  finalTime: 20.973284759395945
 --- !u!114 &-3827870896920177863
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -966,6 +1034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 3
   startTime: 41.12638517259596
+  finalTime: 41.59506192620943
 --- !u!114 &-3641341850173219101
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -980,6 +1049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 5.975628651585442
+  finalTime: 6.444305405198915
 --- !u!114 &-3511491204730710671
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1011,6 +1081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 38.31432465091511
+  finalTime: 38.783001404528584
 --- !u!114 &-3339730574416135944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1025,6 +1096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 36.908294390074715
+  finalTime: 37.37697114368819
 --- !u!114 &-3311554596336148041
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1039,6 +1111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 65.49757636049657
+  finalTime: 65.96625311411005
 --- !u!114 &-3303783574789250896
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1053,6 +1126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 28.940789578645624
+  finalTime: 29.409466332259097
 --- !u!114 &-3193718385578172134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1067,6 +1141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 3.6322448835180765
+  finalTime: 4.10092163713155
 --- !u!114 &-2954330853201445345
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1081,6 +1156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 65.96625311411005
+  finalTime: 66.43492986772353
 --- !u!114 &-2705762513759127847
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1095,6 +1171,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 30.815496593099514
+  finalTime: 31.284173346712986
 --- !u!114 &-2534070393065939688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1109,6 +1186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 26.12872905696479
+  finalTime: 26.597405810578262
 --- !u!114 &-2499233152404027023
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1123,6 +1201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 18.16122424553576
+  finalTime: 18.629900999149232
 --- !u!114 &-2441712226853519994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1137,6 +1216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 42.063738679822904
+  finalTime: 42.53241542561572
 --- !u!114 &-2393201401299315464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1151,6 +1231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 75.33978818637964
+  finalTime: 75.80846493999312
 --- !u!114 &-2366180628936967349
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1165,6 +1246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 49.56256673763848
+  finalTime: 50.03124349125195
 --- !u!114 &-2071774645554324313
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1179,6 +1261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 53.31198076654624
+  finalTime: 53.780657520159714
 --- !u!114 &-1976535020995728782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1193,6 +1276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 17.223870738308815
+  finalTime: 17.692547491922287
 --- !u!114 &-1948943854377108534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1207,6 +1291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 39.251678158142056
+  finalTime: 39.72035491175553
 --- !u!114 &-1924209876256053431
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1221,6 +1306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 38.314324650915125
+  finalTime: 38.7830014045286
 --- !u!114 &-1833128869522325535
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1233,8 +1319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 2.6948913762911326
+  finalTime: 4.569598390745023
 --- !u!114 &-1674890028992935921
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1249,6 +1336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 4
   startTime: 18.629900999149243
+  finalTime: 19.098577752762715
 --- !u!114 &-1670489849294336774
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1263,6 +1351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 28.940789578645635
+  finalTime: 29.409466332259107
 --- !u!114 &-1542119104974263202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1277,6 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 40.657708418982494
+  finalTime: 41.12638517259597
 --- !u!114 &-1396691708790425274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1291,6 +1381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 17.692547491922287
+  finalTime: 18.16122424553576
 --- !u!114 &-1315586186825095493
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1305,6 +1396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 56.592718041840556
+  finalTime: 57.06139479545403
 --- !u!114 &-1293598479908697485
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1319,6 +1411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 61.748162331588745
+  finalTime: 62.21683908520222
 --- !u!114 &-1097028174932744651
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1333,6 +1426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 72.99640441831224
+  finalTime: 73.46508117192572
 --- !u!114 &-1059371149510080832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1347,6 +1441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 4
   startTime: 16.755193984695342
+  finalTime: 17.223870738308815
 --- !u!114 &-1027714252881290927
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1361,6 +1456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 37.84564789730166
+  finalTime: 38.31432465091513
 --- !u!114 &-928392609509025567
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1375,6 +1471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 29.87814308587257
+  finalTime: 30.34681983948604
 --- !u!114 &-881382939803918188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1389,6 +1486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 38.783001404528605
+  finalTime: 39.25167815814208
 --- !u!114 &-865484950207674783
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1403,6 +1501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 64.09154609965613
+  finalTime: 64.56022285326961
 --- !u!114 &-848803326108393907
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1417,6 +1516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 0.8201843618372374
+  finalTime: 1.288861115450711
 --- !u!114 &-798171416873569753
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1431,6 +1531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 27.066082564191735
+  finalTime: 27.534759317805207
 --- !u!114 &-701055490431306629
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1445,6 +1546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 54.24933427377319
+  finalTime: 54.71801102738666
 --- !u!114 &-635993213656954314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1459,6 +1561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 45.34447595511722
+  finalTime: 45.81315270873069
 --- !u!114 &-585021544545929399
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1473,6 +1576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 3
   startTime: 72.99640441831217
+  finalTime: 73.46508117192565
 --- !u!114 &-519891204152002941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1583,6 +1687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 20.973284767216594
+  finalTime: 21.441961520830066
 --- !u!114 &-384271263028933113
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1597,6 +1702,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 59.873455317134855
+  finalTime: 60.34213207074833
 --- !u!114 &-62875369197644397
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1611,6 +1717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 1
   startTime: 26.128729056964797
+  finalTime: 26.59740581057827
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1647,6 +1754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 59.40477856352139
+  finalTime: 59.87345531713486
 --- !u!114 &74673263032823732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1661,6 +1769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 8.787689173266283
+  finalTime: 9.256365926879758
 --- !u!114 &88201050383985330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1675,6 +1784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 23.785345288897428
+  finalTime: 24.2540220425109
 --- !u!114 &124036377826071323
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1689,6 +1799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 1.2888611154507108
+  finalTime: 1.7575378690641843
 --- !u!114 &178789168991663216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1703,6 +1814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 27.066082564191742
+  finalTime: 27.534759309984555
 --- !u!114 &183019062296330989
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1717,6 +1829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 27.534759317805207
+  finalTime: 28.00343607141868
 --- !u!114 &232679726330726367
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1731,6 +1844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 41.12638517259596
+  finalTime: 41.59506192620943
 --- !u!114 &364570984499849620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1745,6 +1859,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 33.158880361166936
+  finalTime: 33.62755711478041
 --- !u!114 &546173513861879963
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1759,6 +1874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 48.62521323041152
+  finalTime: 49.09388998402499
 --- !u!114 &561019601792000516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1773,6 +1889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 15.817840477468396
+  finalTime: 16.28651723108187
 --- !u!114 &600812469330867231
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1787,6 +1904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 77.68317195444703
+  finalTime: 78.15184870806051
 --- !u!114 &729024899619244558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1801,6 +1919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 73.46508117192572
+  finalTime: 73.9337579255392
 --- !u!114 &759318205934561676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1815,6 +1934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 69.2469903894044
+  finalTime: 69.71566714301788
 --- !u!114 &764398737666940630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1829,6 +1949,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 25.191375549737845
+  finalTime: 25.660052303351318
 --- !u!114 &769647968071854194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1843,6 +1964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 46.28182946234416
+  finalTime: 46.750506215957635
 --- !u!114 &795353281078733401
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1857,6 +1979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 24.2540220425109
+  finalTime: 24.722698796124373
 --- !u!114 &1099197266456446097
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1897,6 +2020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 14.411810216627973
+  finalTime: 14.880486970241448
 --- !u!114 &1344158168094119475
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1911,6 +2035,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 44.40712244789027
+  finalTime: 44.875799201503746
 --- !u!114 &1471915353131964500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1925,6 +2050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 49.093889984025
+  finalTime: 49.56256673763847
 --- !u!114 &1522151728618081576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1939,6 +2065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 20.50460801360313
+  finalTime: 20.97328475939594
 --- !u!114 &1616681283568492018
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1951,8 +2078,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 5.9756286515854455
+  finalTime: 6.912982158812389
 --- !u!114 &1632228273280207481
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1967,6 +2095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 73.9337579255392
+  finalTime: 74.40243467915268
 --- !u!114 &1795773765873150848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1981,6 +2110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 29.878143085872583
+  finalTime: 30.346819839486056
 --- !u!114 &1835493483412492615
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1995,6 +2125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 30.34681983948604
+  finalTime: 30.815496593099514
 --- !u!114 &1855659360084651322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2009,6 +2140,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 71.12169740385832
+  finalTime: 71.5903741574718
 --- !u!114 &1915222442072094887
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2023,6 +2155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 5.038275144358495
+  finalTime: 5.506951897971969
 --- !u!114 &1953528518661159598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2037,6 +2170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 54.2493342737732
+  finalTime: 54.71801102738667
 --- !u!114 &2015025192263932574
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2051,6 +2185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 44.87579920150374
+  finalTime: 45.34447595511721
 --- !u!114 &2031055106792642232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2065,6 +2200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 24.722698796124373
+  finalTime: 25.191375549737845
 --- !u!114 &2065392274945603227
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2079,6 +2215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 45.813152708730684
+  finalTime: 46.281829462344156
 --- !u!114 &2098498275088409085
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2093,6 +2230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 68.30963688217744
+  finalTime: 68.77831363579092
 --- !u!114 &2225982487070075819
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2107,6 +2245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 52.3746272593193
+  finalTime: 52.84330401293277
 --- !u!114 &2229571237142654839
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2121,6 +2260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 40.189031665369015
+  finalTime: 40.65770841898249
 --- !u!114 &2255514733971092248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2135,6 +2275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 55.65536453461361
+  finalTime: 56.12404128822708
 --- !u!114 &2378597832907132546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2149,6 +2290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 13.9431334630145
+  finalTime: 14.411810216627973
 --- !u!114 &2392794689272416092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2163,6 +2305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 32.690203607553414
+  finalTime: 33.15888035334623
 --- !u!114 &2508971911971945642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2177,6 +2320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 73.93375792553913
+  finalTime: 74.40243467133195
 --- !u!114 &2529283059790673287
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2191,6 +2335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 42.532415433436384
+  finalTime: 43.001092187049856
 --- !u!114 &2582587392210474996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2205,6 +2350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 18.629900999149232
+  finalTime: 19.098577752762704
 --- !u!114 &2628707644971432489
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2219,6 +2365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 57.998748302680966
+  finalTime: 58.46742505629444
 --- !u!114 &2649466627641814103
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2233,6 +2380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 47.68785972318458
+  finalTime: 48.15653647679805
 --- !u!114 &2694776897876802992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2247,6 +2395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 32.690203607553414
+  finalTime: 33.15888035334623
 --- !u!114 &2714344096847216064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2261,6 +2410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 63.15419259242917
+  finalTime: 63.62286934604264
 --- !u!114 &2728694879537626576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2275,6 +2425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 66.903606621337
+  finalTime: 67.37228337495048
 --- !u!114 &2782979523679811202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2289,6 +2440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 57.5300715490675
+  finalTime: 57.99874830268097
 --- !u!114 &2934741252684959864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2303,6 +2455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 66.43492986772353
+  finalTime: 66.90360661351635
 --- !u!114 &2936489562084748566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2317,6 +2470,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 39.72035491175555
+  finalTime: 40.18903166536902
 --- !u!114 &2947568033296250660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2331,6 +2485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 74.87111143276616
+  finalTime: 75.33978818637964
 --- !u!114 &2957106238307486045
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2345,6 +2500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 57.06139479545402
+  finalTime: 57.53007154906749
 --- !u!114 &3086504495197644117
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2359,6 +2515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 62.68551583881576
+  finalTime: 63.15419259242923
 --- !u!114 &3144470473786958314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2373,6 +2530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 60.8108088243618
+  finalTime: 61.27948557797527
 --- !u!114 &3155380547632304773
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2387,6 +2545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 28.00343607141868
+  finalTime: 28.472112825032152
 --- !u!114 &3360953952381483637
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2401,6 +2560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 47.68785972318457
+  finalTime: 48.156536476798045
 --- !u!114 &4137323456945632651
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2415,6 +2575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 53.78065752015972
+  finalTime: 54.249334273773194
 --- !u!114 &4235341417487832276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2429,6 +2590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 66.43492986772353
+  finalTime: 66.903606621337
 --- !u!114 &4370640681183839082
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2443,6 +2605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 19.567254506376184
+  finalTime: 20.035931259989656
 --- !u!114 &4424829691235566819
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2457,6 +2620,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 37.37697114368818
+  finalTime: 37.84564789730165
 --- !u!114 &4456528855156944313
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2471,6 +2635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 1
   startTime: 50.499920244865415
+  finalTime: 50.96859699847889
 --- !u!114 &4572094810031116306
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2485,6 +2650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 53.31198076654626
+  finalTime: 53.780657520159735
 --- !u!114 &4712876856658217048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2499,6 +2665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 25.660052303351318
+  finalTime: 26.12872905696479
 --- !u!114 &4914853775878763450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2513,6 +2680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 67.84096012856396
+  finalTime: 68.30963688217744
 --- !u!114 &5068546832440880953
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2527,6 +2695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 7.850335666039335
+  finalTime: 8.31901241965281
 --- !u!114 &5070427176395702615
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2541,6 +2710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 56.124041288227076
+  finalTime: 56.59271804184055
 --- !u!114 &5119280801601789768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2555,6 +2725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 40.189031665369015
+  finalTime: 40.65770841898249
 --- !u!114 &5231538283687712654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2569,6 +2740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 62.68551583881569
+  finalTime: 63.15419259242916
 --- !u!114 &5321018646700616969
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2583,6 +2755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 21.91063827444354
+  finalTime: 22.37931502805701
 --- !u!114 &5488953477937182015
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2597,6 +2770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 64.56022285326964
+  finalTime: 65.02889960688312
 --- !u!114 &5518733835254124077
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2611,6 +2785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 20.50460801360312
+  finalTime: 20.973284767216594
 --- !u!114 &5672717199791831178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2645,25 +2820,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2738,25 +2895,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2783,25 +2922,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3044,25 +3165,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3089,25 +3192,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3182,25 +3267,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3227,25 +3294,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3320,25 +3369,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3365,25 +3396,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3458,25 +3471,7 @@ MonoBehaviour:
       m_RotationOrder: 4
     m_MixOutCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3503,25 +3498,7 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
+      m_Curve: []
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -12803,6 +12780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 16.755193984695342
+  finalTime: 17.223870738308815
 --- !u!114 &5871390244711062157
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12817,6 +12795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 6.9129821588123885
+  finalTime: 7.381658912425862
 --- !u!114 &5877626519237379550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12831,6 +12810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 71.5903741574718
+  finalTime: 72.05905091108528
 --- !u!114 &5949732777874862088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14440,6 +14420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 75.80846493999312
+  finalTime: 76.2771416936066
 --- !u!114 &5985389349513828573
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14454,6 +14435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 2.69489137629113
+  finalTime: 3.1635681299046032
 --- !u!114 &5989953806121732316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14468,6 +14450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 4.10092163713155
+  finalTime: 4.569598390745023
 --- !u!114 &6004061629994445632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14482,6 +14465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 72.05905091108524
+  finalTime: 72.52772766469872
 --- !u!114 &6047568076915139549
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14496,6 +14480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 52.84330401293278
+  finalTime: 53.31198076654625
 --- !u!114 &6155251974056951784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14510,6 +14495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 69.71566714301788
+  finalTime: 70.18434389663136
 --- !u!114 &6196944105746106085
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14524,6 +14510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 48.15653647679805
+  finalTime: 48.625213230411525
 --- !u!114 &6351821790677698702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14538,6 +14525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 70.18434389663136
+  finalTime: 70.65302065024484
 --- !u!114 &6357132305038954623
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14552,6 +14540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
   startTime: 27.066082564191746
+  finalTime: 27.53475930998456
 --- !u!114 &6439105559621135464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14566,6 +14555,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 3.1635681299046032
+  finalTime: 3.6322448835180765
 --- !u!114 &6448852169259956059
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14580,6 +14570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 34.564910622007346
+  finalTime: 35.03358737562082
 --- !u!114 &6472943983837708436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14594,6 +14585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 4
   startTime: 13.474456709401025
+  finalTime: 13.943133455193838
 --- !u!114 &6508659005751223699
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14608,6 +14600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 7.381658912425863
+  finalTime: 7.850335666039336
 --- !u!114 &6512976770781707826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14622,6 +14615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 63.622869346042634
+  finalTime: 64.09154609965611
 --- !u!114 &6586909213030770514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14636,6 +14630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 60.342132070748335
+  finalTime: 60.81080882436181
 --- !u!114 &6633712206289910738
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14650,6 +14645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 32.69020360755346
+  finalTime: 33.15888036116693
 --- !u!114 &6672287585327619029
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14664,6 +14660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 61.27948557797528
+  finalTime: 61.74816233158875
 --- !u!114 &6965235812503548373
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14676,8 +14673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 3.6322448835180765
+  finalTime: 5.506951897971969
 --- !u!114 &7059052923460694428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14692,6 +14690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 1
   startTime: 31.752850100326473
+  finalTime: 32.22152685393995
 --- !u!114 &7150939163510177195
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14706,6 +14705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 32.22152685393998
+  finalTime: 32.69020360755345
 --- !u!114 &7219773804987470100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14720,6 +14720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 33.6275571147804
+  finalTime: 34.096233868393874
 --- !u!114 &7289115519503441592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14734,6 +14735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 3
   startTime: 71.12169740385828
+  finalTime: 71.59037415747176
 --- !u!114 &7374163212090190203
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14748,6 +14750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 2.226214622677656
+  finalTime: 2.694891376291129
 --- !u!114 &7428604870529112155
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14762,6 +14765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 1
   startTime: 56.12404128822709
+  finalTime: 56.59271804184056
 --- !u!114 &7651567912645419941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14776,6 +14780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 1
   startTime: 24.254022042510908
+  finalTime: 24.72269879612438
 --- !u!114 &7734509633002827867
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14790,6 +14795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 1.7575378690641843
+  finalTime: 2.2262146226776576
 --- !u!114 &7736812941976979526
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14804,6 +14810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 12.537103202174077
+  finalTime: 13.00577995578755
 --- !u!114 &7760460835183691168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -14818,6 +14825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 26.597405810578262
+  finalTime: 27.066082564191735
 --- !u!114 &8059508175394973567
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16787,6 +16795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 51.43727375209235
+  finalTime: 51.905950505705825
 --- !u!114 &8243021446251069323
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16799,8 +16808,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 6.912982158812389
+  finalTime: 7.850335666039336
 --- !u!114 &8294832122280288537
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16815,6 +16825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 31.75285010032646
+  finalTime: 32.221526853939935
 --- !u!114 &8333231041547335992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16829,6 +16840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 47.21918296957111
+  finalTime: 47.68785972318458
 --- !u!114 &8457336234059765297
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16843,6 +16855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 4.569598390745023
+  finalTime: 5.038275144358496
 --- !u!114 &8603873589013076439
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16857,6 +16870,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 49.56256673763846
+  finalTime: 50.031243491251935
 --- !u!114 &8629535142659865598
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16871,6 +16885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 74.40243467915268
+  finalTime: 74.87111143276616
 --- !u!114 &8661788509713609168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16885,6 +16900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 13.474456709401025
+  finalTime: 13.9431334630145
 --- !u!114 &8780574480029256432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16899,6 +16915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 68.77831363579092
+  finalTime: 69.2469903894044
 --- !u!114 &8788372844130085303
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16913,6 +16930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 78.62052546167399
+  finalTime: 79.08920221528747
 --- !u!114 &8857355193811694328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16927,6 +16945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 8.31901241965281
+  finalTime: 8.787689173266283
 --- !u!114 &8897651962028679134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16941,6 +16960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 76.74581844722007
+  finalTime: 77.21449520083355
 --- !u!114 &9040623719086668986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16955,6 +16975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 13.00577995578755
+  finalTime: 13.474456709401025
 --- !u!114 &9060535566788639034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16967,8 +16988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5466be46a29538c41aef5947510d6d2c, type: 3}
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
-  signId: 4
+  signId: 1
   startTime: 11.599749702767783
+  finalTime: 12.068426448560597
 --- !u!114 &9192128691094170587
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16983,6 +17005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 11.599749694947128
+  finalTime: 12.068426448560603
 --- !u!114 &9192384647187934040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16997,6 +17020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 31.284173346712986
+  finalTime: 31.75285010032646
 --- !u!114 &9197104583286398316
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17011,3 +17035,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignAsset
   signId: 0
   startTime: 55.18668778100013
+  finalTime: 55.655364534613604

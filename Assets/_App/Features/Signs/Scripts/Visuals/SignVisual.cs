@@ -11,22 +11,29 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private ScalePunch scalePunch;
         [SerializeField] private ParticleSystem successPS;
         [SerializeField] private ParticleSystem failurePS;
+        [SerializeField] private SignVisualVibrator vibrator;
 
         private float time;
         private Transform origin;
         private Transform destination;
         private RecognitionData recognitionData;
+        private float duration;
+        private bool hasBeenRecognised;
 
         public bool IsActive => body.activeInHierarchy;
 
         public void Show(Transform origin, Transform destination, RecognitionData recognitionData, float duration)
         {
             time = 0;
+            hasBeenRecognised = false;
             this.origin = origin;
-            transform.position = origin.position;
             this.destination = destination;
             this.recognitionData = recognitionData;
+            this.duration = duration;
+
+            transform.position = origin.position;
             colorHelper.Show(recognitionData, duration);
+            vibrator.SetIdle();
             body.SetActive(true);
         }
 
@@ -36,32 +43,33 @@ namespace DigitalLove.Game.Signs
             colorHelper.Hide();
         }
 
-        public void OnSuccess()
+        public void OnRecognised()
         {
+            hasBeenRecognised = true;
             successPS.Play();
             colorHelper.SetSuccessColor();
-            scalePunch.Animate(Hide);
-            if (fadeColors != null && fadeColors.Length > 0)
-            {
-                foreach (HighlightColorFade fadeColor in fadeColors)
-                {
-                    fadeColor.SetHighligthColor();
-                }
-            }
+            scalePunch.Animate();
+            fadeColors.SetHighligthColor();
+            vibrator.Vibrate();
         }
 
-        public void OnFailure()
+        public void OnRecognisedFinalTimeReached()
+        {
+            colorHelper.DissolveOut(Hide);
+        }
+
+        public void OnNotRecognised()
         {
             failurePS.Play();
             scalePunch.Animate();
-            colorHelper.ShowFailure(Hide);
+            colorHelper.DissolveOut(Hide);
         }
 
         private void Update()
         {
             if (recognitionData == null)
                 return;
-            if (time < recognitionData.FinalRecognitionSecs)
+            if (!hasBeenRecognised && time < recognitionData.GetFinalRecognitionSecs(duration))
             {
                 transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.TotalAnimationSecs);
                 time += Time.deltaTime;

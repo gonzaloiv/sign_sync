@@ -1826,6 +1826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7035252394319502996}
   - component: {fileID: 3542894842314510379}
+  - component: {fileID: 5681622162381523099}
   m_Layer: 4
   m_Name: Body
   m_TagString: Untagged
@@ -1872,6 +1873,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5681622162381523099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024641667152445713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Klak.Motion::Klak.Motion.BrownianMotion
+  positionAmount:
+    x: 0.0125
+    y: 0.0125
+    z: 0.0125
+  rotationAmount:
+    x: 10
+    y: 10
+    z: 10
+  frequency: 5
+  octaves: 2
+  seed: 0
 --- !u!1 &6039503771018427992
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +2696,10 @@ PrefabInstance:
       propertyPath: rend
       value: 
       objectReference: {fileID: 5789204889715590482}
+    - target: {fileID: 3846562686419649546, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
+      propertyPath: brownianMotion
+      value: 
+      objectReference: {fileID: 5681622162381523099}
     - target: {fileID: 4761302152322881708, guid: 7555e5220ae399f4e8f1a1517cdf04b0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -1977,6 +1977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4931037365049796354}
   - component: {fileID: 7908649661670784719}
+  - component: {fileID: 2828029940605674551}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -2023,6 +2024,29 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2828029940605674551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6031866450497237803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543ddbe12367a4899b011d43ef41f357, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Klak.Motion::Klak.Motion.BrownianMotion
+  positionAmount:
+    x: 0.0125
+    y: 0.0125
+    z: 0.0125
+  rotationAmount:
+    x: 10
+    y: 10
+    z: 10
+  frequency: 5
+  octaves: 2
+  seed: 0
 --- !u!1 &6164220158372712629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2523,7 @@ GameObject:
   - component: {fileID: 5531700185577803987}
   - component: {fileID: 6462062608951049658}
   - component: {fileID: 3732942899662788395}
+  - component: {fileID: 3846562686419649546}
   m_Layer: 0
   m_Name: Rock Left
   m_TagString: Untagged
@@ -2541,6 +2566,7 @@ MonoBehaviour:
   scalePunch: {fileID: 6462062608951049658}
   successPS: {fileID: 8072245559676339157}
   failurePS: {fileID: 3888976186396428384}
+  vibrator: {fileID: 3846562686419649546}
 --- !u!114 &5531700185577803987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2593,6 +2619,19 @@ MonoBehaviour:
   rend: {fileID: 8241465709159528867}
   cutoffKey: Vector1_CFBBCBA
   dissolveSecs: 0.5
+--- !u!114 &3846562686419649546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800167844700051545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46517d177e81e8842a6d52ace202093d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DigitalLove.Game.Signs::Vibrator
+  brownianMotion: {fileID: 2828029940605674551}
 --- !u!1 &8312574274551192700
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ namespace DigitalLove.Game.Signs
         [SerializeField] private ColorValue success;
 
         [Header("Cutoff")]
-        [SerializeField] private Dissolver dissolver;
+        [SerializeField] private SignVisualDissolver dissolver;
         [SerializeField] private float cutoffHeight;
         [SerializeField] private float dissolveCutoffHeight;
 
@@ -26,6 +26,7 @@ namespace DigitalLove.Game.Signs
 
         private float time;
         private RecognitionData recognitionData;
+        private float duration;
 
         public bool IsActive => gameObject.activeInHierarchy;
 
@@ -33,6 +34,7 @@ namespace DigitalLove.Game.Signs
         {
             time = 0;
             this.recognitionData = recognitionData;
+            this.duration = duration;
             dissolver.Dissolve(dissolveCutoffHeight, cutoffHeight);
             rend.material.SetColor(colorKey, inactive.value);
             ShowTrail(duration);
@@ -51,9 +53,9 @@ namespace DigitalLove.Game.Signs
             if (recognitionData == null || time > recognitionData.TotalAnimationSecs)
                 return;
             Color color = inactive.value;
-            if (recognitionData.IsInRecognitionRange(time))
+            if (recognitionData.IsInRecognitionRange(time, duration))
             {
-                float percentage = time - recognitionData.InitialRecognitionSecs / recognitionData.FinalRecognitionSecs;
+                float percentage = time - recognitionData.InitialRecognitionSecs / recognitionData.GetFinalRecognitionSecs(duration);
                 color = Color.Lerp(active.value, inRecognitionRange.value, percentage);
             }
             else if (time < recognitionData.SecsToPerfect) // ? PRE-RECOGNITION
@@ -80,12 +82,11 @@ namespace DigitalLove.Game.Signs
 
         public void SetSuccessColor()
         {
-            recognitionData = null;
             rend.material.SetColor(colorKey, success.value);
             trailRenderer.material.color = success.value;
         }
 
-        public void ShowFailure(Action onComplete)
+        public void DissolveOut(Action onComplete)
         {
             float animationSecs = 0.5f;
             float timer = 0;

@@ -12,9 +12,8 @@ namespace DigitalLove.Game.Signs
         public float TotalAnimationSecs => activeSecs * 2;
         public float SecsToPerfect => activeSecs;
         public float InitialRecognitionSecs => SecsToPerfect - recognitionRange;
-        public float FinalRecognitionSecs => SecsToPerfect + recognitionRange;
 
-        public float GetPercentage(float launchTime)
+        public float GetAccuracyPercentage(float launchTime)
         {
             float recognisedTime = Time.time;
             float perfectTime = launchTime + activeSecs;
@@ -22,9 +21,14 @@ namespace DigitalLove.Game.Signs
             return 1f - deviation / recognitionRange;
         }
 
-        public bool IsInRecognitionRange(float time)
+        public bool IsInRecognitionRange(float time, float duration)
         {
-            return time < FinalRecognitionSecs && time > SecsToPerfect - recognitionRange;
+            return time > SecsToPerfect - recognitionRange && time < GetFinalRecognitionSecs(duration);
+        }
+
+        public float GetFinalRecognitionSecs(float duration)
+        {
+            return SecsToPerfect + recognitionRange + duration;
         }
     }
 }

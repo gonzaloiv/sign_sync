@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using DigitalLove.Game.Signs;
 using UnityEngine;
 
@@ -26,16 +25,16 @@ namespace DigitalLove.Game.Stats
         {
             foreach (HandSignsRecogniser recogniser in recognisers)
             {
-                recogniser.recognised += OnHandSignRecognised;
+                recogniser.recognitionComplete += OnHandSignRecognitionComplete;
                 recogniser.failed += OnFailed;
             }
         }
 
-        private void OnHandSignRecognised(float percentage)
+        private void OnHandSignRecognitionComplete(RecognitionEventArgs args)
         {
-            int score = (int)(successData.score * percentage);
+            int score = (int)(successData.score * args.percentage * args.frames);
             stats.IncreaseScore(score);
-            stats.IncreaseHealth(successData.health * percentage);
+            stats.IncreaseHealth(successData.health * args.percentage);
         }
 
         private void OnFailed()
@@ -49,7 +48,7 @@ namespace DigitalLove.Game.Stats
         {
             foreach (HandSignsRecogniser recogniser in recognisers)
             {
-                recogniser.recognised -= OnHandSignRecognised;
+                recogniser.recognitionComplete -= OnHandSignRecognitionComplete;
                 recogniser.failed -= OnFailed;
             }
         }

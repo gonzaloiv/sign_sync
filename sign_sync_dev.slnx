@@ -1,6 +1,6 @@
 ﻿<Solution>
-  <Project Path="DigitalLove.Game.Signs.csproj" />
   <Project Path="DigitalLove.TTS.csproj" />
+  <Project Path="DigitalLove.Game.Signs.csproj" />
   <Project Path="Timeline.Samples.Text.csproj" />
   <Project Path="DigitalLove.Game.UI.csproj" />
   <Project Path="DigitalLove.UI.DesignSystem.Localization.csproj" />

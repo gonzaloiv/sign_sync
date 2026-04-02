@@ -13,7 +13,7 @@ namespace DigitalLove.Game.Signs
 
         private void OnEnable()
         {
-            recogniser.recognised += OnHandSignRecognised;
+            recogniser.recognitionStarted += OnHandSignRecognised;
         }
 
         private void OnHandSignRecognised(float percentage)
@@ -32,7 +32,7 @@ namespace DigitalLove.Game.Signs
 
         private void OnDisable()
         {
-            recogniser.recognised -= OnHandSignRecognised;
+            recogniser.recognitionStarted -= OnHandSignRecognised;
         }
     }
 }
