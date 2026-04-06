@@ -1,8 +1,9 @@
-using System.Collections;
+using DigitalLove.Casual.Analytics;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
 using DigitalLove.Game.Tracks;
 using DigitalLove.Game.VFX;
+using DigitalLove.Global;
 using DigitalLove.XR;
 using UnityEngine;
 
@@ -17,6 +18,7 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private AudioSource init;
         [SerializeField] private PassthroughStyler passthroughStyler;
         [SerializeField] private PassthroughStyle playStyle;
+        [SerializeField] private ProgressionEventsHelper progressionEventsHelper;
 
         public override void Init(StateMachine parent)
         {
@@ -27,15 +29,16 @@ namespace DigitalLove.Game.Flow
         public override void Enter()
         {
             origin.Setup();
-            IEnumerator InitRoutine()
-            {
-                init.Play();
-                yield return new WaitForSeconds(1);
-                passthroughStyler.SetStyle(playStyle);
-                stage.Play(trackSelector.CurrentData.bpm, trackSelector.CurrentBehaviour.AudioSource);
-                parent.SetCurrentState(nextState.RouteId);
-            }
-            StartCoroutine(InitRoutine());
+            init.Play();
+            this.InvokeAfterSecs(1, ToTrackState);
+        }
+
+        private void ToTrackState()
+        {
+            passthroughStyler.SetStyle(playStyle);
+            stage.Play(trackSelector.CurrentData.bpm, trackSelector.CurrentBehaviour.AudioSource);
+            progressionEventsHelper.SendLevelStartedEvent(trackSelector.CurrentData.id);
+            parent.SetCurrentState(nextState.RouteId);
         }
 
         public override void Exit()

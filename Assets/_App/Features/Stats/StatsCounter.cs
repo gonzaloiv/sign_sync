@@ -52,6 +52,13 @@ namespace DigitalLove.Game.Stats
                 recogniser.failed -= OnFailed;
             }
         }
+
+        // ? Debug
+        public void ForceHighestScoreStats()
+        {
+            stats.score = 9999999;
+            stats.health = Stats.InitialHealth;
+        }
     }
 
     [Serializable]

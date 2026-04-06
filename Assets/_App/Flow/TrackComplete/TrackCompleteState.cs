@@ -1,3 +1,4 @@
+using DigitalLove.Casual.Analytics;
 using DigitalLove.DataAccess;
 using DigitalLove.FlowControl;
 using DigitalLove.Game.Stage;
@@ -24,6 +25,7 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private AudioSource failed;
         [SerializeField] private PassthroughStyler passthroughStyler;
         [SerializeField] private PassthroughStyle menuStyle;
+        [SerializeField] private ProgressionEventsHelper progressionEventsHelper;
 
         [Header("Debug")]
         [SerializeField] private DebugBool forceNewHighScore;
@@ -44,12 +46,19 @@ namespace DigitalLove.Game.Flow
             trackCompletePanel.countdownComplete += OnCountdownComplete;
             trackCompletePanel.replayButtonClick += OnReplayButtonClick;
 
+            if (forceNewHighScore.Value) // ? Debug
+                statsCounter.ForceHighestScoreStats();
+
             playerData = memoryDataClient.Get<PlayerData>();
+            StopTrack();
+            DoEnter();
+        }
+
+        private void StopTrack()
+        {
             stage.Stop();
             passthroughStyler.SetStyle(menuStyle);
             trackSelector.CurrentBehaviour.Stop();
-
-            DoEnter();
         }
 
         private void OnCountdownComplete() => parent.SetCurrentState(trackSelectionState.RouteId);
@@ -58,14 +67,9 @@ namespace DigitalLove.Game.Flow
 
         private void DoEnter()
         {
-            if (forceNewHighScore.Value) // ? Debug
+            if (statsCounter.HasHealthBeenDepleted)
             {
-                trackCompletePanel.ShowWithNewHighScore(999);
-            }
-            else if (statsCounter.HasHealthBeenDepleted) // ? OnFailure
-            {
-                failed.Play();
-                trackCompletePanel.Show();
+                OnFailed();
             }
             else
             {
@@ -73,8 +77,16 @@ namespace DigitalLove.Game.Flow
             }
         }
 
+        private void OnFailed()
+        {
+            progressionEventsHelper.SendLevelFailedEvent("health_depleted", trackSelector.CurrentData.id);
+            failed.Play();
+            trackCompletePanel.Show();
+        }
+
         private async void OnComplete()
         {
+            progressionEventsHelper.SendLevelCompleteEvent(trackSelector.CurrentData.id, score: statsCounter.Score);
             bool isHighestScore = IsNewHighScore();
             if (isHighestScore)
             {
