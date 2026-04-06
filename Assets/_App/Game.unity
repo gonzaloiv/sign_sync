@@ -734,7 +734,6 @@ Transform:
   m_Children:
   - {fileID: 1662156416}
   - {fileID: 1532930220}
-  - {fileID: 511781147}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &105699939
@@ -1219,7 +1218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stage::DigitalLove.Game.Stage.ScaleListener
   bandIndex: 0
   multiplier: 1
-  offset: 0.25
+  offset: 0.125
   body: {fileID: 142080622}
 --- !u!23 &142080626
 MeshRenderer:
@@ -1277,7 +1276,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142080621}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -8678823145569952518, guid: 762415b4d969d8947bd2757b47e73557, type: 3}
 --- !u!1 &153663432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4115,6 +4114,7 @@ MonoBehaviour:
   failed: {fileID: 592814832}
   passthroughStyler: {fileID: 461975689}
   menuStyle: {fileID: 11400000, guid: eb0e0674668cfd94c8e05000027610ad, type: 2}
+  progressionEventsHelper: {fileID: 1210227670}
   forceNewHighScore:
     value: 0
 --- !u!1 &461975686
@@ -4415,7 +4415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: DigitalLove.Game.Stage::DigitalLove.Game.Stage.ScaleListener
   bandIndex: 0
   multiplier: 1
-  offset: 0.15
+  offset: 0.1
   body: {fileID: 508246479}
 --- !u!23 &508246483
 MeshRenderer:
@@ -4473,7 +4473,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508246478}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: -8678823145569952518, guid: 762415b4d969d8947bd2757b47e73557, type: 3}
 --- !u!114 &508246485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4516,14 +4516,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 511781146}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 943649016}
   - {fileID: 1364596195}
-  m_Father: {fileID: 105699938}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &511781148
 MonoBehaviour:
@@ -12242,7 +12242,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.75
@@ -15241,10 +15241,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Game.Flow.TrackInit::DigitalLove.Game.Flow.TrackInitState
   nextState: {fileID: 1903096513}
-  origin: {fileID: 105699939}
   trackSelector: {fileID: 511781148}
-  stage: {fileID: 1532930221}
+  progressionEventsHelper: {fileID: 1210227670}
+  origin: {fileID: 105699939}
   init: {fileID: 1171634014}
+  stage: {fileID: 1532930221}
   passthroughStyler: {fileID: 461975689}
   playStyle: {fileID: 11400000, guid: 9177d27b0d735f14199b77e89b4d64a9, type: 2}
 --- !u!1 &2087738335
@@ -15822,8 +15823,8 @@ MonoBehaviour:
   _transformFeatureConfigs:
     _values:
     - _mode: 0
-      _feature: 2
-      _state: 6
+      _feature: 0
+      _state: 0
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -15914,8 +15915,8 @@ MonoBehaviour:
   _transformFeatureConfigs:
     _values:
     - _mode: 0
-      _feature: 2
-      _state: 6
+      _feature: 0
+      _state: 0
   _transformConfig:
     PositionOffset: {x: 0, y: 0, z: 0}
     RotationOffset: {x: 0, y: 0, z: 0}
@@ -16650,3 +16651,4 @@ SceneRoots:
   - {fileID: 105699938}
   - {fileID: 580563425}
   - {fileID: 1228382865}
+  - {fileID: 511781147}

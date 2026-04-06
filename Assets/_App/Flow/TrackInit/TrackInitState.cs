@@ -12,13 +12,17 @@ namespace DigitalLove.Game.Flow
     public class TrackInitState : MonoState
     {
         [SerializeField] private MonoState nextState;
-        [SerializeField] private OVROriginBehaviour origin;
         [SerializeField] private TrackSelector trackSelector;
-        [SerializeField] private StageBehaviour stage;
+        [SerializeField] private ProgressionEventsHelper progressionEventsHelper;
+
+        [Header("Setup")]
+        [SerializeField] private OVROriginBehaviour origin;
         [SerializeField] private AudioSource init;
+
+        [Header("ToTrackState")]
+        [SerializeField] private StageBehaviour stage;
         [SerializeField] private PassthroughStyler passthroughStyler;
         [SerializeField] private PassthroughStyle playStyle;
-        [SerializeField] private ProgressionEventsHelper progressionEventsHelper;
 
         public override void Init(StateMachine parent)
         {

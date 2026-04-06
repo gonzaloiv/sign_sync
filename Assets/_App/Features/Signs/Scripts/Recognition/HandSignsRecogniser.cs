@@ -62,8 +62,8 @@ namespace DigitalLove.Game.Signs
         {
             CheckRecognised();
             IncreaseFrames();
-            CheckRecognisedToGo();
-            CheckNotRecognised();
+            CheckListenersToGo();
+            SetSelectorsState();
         }
 
         private void CheckRecognised()
@@ -100,6 +100,7 @@ namespace DigitalLove.Game.Signs
         private void OnListenerRecognised(HandSignListener listener)
         {
             listener.percentage = recognitionData.GetAccuracyPercentage(listener.launchTime);
+            listener.frames++;
             listener.visual.OnRecognised();
             recognitionStarted.Invoke(listener.percentage);
             listenersInRecognition.Add(listener);
@@ -117,44 +118,40 @@ namespace DigitalLove.Game.Signs
             }
         }
 
-        private void CheckRecognisedToGo()
+        private void CheckListenersToGo()
         {
-            List<HandSignListener> recognisedListenersToGo = GetRecognisedListenersToGo().ToList();
+            List<HandSignListener> recognisedListenersToGo = listeners.Where(l => Time.time > l.launchTime + recognitionData.GetFinalRecognitionSecs(l.duration)).ToList();
             foreach (HandSignListener listener in recognisedListenersToGo)
             {
-                recognitionComplete.Invoke(new RecognitionEventArgs() { percentage = listener.percentage, frames = listener.frames });
-                listener.visual.OnRecognisedFinalTimeReached();
-                listeners.Remove(listener);
-            }
-        }
-
-        private IEnumerable<HandSignListener> GetRecognisedListenersToGo()
-        {
-            return listeners.Where(l =>
-            {
-                if (l.HasBeenRecognised)
+                if (listener.HasBeenRecognised)
                 {
-                    if (Time.time > l.launchTime + recognitionData.GetFinalRecognitionSecs(l.duration))
-                        return true;
-                    if (!signsInRecognition.Contains(l.signId))
-                        return true;
+                    recognitionComplete.Invoke(new RecognitionEventArgs() { percentage = listener.percentage, frames = listener.frames });
+                    listener.visual.OnRecognisedFinalTimeReached();
+                    signsInRecognition.Remove(listener.signId);
                 }
-                return false;
-            });
-        }
-
-        private void CheckNotRecognised()
-        {
-            List<HandSignListener> notRecognised = listeners.Where(l => Time.time > l.launchTime + recognitionData.SecsToPerfect && !l.HasBeenRecognised).ToList();
-            foreach (HandSignListener listener in notRecognised)
-            {
-                if (!listener.HasBeenRecognised)
+                else
                 {
                     spawner.OnFailed();
                     listener.visual.OnNotRecognised();
                     failed.Invoke();
                 }
                 listeners.Remove(listener);
+            }
+        }
+
+        private void SetSelectorsState()
+        {
+            foreach (SignIdSelectorPair pair in pairs)
+            {
+                if (!listeners.Any(l => l.signId == pair.id))
+                {
+                    pair.selector.gameObject.SetActive(false);
+                }
+                else
+                {
+                    if (GetRecognisableListeners(pair.id).Count() > 0)
+                        pair.selector.gameObject.SetActive(true);
+                }
             }
         }
     }

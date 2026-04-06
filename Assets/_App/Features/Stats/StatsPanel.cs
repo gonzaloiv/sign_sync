@@ -16,6 +16,8 @@ namespace DigitalLove.Game.Stats
 
         private int previousScore;
 
+        private void OnEnable() => previousScore = int.Parse(scoreLabel.text);
+
         private void Update()
         {
             if (statsCounter.Score != previousScore)

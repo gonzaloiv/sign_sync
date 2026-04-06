@@ -44,8 +44,8 @@ namespace DigitalLove.Game.Signs
         {
             trailRenderer.Clear();
             trailRenderer.time = duration;
-            trailRenderer.gameObject.SetActive(true);
             trailRenderer.material.color = inactive.value;
+            trailRenderer.gameObject.SetActive(true);
         }
 
         private void Update()
@@ -76,8 +76,9 @@ namespace DigitalLove.Game.Signs
 
         private void HideTrail()
         {
-            trailRenderer.gameObject.SetActive(false);
             trailRenderer.time = 0;
+            trailRenderer.Clear();
+            trailRenderer.gameObject.SetActive(false);
         }
 
         public void SetSuccessColor()
