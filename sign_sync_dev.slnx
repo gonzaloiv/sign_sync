@@ -53,10 +53,10 @@
   <Project Path="DigitalLove.Game.Stage.csproj" />
   <Project Path="DigitalLove.XR.Platform.csproj" />
   <Project Path="DigitalLove.XR.ARFoundation.csproj" />
+  <Project Path="DigitalLove.Game.Tracks.csproj" />
   <Project Path="Timeline.Samples.Tween.csproj" />
   <Project Path="Timeline.Samples.Annotation.Editor.csproj" />
   <Project Path="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
-  <Project Path="DigitalLove.Game.Tracks.csproj" />
   <Project Path="DigitalLove.VFX.ShadowLike.csproj" />
   <Project Path="Simple360Render.Runtime.csproj" />
   <Project Path="ChrisNolet.QuickOutline.csproj" />

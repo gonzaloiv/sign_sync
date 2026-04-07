@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: RecognitionData
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.RecognitionData
   activeSecs: 1
-  recognitionRange: 0.3
+  recognitionRange: 0.25

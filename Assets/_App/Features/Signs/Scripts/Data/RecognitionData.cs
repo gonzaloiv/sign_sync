@@ -8,10 +8,12 @@ namespace DigitalLove.Game.Signs
     {
         [SerializeField] private float activeSecs = 1;
         [SerializeField] private float recognitionRange = 0.25f;
+        [SerializeField] private float perfectRange = 0.1f;
 
         public float TotalAnimationSecs => activeSecs * 2;
         public float SecsToPerfect => activeSecs;
         public float InitialRecognitionSecs => SecsToPerfect - recognitionRange;
+        public float FinalRecognitionSecs => SecsToPerfect + recognitionRange;
 
         public float GetAccuracyPercentage(float launchTime)
         {
@@ -21,14 +23,14 @@ namespace DigitalLove.Game.Signs
             return 1f - deviation / recognitionRange;
         }
 
-        public bool IsInRecognitionRange(float time, float duration)
+        public bool IsInRecognitionRange(float time)
         {
-            return time > SecsToPerfect - recognitionRange && time < GetFinalRecognitionSecs(duration);
+            return time > SecsToPerfect - recognitionRange && time < FinalRecognitionSecs;
         }
 
-        public float GetFinalRecognitionSecs(float duration)
+        public bool IsInperfectRange(float time)
         {
-            return SecsToPerfect + recognitionRange + duration;
+            return time > SecsToPerfect - perfectRange && time < SecsToPerfect + perfectRange;
         }
     }
 }

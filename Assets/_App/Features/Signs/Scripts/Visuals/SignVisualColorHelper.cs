@@ -27,6 +27,7 @@ namespace DigitalLove.Game.Signs
         private float time;
         private RecognitionData recognitionData;
         private float duration;
+        private bool isSynced;
 
         public bool IsActive => gameObject.activeInHierarchy;
 
@@ -37,7 +38,9 @@ namespace DigitalLove.Game.Signs
             this.duration = duration;
             dissolver.Dissolve(dissolveCutoffHeight, cutoffHeight);
             rend.material.SetColor(colorKey, inactive.value);
-            ShowTrail(duration);
+            this.InvokeAfterSecs(0.1f, () => ShowTrail(duration));
+            isSynced = false;
+
         }
 
         private void ShowTrail(float duration)
@@ -50,15 +53,20 @@ namespace DigitalLove.Game.Signs
 
         private void Update()
         {
-            if (recognitionData == null || time > recognitionData.TotalAnimationSecs)
+            if (recognitionData == null || time > recognitionData.TotalAnimationSecs || isSynced)
                 return;
-            Color color = inactive.value;
-            if (recognitionData.IsInRecognitionRange(time, duration))
+            Color color = rend.material.GetColor(colorKey);
+            if (recognitionData.IsInRecognitionRange(time))
             {
-                float percentage = time - recognitionData.InitialRecognitionSecs / recognitionData.GetFinalRecognitionSecs(duration);
-                color = Color.Lerp(active.value, inRecognitionRange.value, percentage);
+                // float percentage = (time - recognitionData.InitialRecognitionSecs) / recognitionData.GetFinalRecognitionSecs();
+                // color = Color.Lerp(active.value, inRecognitionRange.value, percentage);
+                color = inRecognitionRange.value;
             }
-            else if (time < recognitionData.SecsToPerfect) // ? PRE-RECOGNITION
+            if (recognitionData.IsInperfectRange(time))
+            {
+                color = success.value;
+            }
+            else if (time < recognitionData.InitialRecognitionSecs) // ? PRE-RECOGNITION
             {
                 float percentage = time / recognitionData.SecsToPerfect;
                 color = Color.Lerp(inactive.value, active.value, percentage);
@@ -85,6 +93,7 @@ namespace DigitalLove.Game.Signs
         {
             rend.material.SetColor(colorKey, success.value);
             trailRenderer.material.color = success.value;
+            isSynced = true;
         }
 
         public void DissolveOut(Action onComplete)

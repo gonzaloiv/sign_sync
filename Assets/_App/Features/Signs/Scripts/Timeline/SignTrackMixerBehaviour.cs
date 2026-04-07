@@ -6,7 +6,7 @@ namespace DigitalLove.Game.Signs
 {
     public class SignTrackMixerBehaviour : PlayableBehaviour
     {
-        private HandSignsRecogniser recogniser;
+        private BaseRecogniser recogniser;
         private List<SignTrackBehaviour> behaviours = new();
 
         public override void OnGraphStart(Playable playable)
@@ -22,9 +22,11 @@ namespace DigitalLove.Game.Signs
         public override void ProcessFrame(Playable mixer, FrameData info, object playerData)
         {
             if (recogniser == null)
-                recogniser = playerData as HandSignsRecogniser;
+                recogniser = playerData as BaseRecogniser;
             if (recogniser == null)
                 return;
+
+            bool isActuallyPlaying = info.evaluationType == FrameData.EvaluationType.Playback;
             int inputCount = mixer.GetInputCount();
             double timelineTime = mixer.GetGraph().GetRootPlayable(0).GetTime();
             for (int i = 0; i < inputCount; i++)
@@ -36,8 +38,9 @@ namespace DigitalLove.Game.Signs
                     if (isTime && !behaviours.Contains(behaviour))
                     {
                         // Debug.LogWarning($"Current Sign Id {behaviour.signId} and Hand Id {spawner.HandId}");
-                        if (Application.isPlaying)
+                        if (Application.isPlaying && isActuallyPlaying)
                         {
+
                             float duration = (float)(behaviour.finalTime - behaviour.startTime);
                             recogniser.ListenTo(behaviour.signId, duration);
                         }

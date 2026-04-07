@@ -69,7 +69,7 @@ namespace DigitalLove.Game.Signs
         {
             if (recognitionData == null)
                 return;
-            if (!hasBeenRecognised && time < recognitionData.GetFinalRecognitionSecs(duration))
+            if (!hasBeenRecognised && time < recognitionData.TotalAnimationSecs)
             {
                 transform.position = Vector3.Lerp(origin.position, destination.position, time / recognitionData.TotalAnimationSecs);
                 time += Time.deltaTime;

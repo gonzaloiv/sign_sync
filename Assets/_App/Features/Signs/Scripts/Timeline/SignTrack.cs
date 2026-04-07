@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 namespace DigitalLove.Game.Signs
 {
     [TrackClipType(typeof(SignTrackAsset))]
-    [TrackBindingType(typeof(HandSignsRecogniser))]
+    [TrackBindingType(typeof(BaseRecogniser))]
     public class SignTrack : TrackAsset
     {
         public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)

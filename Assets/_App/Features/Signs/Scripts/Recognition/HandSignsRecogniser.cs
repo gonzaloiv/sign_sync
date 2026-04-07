@@ -6,9 +6,8 @@ using UnityEngine;
 
 namespace DigitalLove.Game.Signs
 {
-    public class HandSignsRecogniser : MonoBehaviour
+    public class HandSignsRecogniser : BaseRecogniser
     {
-        [SerializeField] private RecognitionData recognitionData;
         [SerializeField] private HandId handId;
         [SerializeField] private HandVisualsSpawner spawner;
         [SerializeField] private SignIdSelectorPair[] pairs;
@@ -18,13 +17,12 @@ namespace DigitalLove.Game.Signs
         private List<SignId> signsInRecognition = new();
 
         public HandId HandId => handId;
-        public float ActiveSecs => recognitionData.SecsToPerfect;
 
         public Action<float> recognitionStarted = (percentage) => { };
         public Action<RecognitionEventArgs> recognitionComplete = (args) => { };
         public Action failed = () => { };
 
-        public void ListenTo(SignId signId, float duration)
+        public override void ListenTo(SignId signId, float duration)
         {
             SignVisual visual = spawner.Spawn(signId, recognitionData, duration);
             HandSignListener listener = new() { signId = signId, launchTime = Time.time, duration = duration, visual = visual };
@@ -91,7 +89,7 @@ namespace DigitalLove.Game.Signs
                     return false;
                 if (Time.time < l.launchTime + recognitionData.InitialRecognitionSecs)
                     return false;
-                if (Time.time > l.launchTime + recognitionData.GetFinalRecognitionSecs(l.duration))
+                if (Time.time > l.launchTime + recognitionData.FinalRecognitionSecs)
                     return false;
                 return true;
             });
@@ -120,7 +118,7 @@ namespace DigitalLove.Game.Signs
 
         private void CheckListenersToGo()
         {
-            List<HandSignListener> recognisedListenersToGo = listeners.Where(l => Time.time > l.launchTime + recognitionData.GetFinalRecognitionSecs(l.duration)).ToList();
+            List<HandSignListener> recognisedListenersToGo = listeners.Where(l => Time.time > l.launchTime + l.duration + recognitionData.FinalRecognitionSecs).ToList();
             foreach (HandSignListener listener in recognisedListenersToGo)
             {
                 if (listener.HasBeenRecognised)
@@ -146,11 +144,14 @@ namespace DigitalLove.Game.Signs
                 if (!listeners.Any(l => l.signId == pair.id))
                 {
                     pair.selector.gameObject.SetActive(false);
+                    signsInRecognition.Remove(pair.id);
                 }
                 else
                 {
                     if (GetRecognisableListeners(pair.id).Count() > 0)
+                    {
                         pair.selector.gameObject.SetActive(true);
+                    }
                 }
             }
         }

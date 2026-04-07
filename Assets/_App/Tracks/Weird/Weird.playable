@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 15.671428571428555
+  startTime: 16.071428571428577
+  finalTime: 16.500000000000004
 --- !u!114 &-8887925930418757182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27,7 +28,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 20.814285714285727
+  startTime: 21.214285714285737
+  finalTime: 21.642857142857164
 --- !u!114 &-8870850852095127331
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -41,7 +43,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 16.95714285714285
+  startTime: 17.35714285714286
+  finalTime: 17.78571428571429
 --- !u!114 &-8548521157379098827
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -55,7 +58,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 16.52857142857141
+  startTime: 16.928571428571423
+  finalTime: 17.35714285714285
 --- !u!114 &-8500352265719516405
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -69,7 +73,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 45.242857142857204
+  startTime: 45.64285714285724
+  finalTime: 46.07142857142867
 --- !u!114 &-8339284595134986261
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -83,7 +88,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 58.52857142857155
+  startTime: 58.92857142857159
+  finalTime: 59.35714285714302
 --- !u!114 &-8328304924066575495
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -97,7 +103,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 13.528571428571423
+  startTime: 13.928571428571427
+  finalTime: 14.357142857142854
 --- !u!114 &-8099148577587804997
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,7 +118,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 23.38571428571431
+  startTime: 23.78571428571432
+  finalTime: 24.214285714285747
 --- !u!114 &-8084744062580814437
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,7 +133,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 56.81428571428583
+  startTime: 57.214285714285865
+  finalTime: 57.642857142857295
 --- !u!114 &-8046546200084662463
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,7 +148,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 14.385714285714274
+  startTime: 14.785714285714278
+  finalTime: 15.214285714285705
 --- !u!114 &-7950011845387301060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,7 +163,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 1.5285714285714265
+  startTime: 1.9285714285714233
+  finalTime: 2.3571428571428505
 --- !u!114 &-7725802638596668037
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,7 +178,104 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 53.814285714285816
+  startTime: 54.21428571428585
+  finalTime: 54.64285714285728
+--- !u!114 &-7720890764266155828
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+  m_Name: Audio Track
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 8794487718583020129}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.986111111111111
+    m_ClipIn: 0
+    m_Asset: {fileID: 2650028898238077152}
+    m_Duration: 61.15265306122449
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -7720890764266155828}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'audio [bass]'
+  m_Markers:
+    m_Objects: []
+  m_TrackProperties:
+    volume: 1
+    stereoPan: 0
+    spatialBlend: 0
 --- !u!114 &-7527221784496495389
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -181,7 +289,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 21.242857142857158
+  startTime: 21.642857142857167
+  finalTime: 22.071428571428594
 --- !u!114 &-7476642484110262609
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -195,7 +304,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 52.100000000000094
+  startTime: 52.50000000000013
+  finalTime: 52.92857142857156
 --- !u!114 &-7458983780337728660
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -209,7 +319,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 37.957142857142884
+  startTime: 38.35714285714292
+  finalTime: 38.78571428571435
 --- !u!114 &-7349719407091196861
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,7 +334,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 55.95714285714297
+  startTime: 56.357142857143
+  finalTime: 56.785714285714434
 --- !u!114 &-7290787496948703015
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -237,7 +349,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 22.10000000000002
+  startTime: 22.50000000000003
+  finalTime: 22.928571428571455
 --- !u!114 &-7281917768632870630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,7 +364,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 49.95714285714294
+  startTime: 50.357142857142975
+  finalTime: 50.785714285714405
 --- !u!114 &-7247637272310895176
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -265,7 +379,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 5.814285714285699
+  startTime: 6.214285714285695
+  finalTime: 6.642857142857122
 --- !u!114 &-7213617959795290987
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -279,7 +394,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 29.81428571428572
+  startTime: 30.21428571428573
+  finalTime: 30.642857142857157
 --- !u!114 &-7151559714178546000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -293,7 +409,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 4.957142857142854
+  startTime: 5.35714285714285
+  finalTime: 5.785714285714277
 --- !u!114 &-6879878648028107784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -307,7 +424,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 25.100000000000033
+  startTime: 25.500000000000043
+  finalTime: 25.92857142857147
 --- !u!114 &-6710146733831242952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -321,7 +439,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 45.671428571428635
+  startTime: 46.07142857142867
+  finalTime: 46.5000000000001
 --- !u!114 &-6550227733492852721
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -335,7 +454,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 31.957142857142838
+  startTime: 32.35714285714286
+  finalTime: 32.78571428571429
 --- !u!114 &-6491060729460680980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -349,7 +469,104 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 24.242857142857172
+  startTime: 24.64285714285718
+  finalTime: 25.07142857142861
+--- !u!114 &-6407353957182455572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+  m_Name: Audio Track
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 8794487718583020129}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.986111111111111
+    m_ClipIn: 0
+    m_Asset: {fileID: -2833006456636246947}
+    m_Duration: 61.15265306122449
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -6407353957182455572}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'audio [drums]'
+  m_Markers:
+    m_Objects: []
+  m_TrackProperties:
+    volume: 1
+    stereoPan: 0
+    spatialBlend: 0
 --- !u!114 &-6366535228264869270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -363,7 +580,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 39.671428571428606
+  startTime: 40.07142857142864
+  finalTime: 40.50000000000007
 --- !u!114 &-6089857035542085611
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -377,7 +595,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 31.528571428571453
+  startTime: 31.928571428571452
+  finalTime: 32.357142857142875
 --- !u!114 &-5820659525113314283
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -391,7 +610,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 40.10000000000004
+  startTime: 40.50000000000007
+  finalTime: 40.9285714285715
 --- !u!114 &-5671684801037004963
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,7 +625,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 32.38571428571427
+  startTime: 32.785714285714306
+  finalTime: 33.21428571428574
 --- !u!114 &-5517636714391154799
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -419,7 +640,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 36.67142857142859
+  startTime: 37.071428571428626
+  finalTime: 37.50000000000006
 --- !u!114 &-5430660884417227506
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -433,7 +655,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 43.52857142857148
+  startTime: 43.928571428571516
+  finalTime: 44.35714285714295
 --- !u!114 &-5387156457924548202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -447,7 +670,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 30.67142857142858
+  startTime: 31.07142857142859
+  finalTime: 31.500000000000018
 --- !u!114 &-5263124886884655728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -461,7 +685,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 36.24285714285716
+  startTime: 36.642857142857196
+  finalTime: 37.071428571428626
 --- !u!114 &-4653568709795567502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -475,7 +700,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 52.528571428571524
+  startTime: 52.92857142857156
+  finalTime: 53.35714285714299
 --- !u!114 &-4400115834807242817
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -489,7 +715,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 35.81428571428573
+  startTime: 36.214285714285765
+  finalTime: 36.642857142857196
 --- !u!114 &-4380606331743579571
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -503,7 +730,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 25.528571428571464
+  startTime: 25.928571428571473
+  finalTime: 26.3571428571429
 --- !u!114 &-4346200005257243544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -517,7 +745,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 41.38571428571433
+  startTime: 41.78571428571436
+  finalTime: 42.21428571428579
 --- !u!114 &-4327786084957746729
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -531,7 +760,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 57.67142857142869
+  startTime: 58.071428571428726
+  finalTime: 58.500000000000156
 --- !u!114 &-4304614378623778099
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -545,7 +775,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 28.52857142857143
+  startTime: 28.928571428571438
+  finalTime: 29.357142857142865
 --- !u!114 &-4085580724486952528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -559,7 +790,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 19.957142857142866
+  startTime: 20.357142857142875
+  finalTime: 20.785714285714302
 --- !u!114 &-4016616173722206654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -573,7 +805,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 17.385714285714283
+  startTime: 17.785714285714292
+  finalTime: 18.21428571428572
 --- !u!114 &-3948282727717071051
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -587,7 +820,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 27.671428571428617
+  startTime: 28.071428571428626
+  finalTime: 28.500000000000053
 --- !u!114 &-3860084444023755263
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -601,7 +835,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 28.100000000000033
+  startTime: 28.500000000000043
+  finalTime: 28.92857142857147
 --- !u!114 &-3596441038915973806
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -615,7 +850,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 23.81428571428575
+  startTime: 24.214285714285758
+  finalTime: 24.642857142857185
 --- !u!114 &-3325520876749896129
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -629,7 +865,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 16.099999999999987
+  startTime: 16.5
+  finalTime: 16.928571428571427
 --- !u!114 &-3291953396467997685
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -643,7 +880,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 41.81428571428576
+  startTime: 42.21428571428579
+  finalTime: 42.642857142857224
 --- !u!114 &-3290339971149253533
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -657,7 +895,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 33.67142857142858
+  startTime: 34.07142857142861
+  finalTime: 34.50000000000004
 --- !u!114 &-3099277561958050035
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -671,7 +910,25 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 12.24285714285712
+  startTime: 12.642857142857125
+  finalTime: 13.071428571428552
+--- !u!114 &-2977937028310204284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
+  m_Clip: {fileID: 8300000, guid: f120ffa163a0485419683fdeea332cc4, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &-2934700876535292206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -685,7 +942,25 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 40.9571428571429
+  startTime: 41.35714285714293
+  finalTime: 41.78571428571436
+--- !u!114 &-2833006456636246947
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
+  m_Clip: {fileID: 8300000, guid: fba1de80d47cb7c46b6f8b0c7e673143, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &-2763232357933580465
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -699,7 +974,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 40.52857142857147
+  startTime: 40.9285714285715
+  finalTime: 41.35714285714293
 --- !u!114 &-2708033729849501826
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -713,7 +989,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 58.95714285714298
+  startTime: 59.35714285714302
+  finalTime: 59.78571428571445
 --- !u!114 &-2678301686592264256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -727,7 +1004,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 7.099999999999973
+  startTime: 7.499999999999972
+  finalTime: 7.928571428571399
 --- !u!114 &-2612179856320584837
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -741,7 +1019,25 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 34.52857142857144
+  startTime: 34.92857142857147
+  finalTime: 35.357142857142904
+--- !u!114 &-2368897041690714359
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
+  m_Clip: {fileID: 8300000, guid: 088f0469c05ada743a68ea5f33830832, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &-2343778527581026393
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -755,7 +1051,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 13.099999999999985
+  startTime: 13.49999999999999
+  finalTime: 13.928571428571416
 --- !u!114 &-2301550832340110317
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -769,7 +1066,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 30.242857142857144
+  startTime: 30.642857142857153
+  finalTime: 31.07142857142858
 --- !u!114 &-1756134554543243410
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -783,7 +1081,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 55.10000000000011
+  startTime: 55.50000000000014
+  finalTime: 55.92857142857157
 --- !u!114 &-1666103122055092667
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -797,7 +1096,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 12.671428571428558
+  startTime: 13.071428571428562
+  finalTime: 13.49999999999999
 --- !u!114 &-1586847406684930458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -811,7 +1111,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 54.24285714285725
+  startTime: 54.64285714285728
+  finalTime: 55.07142857142871
 --- !u!114 &-1322978118928189789
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -825,7 +1126,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 49.10000000000008
+  startTime: 49.500000000000114
+  finalTime: 49.928571428571544
 --- !u!114 &-1217062289189418090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -848,7 +1150,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.1
+    m_Start: 1.4999999999999973
     m_ClipIn: 0
     m_Asset: {fileID: 5002193399436917343}
     m_Duration: 0.42857142857142705
@@ -856,8 +1158,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -1217062289189418090}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: 0.0000000000000006661338147750939
+    m_BlendInDuration: 0.0000000000000011102230246251565
+    m_BlendOutDuration: 0.0000000000000011102230246251565
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -881,7 +1183,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 1.5285714285714265
+    m_Start: 1.9285714285714233
     m_ClipIn: 0
     m_Asset: {fileID: -7950011845387301060}
     m_Duration: 0.42857142857142705
@@ -889,7 +1191,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -1217062289189418090}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.0000000000000006661338147750939
+    m_BlendInDuration: 0.0000000000000011102230246251565
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -914,7 +1216,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 1.957142857142854
+    m_Start: 2.3571428571428505
     m_ClipIn: 0
     m_Asset: {fileID: 3452884292934113622}
     m_Duration: 0.42857142857142705
@@ -923,7 +1225,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.0000000000000017763568394002505
+    m_BlendOutDuration: 0.0000000000000026645352591003757
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -965,7 +1267,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 2.385714285714279
+    m_Start: 2.785714285714275
     m_ClipIn: 0
     m_Asset: {fileID: -241366997329891957}
     m_Duration: 0.42857142857142705
@@ -973,7 +1275,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -1217062289189418090}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.0000000000000017763568394002505
+    m_BlendInDuration: 0.0000000000000026645352591003757
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -998,7 +1300,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 2.814285714285706
+    m_Start: 3.214285714285702
     m_ClipIn: 0
     m_Asset: {fileID: 302124756027302603}
     m_Duration: 0.42857142857142705
@@ -1031,7 +1333,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 3.2428571428571322
+    m_Start: 3.642857142857128
     m_ClipIn: 0
     m_Asset: {fileID: 9163990890687301482}
     m_Duration: 0.42857142857142705
@@ -1064,7 +1366,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 3.6714285714285593
+    m_Start: 4.071428571428555
     m_ClipIn: 0
     m_Asset: {fileID: 4864157078000973675}
     m_Duration: 0.42857142857142705
@@ -1115,7 +1417,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 4.099999999999985
+    m_Start: 4.499999999999981
     m_ClipIn: 0
     m_Asset: {fileID: 7218899858011674990}
     m_Duration: 0.42857142857142705
@@ -1148,7 +1450,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 4.528571428571422
+    m_Start: 4.928571428571419
     m_ClipIn: 0
     m_Asset: {fileID: 1787055558621652063}
     m_Duration: 0.42857142857142705
@@ -1181,7 +1483,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 4.957142857142854
+    m_Start: 5.35714285714285
     m_ClipIn: 0
     m_Asset: {fileID: -7151559714178546000}
     m_Duration: 0.42857142857142705
@@ -1232,7 +1534,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 5.38571428571427
+    m_Start: 5.785714285714266
     m_ClipIn: 0
     m_Asset: {fileID: 7252996022735305756}
     m_Duration: 0.42857142857142705
@@ -1265,7 +1567,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 5.814285714285699
+    m_Start: 6.214285714285695
     m_ClipIn: 0
     m_Asset: {fileID: -7247637272310895176}
     m_Duration: 0.42857142857142705
@@ -1316,7 +1618,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 6.2428571428571225
+    m_Start: 6.642857142857118
     m_ClipIn: 0
     m_Asset: {fileID: 5190427874558215553}
     m_Duration: 0.42857142857142705
@@ -1349,7 +1651,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 6.6714285714285495
+    m_Start: 7.071428571428545
     m_ClipIn: 0
     m_Asset: {fileID: 4871988106582205006}
     m_Duration: 0.42857142857142705
@@ -1358,7 +1660,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.000000000000003552713678800501
+    m_BlendOutDuration: 0.0000000000000008881784197001252
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -1400,7 +1702,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 7.099999999999973
+    m_Start: 7.499999999999972
     m_ClipIn: 0
     m_Asset: {fileID: -2678301686592264256}
     m_Duration: 0.42857142857142705
@@ -1408,7 +1710,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -1217062289189418090}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.000000000000003552713678800501
+    m_BlendInDuration: 0.0000000000000008881784197001252
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -1433,7 +1735,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 7.528571428571403
+    m_Start: 7.928571428571401
     m_ClipIn: 0
     m_Asset: {fileID: 4720542440093136528}
     m_Duration: 0.42857142857142705
@@ -1466,7 +1768,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 7.9571428571428315
+    m_Start: 8.357142857142833
     m_ClipIn: 0
     m_Asset: {fileID: 1765039994967810421}
     m_Duration: 0.42857142857142705
@@ -1499,7 +1801,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 8.38571428571427
+    m_Start: 8.785714285714274
     m_ClipIn: 0
     m_Asset: {fileID: 1976921704594104480}
     m_Duration: 0.42857142857142705
@@ -1550,7 +1852,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 8.8142857142857
+    m_Start: 9.214285714285705
     m_ClipIn: 0
     m_Asset: {fileID: 2976113664614946554}
     m_Duration: 0.42857142857142705
@@ -1583,7 +1885,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 9.242857142857135
+    m_Start: 9.642857142857139
     m_ClipIn: 0
     m_Asset: {fileID: -143692339431921359}
     m_Duration: 0.42857142857142705
@@ -1616,7 +1918,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 9.671428571428558
+    m_Start: 10.071428571428562
     m_ClipIn: 0
     m_Asset: {fileID: 1874303910539303848}
     m_Duration: 0.42857142857142705
@@ -1649,7 +1951,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 10.099999999999989
+    m_Start: 10.499999999999993
     m_ClipIn: 0
     m_Asset: {fileID: 6957648867914761272}
     m_Duration: 0.42857142857142705
@@ -1700,7 +2002,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 10.528571428571412
+    m_Start: 10.928571428571416
     m_ClipIn: 0
     m_Asset: {fileID: 2727436969529760645}
     m_Duration: 0.42857142857142705
@@ -1733,7 +2035,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 10.95714285714284
+    m_Start: 11.357142857142843
     m_ClipIn: 0
     m_Asset: {fileID: 9136167966648868918}
     m_Duration: 0.42857142857142705
@@ -1784,7 +2086,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 11.385714285714263
+    m_Start: 11.785714285714267
     m_ClipIn: 0
     m_Asset: {fileID: 5463288100936163748}
     m_Duration: 0.42857142857142705
@@ -1817,7 +2119,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 11.814285714285694
+    m_Start: 12.214285714285698
     m_ClipIn: 0
     m_Asset: {fileID: 6265059371317720652}
     m_Duration: 0.42857142857142705
@@ -1868,7 +2170,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 12.24285714285712
+    m_Start: 12.642857142857125
     m_ClipIn: 0
     m_Asset: {fileID: -3099277561958050035}
     m_Duration: 0.42857142857142705
@@ -1901,7 +2203,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 12.671428571428558
+    m_Start: 13.071428571428562
     m_ClipIn: 0
     m_Asset: {fileID: -1666103122055092667}
     m_Duration: 0.42857142857142705
@@ -1952,7 +2254,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 13.099999999999985
+    m_Start: 13.49999999999999
     m_ClipIn: 0
     m_Asset: {fileID: -2343778527581026393}
     m_Duration: 0.42857142857142705
@@ -1985,7 +2287,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 13.528571428571423
+    m_Start: 13.928571428571427
     m_ClipIn: 0
     m_Asset: {fileID: -8328304924066575495}
     m_Duration: 0.42857142857142705
@@ -2036,7 +2338,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 13.957142857142847
+    m_Start: 14.35714285714285
     m_ClipIn: 0
     m_Asset: {fileID: 5795645624384994766}
     m_Duration: 0.42857142857142705
@@ -2069,7 +2371,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 14.385714285714274
+    m_Start: 14.785714285714278
     m_ClipIn: 0
     m_Asset: {fileID: -8046546200084662463}
     m_Duration: 0.42857142857142705
@@ -2102,7 +2404,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 14.814285714285694
+    m_Start: 15.214285714285698
     m_ClipIn: 0
     m_Asset: {fileID: 1306083092625508289}
     m_Duration: 0.42857142857142705
@@ -2135,7 +2437,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 15.242857142857117
+    m_Start: 15.642857142857121
     m_ClipIn: 0
     m_Asset: {fileID: 9195693832671349213}
     m_Duration: 0.42857142857142705
@@ -2168,60 +2470,9 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 15.671428571428555
+    m_Start: 16.071428571428577
     m_ClipIn: 0
     m_Asset: {fileID: -9058849217527418964}
-    m_Duration: 0.42857142857142705
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -1217062289189418090}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: -1
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 0
-    m_PreExtrapolationMode: 0
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: SignTrackAsset
-  - m_Version: 1
-    m_Start: 16.099999999999987
-    m_ClipIn: 0
-    m_Asset: {fileID: -3325520876749896129}
     m_Duration: 0.42857142857142705
     m_TimeScale: 1
     m_ParentTrack: {fileID: -1217062289189418090}
@@ -2270,7 +2521,40 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 16.52857142857141
+    m_Start: 16.5
+    m_ClipIn: 0
+    m_Asset: {fileID: -3325520876749896129}
+    m_Duration: 0.42857142857142705
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -1217062289189418090}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.000000000000003552713678800501
+    m_BlendOutDuration: 0.000000000000003552713678800501
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: SignTrackAsset
+  - m_Version: 1
+    m_Start: 16.928571428571423
     m_ClipIn: 0
     m_Asset: {fileID: -8548521157379098827}
     m_Duration: 0.42857142857142705
@@ -2303,7 +2587,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 16.95714285714285
+    m_Start: 17.35714285714286
     m_ClipIn: 0
     m_Asset: {fileID: -8870850852095127331}
     m_Duration: 0.42857142857142705
@@ -2354,7 +2638,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 17.385714285714283
+    m_Start: 17.785714285714292
     m_ClipIn: 0
     m_Asset: {fileID: -4016616173722206654}
     m_Duration: 0.42857142857142705
@@ -2405,7 +2689,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 17.814285714285713
+    m_Start: 18.214285714285722
     m_ClipIn: 0
     m_Asset: {fileID: 3931839200698132421}
     m_Duration: 0.42857142857142705
@@ -2456,7 +2740,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 18.242857142857144
+    m_Start: 18.642857142857153
     m_ClipIn: 0
     m_Asset: {fileID: 1891107036340330670}
     m_Duration: 0.42857142857142705
@@ -2507,7 +2791,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 18.671428571428574
+    m_Start: 19.071428571428584
     m_ClipIn: 0
     m_Asset: {fileID: 77732770130168380}
     m_Duration: 0.42857142857142705
@@ -2558,7 +2842,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 19.100000000000005
+    m_Start: 19.500000000000014
     m_ClipIn: 0
     m_Asset: {fileID: 3171402280912141994}
     m_Duration: 0.42857142857142705
@@ -2609,7 +2893,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 19.528571428571436
+    m_Start: 19.928571428571445
     m_ClipIn: 0
     m_Asset: {fileID: 6060651672675080859}
     m_Duration: 0.42857142857142705
@@ -2660,7 +2944,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 19.957142857142866
+    m_Start: 20.357142857142875
     m_ClipIn: 0
     m_Asset: {fileID: -4085580724486952528}
     m_Duration: 0.42857142857142705
@@ -2711,7 +2995,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 20.385714285714297
+    m_Start: 20.785714285714306
     m_ClipIn: 0
     m_Asset: {fileID: 2379550606126106294}
     m_Duration: 0.42857142857142705
@@ -2762,7 +3046,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 20.814285714285727
+    m_Start: 21.214285714285737
     m_ClipIn: 0
     m_Asset: {fileID: -8887925930418757182}
     m_Duration: 0.42857142857142705
@@ -2813,7 +3097,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 21.242857142857158
+    m_Start: 21.642857142857167
     m_ClipIn: 0
     m_Asset: {fileID: -7527221784496495389}
     m_Duration: 0.42857142857142705
@@ -2864,7 +3148,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 21.67142857142859
+    m_Start: 22.071428571428598
     m_ClipIn: 0
     m_Asset: {fileID: 5987037523552765899}
     m_Duration: 0.42857142857142705
@@ -2915,7 +3199,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 22.10000000000002
+    m_Start: 22.50000000000003
     m_ClipIn: 0
     m_Asset: {fileID: -7290787496948703015}
     m_Duration: 0.42857142857142705
@@ -2966,7 +3250,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 22.52857142857145
+    m_Start: 22.92857142857146
     m_ClipIn: 0
     m_Asset: {fileID: 2744659855891954341}
     m_Duration: 0.42857142857142705
@@ -3017,7 +3301,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 22.95714285714288
+    m_Start: 23.35714285714289
     m_ClipIn: 0
     m_Asset: {fileID: 8721555161964409665}
     m_Duration: 0.42857142857142705
@@ -3068,7 +3352,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 23.38571428571431
+    m_Start: 23.78571428571432
     m_ClipIn: 0
     m_Asset: {fileID: -8099148577587804997}
     m_Duration: 0.42857142857142705
@@ -3119,7 +3403,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 23.81428571428575
+    m_Start: 24.214285714285758
     m_ClipIn: 0
     m_Asset: {fileID: -3596441038915973806}
     m_Duration: 0.42857142857142705
@@ -3170,7 +3454,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 24.242857142857172
+    m_Start: 24.64285714285718
     m_ClipIn: 0
     m_Asset: {fileID: -6491060729460680980}
     m_Duration: 0.42857142857142705
@@ -3203,7 +3487,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 24.671428571428596
+    m_Start: 25.071428571428605
     m_ClipIn: 0
     m_Asset: {fileID: 5150643164753157299}
     m_Duration: 0.42857142857142705
@@ -3236,7 +3520,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 25.100000000000033
+    m_Start: 25.500000000000043
     m_ClipIn: 0
     m_Asset: {fileID: -6879878648028107784}
     m_Duration: 0.42857142857142705
@@ -3287,7 +3571,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 25.528571428571464
+    m_Start: 25.928571428571473
     m_ClipIn: 0
     m_Asset: {fileID: -4380606331743579571}
     m_Duration: 0.42857142857142705
@@ -3338,7 +3622,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 25.9571428571429
+    m_Start: 26.35714285714291
     m_ClipIn: 0
     m_Asset: {fileID: 4522685073393504129}
     m_Duration: 0.42857142857142705
@@ -3389,7 +3673,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 26.385714285714325
+    m_Start: 26.785714285714334
     m_ClipIn: 0
     m_Asset: {fileID: 7036763547129151065}
     m_Duration: 0.42857142857142705
@@ -3422,7 +3706,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 26.814285714285756
+    m_Start: 27.214285714285765
     m_ClipIn: 0
     m_Asset: {fileID: 3755640521708581790}
     m_Duration: 0.42857142857142705
@@ -3473,7 +3757,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 27.242857142857186
+    m_Start: 27.642857142857196
     m_ClipIn: 0
     m_Asset: {fileID: -902719318867048605}
     m_Duration: 0.42857142857142705
@@ -3524,7 +3808,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 27.671428571428617
+    m_Start: 28.071428571428626
     m_ClipIn: 0
     m_Asset: {fileID: -3948282727717071051}
     m_Duration: 0.42857142857142705
@@ -3575,7 +3859,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 28.100000000000033
+    m_Start: 28.500000000000043
     m_ClipIn: 0
     m_Asset: {fileID: -3860084444023755263}
     m_Duration: 0.42857142857142705
@@ -3608,7 +3892,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 28.52857142857143
+    m_Start: 28.928571428571438
     m_ClipIn: 0
     m_Asset: {fileID: -4304614378623778099}
     m_Duration: 0.42857142857142705
@@ -3641,7 +3925,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 28.95714285714286
+    m_Start: 29.35714285714287
     m_ClipIn: 0
     m_Asset: {fileID: 1870970433630399034}
     m_Duration: 0.42857142857142705
@@ -3692,7 +3976,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 29.385714285714283
+    m_Start: 29.785714285714292
     m_ClipIn: 0
     m_Asset: {fileID: 7737092146790162169}
     m_Duration: 0.42857142857142705
@@ -3725,7 +4009,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 29.81428571428572
+    m_Start: 30.21428571428573
     m_ClipIn: 0
     m_Asset: {fileID: -7213617959795290987}
     m_Duration: 0.42857142857142705
@@ -3776,7 +4060,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 30.242857142857144
+    m_Start: 30.642857142857153
     m_ClipIn: 0
     m_Asset: {fileID: -2301550832340110317}
     m_Duration: 0.42857142857142705
@@ -3809,7 +4093,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 30.67142857142858
+    m_Start: 31.07142857142859
     m_ClipIn: 0
     m_Asset: {fileID: -5387156457924548202}
     m_Duration: 0.42857142857142705
@@ -3860,7 +4144,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 31.100000000000023
+    m_Start: 31.50000000000002
     m_ClipIn: 0
     m_Asset: {fileID: -910858468672910912}
     m_Duration: 0.42857142857142705
@@ -3911,7 +4195,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 31.528571428571453
+    m_Start: 31.928571428571452
     m_ClipIn: 0
     m_Asset: {fileID: -6089857035542085611}
     m_Duration: 0.42857142857142705
@@ -3920,7 +4204,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.00000000000004263256414560601
+    m_BlendOutDuration: 0.000000000000014210854715202004
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -3944,7 +4228,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 31.957142857142838
+    m_Start: 32.35714285714286
     m_ClipIn: 0
     m_Asset: {fileID: -6550227733492852721}
     m_Duration: 0.42857142857142705
@@ -3952,7 +4236,7 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -1217062289189418090}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.00000000000004263256414560601
+    m_BlendInDuration: 0.000000000000014210854715202004
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -3977,7 +4261,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 32.38571428571427
+    m_Start: 32.785714285714306
     m_ClipIn: 0
     m_Asset: {fileID: -5671684801037004963}
     m_Duration: 0.42857142857142705
@@ -4010,7 +4294,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 32.81428571428572
+    m_Start: 33.21428571428575
     m_ClipIn: 0
     m_Asset: {fileID: 3016593157180004512}
     m_Duration: 0.42857142857142705
@@ -4043,7 +4327,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 33.24285714285715
+    m_Start: 33.64285714285718
     m_ClipIn: 0
     m_Asset: {fileID: 8252849267286119525}
     m_Duration: 0.42857142857142705
@@ -4094,7 +4378,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 33.67142857142858
+    m_Start: 34.07142857142861
     m_ClipIn: 0
     m_Asset: {fileID: -3290339971149253533}
     m_Duration: 0.42857142857142705
@@ -4145,7 +4429,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 34.10000000000001
+    m_Start: 34.50000000000004
     m_ClipIn: 0
     m_Asset: {fileID: 7054095279427055338}
     m_Duration: 0.42857142857142705
@@ -4196,7 +4480,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 34.52857142857144
+    m_Start: 34.92857142857147
     m_ClipIn: 0
     m_Asset: {fileID: -2612179856320584837}
     m_Duration: 0.42857142857142705
@@ -4247,7 +4531,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 34.95714285714287
+    m_Start: 35.357142857142904
     m_ClipIn: 0
     m_Asset: {fileID: 6096000946408683563}
     m_Duration: 0.42857142857142705
@@ -4298,7 +4582,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 35.3857142857143
+    m_Start: 35.785714285714334
     m_ClipIn: 0
     m_Asset: {fileID: 6987759517316619105}
     m_Duration: 0.42857142857142705
@@ -4349,7 +4633,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 35.81428571428573
+    m_Start: 36.214285714285765
     m_ClipIn: 0
     m_Asset: {fileID: -4400115834807242817}
     m_Duration: 0.42857142857142705
@@ -4400,7 +4684,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 36.24285714285716
+    m_Start: 36.642857142857196
     m_ClipIn: 0
     m_Asset: {fileID: -5263124886884655728}
     m_Duration: 0.42857142857142705
@@ -4451,7 +4735,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 36.67142857142859
+    m_Start: 37.071428571428626
     m_ClipIn: 0
     m_Asset: {fileID: -5517636714391154799}
     m_Duration: 0.42857142857142705
@@ -4502,7 +4786,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 37.10000000000002
+    m_Start: 37.50000000000006
     m_ClipIn: 0
     m_Asset: {fileID: 8210323968804598525}
     m_Duration: 0.42857142857142705
@@ -4553,7 +4837,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 37.52857142857145
+    m_Start: 37.92857142857149
     m_ClipIn: 0
     m_Asset: {fileID: -1046487843851189369}
     m_Duration: 0.42857142857142705
@@ -4604,7 +4888,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 37.957142857142884
+    m_Start: 38.35714285714292
     m_ClipIn: 0
     m_Asset: {fileID: -7458983780337728660}
     m_Duration: 0.42857142857142705
@@ -4655,7 +4939,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 38.385714285714315
+    m_Start: 38.78571428571435
     m_ClipIn: 0
     m_Asset: {fileID: 7425909167211160903}
     m_Duration: 0.42857142857142705
@@ -4706,7 +4990,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 38.814285714285745
+    m_Start: 39.21428571428578
     m_ClipIn: 0
     m_Asset: {fileID: 9157296160427772115}
     m_Duration: 0.42857142857142705
@@ -4757,7 +5041,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 39.242857142857176
+    m_Start: 39.64285714285721
     m_ClipIn: 0
     m_Asset: {fileID: 6833974074334050415}
     m_Duration: 0.42857142857142705
@@ -4808,7 +5092,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 39.671428571428606
+    m_Start: 40.07142857142864
     m_ClipIn: 0
     m_Asset: {fileID: -6366535228264869270}
     m_Duration: 0.42857142857142705
@@ -4859,7 +5143,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 40.10000000000004
+    m_Start: 40.50000000000007
     m_ClipIn: 0
     m_Asset: {fileID: -5820659525113314283}
     m_Duration: 0.42857142857142705
@@ -4910,7 +5194,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 40.52857142857147
+    m_Start: 40.9285714285715
     m_ClipIn: 0
     m_Asset: {fileID: -2763232357933580465}
     m_Duration: 0.42857142857142705
@@ -4961,7 +5245,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 40.9571428571429
+    m_Start: 41.35714285714293
     m_ClipIn: 0
     m_Asset: {fileID: -2934700876535292206}
     m_Duration: 0.42857142857142705
@@ -5012,7 +5296,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 41.38571428571433
+    m_Start: 41.78571428571436
     m_ClipIn: 0
     m_Asset: {fileID: -4346200005257243544}
     m_Duration: 0.42857142857142705
@@ -5063,7 +5347,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 41.81428571428576
+    m_Start: 42.21428571428579
     m_ClipIn: 0
     m_Asset: {fileID: -3291953396467997685}
     m_Duration: 0.42857142857142705
@@ -5114,7 +5398,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 42.24285714285719
+    m_Start: 42.642857142857224
     m_ClipIn: 0
     m_Asset: {fileID: 9124294760307097148}
     m_Duration: 0.42857142857142705
@@ -5165,7 +5449,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 42.67142857142862
+    m_Start: 43.071428571428655
     m_ClipIn: 0
     m_Asset: {fileID: 5261798940370344936}
     m_Duration: 0.42857142857142705
@@ -5216,7 +5500,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 43.10000000000005
+    m_Start: 43.500000000000085
     m_ClipIn: 0
     m_Asset: {fileID: 8720101916418322519}
     m_Duration: 0.42857142857142705
@@ -5267,7 +5551,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 43.52857142857148
+    m_Start: 43.928571428571516
     m_ClipIn: 0
     m_Asset: {fileID: -5430660884417227506}
     m_Duration: 0.42857142857142705
@@ -5318,7 +5602,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 43.95714285714291
+    m_Start: 44.35714285714295
     m_ClipIn: 0
     m_Asset: {fileID: 8598383685075518651}
     m_Duration: 0.42857142857142705
@@ -5369,7 +5653,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 44.38571428571434
+    m_Start: 44.78571428571438
     m_ClipIn: 0
     m_Asset: {fileID: 8243434431950101792}
     m_Duration: 0.42857142857142705
@@ -5420,7 +5704,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 44.814285714285774
+    m_Start: 45.21428571428581
     m_ClipIn: 0
     m_Asset: {fileID: -1016840891064035488}
     m_Duration: 0.42857142857142705
@@ -5471,7 +5755,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 45.242857142857204
+    m_Start: 45.64285714285724
     m_ClipIn: 0
     m_Asset: {fileID: -8500352265719516405}
     m_Duration: 0.42857142857142705
@@ -5522,7 +5806,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 45.671428571428635
+    m_Start: 46.07142857142867
     m_ClipIn: 0
     m_Asset: {fileID: -6710146733831242952}
     m_Duration: 0.42857142857142705
@@ -5573,7 +5857,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 46.100000000000065
+    m_Start: 46.5000000000001
     m_ClipIn: 0
     m_Asset: {fileID: -515106456950742260}
     m_Duration: 0.42857142857142705
@@ -5624,7 +5908,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 46.528571428571496
+    m_Start: 46.92857142857153
     m_ClipIn: 0
     m_Asset: {fileID: 5474804471493995758}
     m_Duration: 0.42857142857142705
@@ -5675,7 +5959,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 46.95714285714293
+    m_Start: 47.35714285714296
     m_ClipIn: 0
     m_Asset: {fileID: 2326983282280685310}
     m_Duration: 0.42857142857142705
@@ -5726,7 +6010,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 47.38571428571436
+    m_Start: 47.78571428571439
     m_ClipIn: 0
     m_Asset: {fileID: 2725839359023030081}
     m_Duration: 0.42857142857142705
@@ -5777,7 +6061,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 47.81428571428579
+    m_Start: 48.21428571428582
     m_ClipIn: 0
     m_Asset: {fileID: 2825195908695579718}
     m_Duration: 0.42857142857142705
@@ -5828,7 +6112,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 48.24285714285722
+    m_Start: 48.64285714285725
     m_ClipIn: 0
     m_Asset: {fileID: 8679184812097043222}
     m_Duration: 0.42857142857142705
@@ -5879,7 +6163,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 48.67142857142865
+    m_Start: 49.07142857142868
     m_ClipIn: 0
     m_Asset: {fileID: -1101773893297877875}
     m_Duration: 0.42857142857142705
@@ -5930,7 +6214,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 49.10000000000008
+    m_Start: 49.500000000000114
     m_ClipIn: 0
     m_Asset: {fileID: -1322978118928189789}
     m_Duration: 0.42857142857142705
@@ -5981,7 +6265,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 49.52857142857151
+    m_Start: 49.928571428571544
     m_ClipIn: 0
     m_Asset: {fileID: 8878982832671404435}
     m_Duration: 0.42857142857142705
@@ -6032,7 +6316,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 49.95714285714294
+    m_Start: 50.357142857142975
     m_ClipIn: 0
     m_Asset: {fileID: -7281917768632870630}
     m_Duration: 0.42857142857142705
@@ -6083,7 +6367,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 50.38571428571437
+    m_Start: 50.785714285714405
     m_ClipIn: 0
     m_Asset: {fileID: 2897242138394282622}
     m_Duration: 0.42857142857142705
@@ -6134,7 +6418,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 50.8142857142858
+    m_Start: 51.214285714285836
     m_ClipIn: 0
     m_Asset: {fileID: 3941455448707269459}
     m_Duration: 0.42857142857142705
@@ -6185,7 +6469,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 51.24285714285723
+    m_Start: 51.64285714285727
     m_ClipIn: 0
     m_Asset: {fileID: 5815787135795748659}
     m_Duration: 0.42857142857142705
@@ -6236,7 +6520,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 51.67142857142866
+    m_Start: 52.0714285714287
     m_ClipIn: 0
     m_Asset: {fileID: 5705500982089803465}
     m_Duration: 0.42857142857142705
@@ -6287,7 +6571,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 52.100000000000094
+    m_Start: 52.50000000000013
     m_ClipIn: 0
     m_Asset: {fileID: -7476642484110262609}
     m_Duration: 0.42857142857142705
@@ -6338,7 +6622,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 52.528571428571524
+    m_Start: 52.92857142857156
     m_ClipIn: 0
     m_Asset: {fileID: -4653568709795567502}
     m_Duration: 0.42857142857142705
@@ -6389,7 +6673,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 52.957142857142955
+    m_Start: 53.35714285714299
     m_ClipIn: 0
     m_Asset: {fileID: 666674348634192907}
     m_Duration: 0.42857142857142705
@@ -6440,7 +6724,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 53.385714285714386
+    m_Start: 53.78571428571442
     m_ClipIn: 0
     m_Asset: {fileID: 781610849879861307}
     m_Duration: 0.42857142857142705
@@ -6491,7 +6775,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 53.814285714285816
+    m_Start: 54.21428571428585
     m_ClipIn: 0
     m_Asset: {fileID: -7725802638596668037}
     m_Duration: 0.42857142857142705
@@ -6542,7 +6826,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 54.24285714285725
+    m_Start: 54.64285714285728
     m_ClipIn: 0
     m_Asset: {fileID: -1586847406684930458}
     m_Duration: 0.42857142857142705
@@ -6593,7 +6877,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 54.67142857142868
+    m_Start: 55.07142857142871
     m_ClipIn: 0
     m_Asset: {fileID: 8939875183930770667}
     m_Duration: 0.42857142857142705
@@ -6644,7 +6928,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 55.10000000000011
+    m_Start: 55.50000000000014
     m_ClipIn: 0
     m_Asset: {fileID: -1756134554543243410}
     m_Duration: 0.42857142857142705
@@ -6695,7 +6979,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 55.52857142857154
+    m_Start: 55.92857142857157
     m_ClipIn: 0
     m_Asset: {fileID: 2381686702898324192}
     m_Duration: 0.42857142857142705
@@ -6746,7 +7030,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 55.95714285714297
+    m_Start: 56.357142857143
     m_ClipIn: 0
     m_Asset: {fileID: -7349719407091196861}
     m_Duration: 0.42857142857142705
@@ -6797,7 +7081,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 56.3857142857144
+    m_Start: 56.785714285714434
     m_ClipIn: 0
     m_Asset: {fileID: 4329420641686207379}
     m_Duration: 0.42857142857142705
@@ -6848,7 +7132,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 56.81428571428583
+    m_Start: 57.214285714285865
     m_ClipIn: 0
     m_Asset: {fileID: -8084744062580814437}
     m_Duration: 0.42857142857142705
@@ -6899,7 +7183,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 57.24285714285726
+    m_Start: 57.642857142857295
     m_ClipIn: 0
     m_Asset: {fileID: 7264324689859940272}
     m_Duration: 0.42857142857142705
@@ -6950,7 +7234,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 57.67142857142869
+    m_Start: 58.071428571428726
     m_ClipIn: 0
     m_Asset: {fileID: -4327786084957746729}
     m_Duration: 0.42857142857142705
@@ -7001,7 +7285,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 58.10000000000012
+    m_Start: 58.500000000000156
     m_ClipIn: 0
     m_Asset: {fileID: 1179908093142596929}
     m_Duration: 0.42857142857142705
@@ -7052,7 +7336,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 58.52857142857155
+    m_Start: 58.92857142857159
     m_ClipIn: 0
     m_Asset: {fileID: -8339284595134986261}
     m_Duration: 0.42857142857142705
@@ -7103,7 +7387,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 58.95714285714298
+    m_Start: 59.35714285714302
     m_ClipIn: 0
     m_Asset: {fileID: -2708033729849501826}
     m_Duration: 0.42857142857142705
@@ -7154,7 +7438,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 59.385714285714414
+    m_Start: 59.78571428571445
     m_ClipIn: 0
     m_Asset: {fileID: 5286785415133015703}
     m_Duration: 0.42857142857142705
@@ -7205,7 +7489,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 59.814285714285845
+    m_Start: 60.21428571428588
     m_ClipIn: 0
     m_Asset: {fileID: -863934867911035652}
     m_Duration: 0.42857142857142705
@@ -7256,7 +7540,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 60.242857142857275
+    m_Start: 60.64285714285731
     m_ClipIn: 0
     m_Asset: {fileID: 8242208232018578370}
     m_Duration: 0.42857142857142705
@@ -7307,7 +7591,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 60.671428571428706
+    m_Start: 61.07142857142874
     m_ClipIn: 0
     m_Asset: {fileID: 1626917447605666752}
     m_Duration: 0.42857142857142705
@@ -7358,7 +7642,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: SignTrackAsset
   - m_Version: 1
-    m_Start: 0.671428571428573
+    m_Start: 1.0714285714285714
     m_ClipIn: 0
     m_Asset: {fileID: 3022749258814059351}
     m_Duration: 0.42857142857142705
@@ -7367,7 +7651,7 @@ MonoBehaviour:
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: -1
+    m_BlendOutDuration: 0.0000000000000011102230246251565
     m_MixInCurve:
       serializedVersion: 2
       m_Curve: []
@@ -7405,7 +7689,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 48.67142857142865
+  startTime: 49.07142857142868
+  finalTime: 49.500000000000114
 --- !u!114 &-1046487843851189369
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7419,7 +7704,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 37.52857142857145
+  startTime: 37.92857142857149
+  finalTime: 38.35714285714292
 --- !u!114 &-1016840891064035488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7433,7 +7719,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 44.814285714285774
+  startTime: 45.21428571428581
+  finalTime: 45.64285714285724
 --- !u!114 &-910858468672910912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7447,7 +7734,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 31.100000000000023
+  startTime: 31.50000000000002
+  finalTime: 31.92857142857145
 --- !u!114 &-902719318867048605
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7461,7 +7749,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 27.242857142857186
+  startTime: 27.642857142857196
+  finalTime: 28.071428571428623
 --- !u!114 &-863934867911035652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7475,7 +7764,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 59.814285714285845
+  startTime: 60.21428571428588
+  finalTime: 60.64285714285731
 --- !u!114 &-523046935751057796
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7512,7 +7802,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 46.100000000000065
+  startTime: 46.5000000000001
+  finalTime: 46.92857142857153
 --- !u!114 &-241366997329891957
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7526,7 +7817,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 2.385714285714279
+  startTime: 2.785714285714275
+  finalTime: 3.214285714285702
 --- !u!114 &-143692339431921359
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7540,7 +7832,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 9.242857142857135
+  startTime: 9.642857142857139
+  finalTime: 10.071428571428566
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7556,6 +7849,7 @@ MonoBehaviour:
   m_Version: 0
   m_Tracks:
   - {fileID: 6956736423185506191}
+  - {fileID: 8794487718583020129}
   - {fileID: 526922798959084063}
   m_FixedDuration: 0
   m_EditorSettings:
@@ -7576,7 +7870,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 18.671428571428574
+  startTime: 19.071428571428584
+  finalTime: 19.50000000000001
 --- !u!114 &302124756027302603
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7590,7 +7885,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 2.814285714285706
+  startTime: 3.214285714285702
+  finalTime: 3.642857142857129
 --- !u!114 &526922798959084063
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7617,6 +7913,102 @@ MonoBehaviour:
   m_Clips: []
   m_Markers:
     m_Objects: []
+--- !u!114 &584684743071043182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+  m_Name: Audio Track (1)
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 8794487718583020129}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.986111111111111
+    m_ClipIn: 0
+    m_Asset: {fileID: -2977937028310204284}
+    m_Duration: 61.15265306122449
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 584684743071043182}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'audio [vocals]'
+  m_Markers:
+    m_Objects: []
+  m_TrackProperties:
+    volume: 1
+    stereoPan: 0
+    spatialBlend: 0
 --- !u!114 &666674348634192907
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7630,7 +8022,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 52.957142857142955
+  startTime: 53.35714285714299
+  finalTime: 53.78571428571442
 --- !u!114 &781610849879861307
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7644,7 +8037,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 53.385714285714386
+  startTime: 53.78571428571442
+  finalTime: 54.21428571428585
 --- !u!114 &1179908093142596929
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7658,7 +8052,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 58.10000000000012
+  startTime: 58.500000000000156
+  finalTime: 58.92857142857159
 --- !u!114 &1306083092625508289
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7672,7 +8067,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 14.814285714285694
+  startTime: 15.214285714285698
+  finalTime: 15.642857142857125
 --- !u!114 &1626917447605666752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7686,7 +8082,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 60.671428571428706
+  startTime: 61.07142857142874
+  finalTime: 61.50000000000017
 --- !u!114 &1765039994967810421
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7700,7 +8097,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 7.9571428571428315
+  startTime: 8.357142857142833
+  finalTime: 8.78571428571426
 --- !u!114 &1787055558621652063
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7714,7 +8112,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 4.528571428571422
+  startTime: 4.928571428571419
+  finalTime: 5.357142857142846
 --- !u!114 &1870970433630399034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7728,7 +8127,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 28.95714285714286
+  startTime: 29.35714285714287
+  finalTime: 29.785714285714295
 --- !u!114 &1874303910539303848
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7742,7 +8142,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 9.671428571428558
+  startTime: 10.071428571428562
+  finalTime: 10.49999999999999
 --- !u!114 &1891107036340330670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7756,7 +8157,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 18.242857142857144
+  startTime: 18.642857142857153
+  finalTime: 19.07142857142858
 --- !u!114 &1976921704594104480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7770,7 +8172,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 8.38571428571427
+  startTime: 8.785714285714274
+  finalTime: 9.214285714285701
 --- !u!114 &2326983282280685310
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7784,7 +8187,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 46.95714285714293
+  startTime: 47.35714285714296
+  finalTime: 47.78571428571439
 --- !u!114 &2379550606126106294
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7798,7 +8202,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 20.385714285714297
+  startTime: 20.785714285714306
+  finalTime: 21.214285714285733
 --- !u!114 &2381686702898324192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7812,7 +8217,25 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 55.52857142857154
+  startTime: 55.92857142857157
+  finalTime: 56.357142857143
+--- !u!114 &2650028898238077152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f10dd60657c6004587f237a7e90f8e4, type: 3}
+  m_Name: AudioPlayableAsset
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioPlayableAsset
+  m_Clip: {fileID: 8300000, guid: 11c505212fdb0b94688632ebaaa521b4, type: 3}
+  m_Loop: 0
+  m_bufferingTime: 0.1
+  m_ClipProperties:
+    volume: 1
 --- !u!114 &2725839359023030081
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7826,7 +8249,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 47.38571428571436
+  startTime: 47.78571428571439
+  finalTime: 48.21428571428582
 --- !u!114 &2727436969529760645
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7840,7 +8264,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 10.528571428571412
+  startTime: 10.928571428571416
+  finalTime: 11.357142857142843
 --- !u!114 &2744659855891954341
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7854,7 +8279,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 22.52857142857145
+  startTime: 22.92857142857146
+  finalTime: 23.357142857142886
 --- !u!114 &2825195908695579718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7868,7 +8294,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 47.81428571428579
+  startTime: 48.21428571428582
+  finalTime: 48.64285714285725
 --- !u!114 &2897242138394282622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7882,7 +8309,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 50.38571428571437
+  startTime: 50.785714285714405
+  finalTime: 51.214285714285836
 --- !u!114 &2963877021280057185
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7913,7 +8341,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 8.8142857142857
+  startTime: 9.214285714285705
+  finalTime: 9.642857142857132
 --- !u!114 &3016593157180004512
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7927,7 +8356,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 32.81428571428572
+  startTime: 33.21428571428575
+  finalTime: 33.64285714285718
 --- !u!114 &3022749258814059351
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7941,7 +8371,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 0.671428571428573
+  startTime: 1.0714285714285714
+  finalTime: 1.4999999999999984
 --- !u!114 &3171402280912141994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7955,7 +8386,104 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 19.100000000000005
+  startTime: 19.500000000000014
+  finalTime: 19.92857142857144
+--- !u!114 &3367356139141127472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b22792c3b570444eb18cb78c2af3a74, type: 3}
+  m_Name: Audio Track
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AudioTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 8794487718583020129}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0.986111111111111
+    m_ClipIn: 0
+    m_Asset: {fileID: -2368897041690714359}
+    m_Duration: 61.15265306122449
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: 3367356139141127472}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: 'audio [music]'
+  m_Markers:
+    m_Objects: []
+  m_TrackProperties:
+    volume: 1
+    stereoPan: 0
+    spatialBlend: 0
 --- !u!114 &3452884292934113622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7969,7 +8497,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 1.957142857142854
+  startTime: 2.3571428571428505
+  finalTime: 2.7857142857142776
 --- !u!114 &3755640521708581790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7983,7 +8512,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 26.814285714285756
+  startTime: 27.214285714285765
+  finalTime: 27.642857142857192
 --- !u!114 &3931839200698132421
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7997,7 +8527,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 17.814285714285713
+  startTime: 18.214285714285722
+  finalTime: 18.64285714285715
 --- !u!114 &3941455448707269459
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8011,7 +8542,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 50.8142857142858
+  startTime: 51.214285714285836
+  finalTime: 51.64285714285727
 --- !u!114 &4329420641686207379
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8025,7 +8557,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 56.3857142857144
+  startTime: 56.785714285714434
+  finalTime: 57.214285714285865
 --- !u!114 &4522685073393504129
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8039,7 +8572,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 25.9571428571429
+  startTime: 26.35714285714291
+  finalTime: 26.785714285714338
 --- !u!114 &4720542440093136528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8053,7 +8587,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 7.528571428571403
+  startTime: 7.928571428571401
+  finalTime: 8.35714285714283
 --- !u!114 &4864157078000973675
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8067,7 +8602,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 3.6714285714285593
+  startTime: 4.071428571428555
+  finalTime: 4.499999999999982
 --- !u!114 &4871988106582205006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8081,7 +8617,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 6.6714285714285495
+  startTime: 7.071428571428545
+  finalTime: 7.4999999999999725
 --- !u!114 &5002193399436917343
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8095,7 +8632,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 1.1
+  startTime: 1.4999999999999973
+  finalTime: 1.9285714285714244
 --- !u!114 &5008367439914008894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8132,7 +8670,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 24.671428571428596
+  startTime: 25.071428571428605
+  finalTime: 25.500000000000032
 --- !u!114 &5190427874558215553
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8146,7 +8685,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 6.2428571428571225
+  startTime: 6.642857142857118
+  finalTime: 7.071428571428545
 --- !u!114 &5261798940370344936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8160,7 +8700,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 42.67142857142862
+  startTime: 43.071428571428655
+  finalTime: 43.500000000000085
 --- !u!114 &5286785415133015703
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8174,7 +8715,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 59.385714285714414
+  startTime: 59.78571428571445
+  finalTime: 60.21428571428588
 --- !u!114 &5463288100936163748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8188,7 +8730,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 11.385714285714263
+  startTime: 11.785714285714267
+  finalTime: 12.214285714285694
 --- !u!114 &5474804471493995758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8202,7 +8745,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 46.528571428571496
+  startTime: 46.92857142857153
+  finalTime: 47.35714285714296
 --- !u!114 &5705500982089803465
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8216,7 +8760,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 51.67142857142866
+  startTime: 52.0714285714287
+  finalTime: 52.50000000000013
 --- !u!114 &5795645624384994766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8230,7 +8775,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 13.957142857142847
+  startTime: 14.35714285714285
+  finalTime: 14.785714285714278
 --- !u!114 &5815787135795748659
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8244,7 +8790,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 51.24285714285723
+  startTime: 51.64285714285727
+  finalTime: 52.0714285714287
 --- !u!114 &5987037523552765899
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8258,7 +8805,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 21.67142857142859
+  startTime: 22.071428571428598
+  finalTime: 22.500000000000025
 --- !u!114 &6060651672675080859
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8272,7 +8820,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 19.528571428571436
+  startTime: 19.928571428571445
+  finalTime: 20.357142857142872
 --- !u!114 &6096000946408683563
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8286,7 +8835,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 34.95714285714287
+  startTime: 35.357142857142904
+  finalTime: 35.785714285714334
 --- !u!114 &6265059371317720652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8300,7 +8850,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 11.814285714285694
+  startTime: 12.214285714285698
+  finalTime: 12.642857142857125
 --- !u!114 &6833974074334050415
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8314,7 +8865,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 39.242857142857176
+  startTime: 39.64285714285721
+  finalTime: 40.07142857142864
 --- !u!114 &6956736423185506191
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8424,7 +8976,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 10.099999999999989
+  startTime: 10.499999999999993
+  finalTime: 10.92857142857142
 --- !u!114 &6987759517316619105
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8438,7 +8991,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 35.3857142857143
+  startTime: 35.785714285714334
+  finalTime: 36.214285714285765
 --- !u!114 &7036763547129151065
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8452,7 +9006,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 26.385714285714325
+  startTime: 26.785714285714334
+  finalTime: 27.21428571428576
 --- !u!114 &7054095279427055338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8466,7 +9021,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 34.10000000000001
+  startTime: 34.50000000000004
+  finalTime: 34.92857142857147
 --- !u!114 &7218899858011674990
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8480,7 +9036,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 4.099999999999985
+  startTime: 4.499999999999981
+  finalTime: 4.928571428571408
 --- !u!114 &7252996022735305756
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8494,7 +9051,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 5.38571428571427
+  startTime: 5.785714285714266
+  finalTime: 6.214285714285693
 --- !u!114 &7264324689859940272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8508,7 +9066,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 57.24285714285726
+  startTime: 57.642857142857295
+  finalTime: 58.071428571428726
 --- !u!114 &7425909167211160903
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8522,7 +9081,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 38.385714285714315
+  startTime: 38.78571428571435
+  finalTime: 39.21428571428578
 --- !u!114 &7737092146790162169
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8536,7 +9096,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 29.385714285714283
+  startTime: 29.785714285714292
+  finalTime: 30.21428571428572
 --- !u!114 &8210323968804598525
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8550,7 +9111,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 37.10000000000002
+  startTime: 37.50000000000006
+  finalTime: 37.92857142857149
 --- !u!114 &8242208232018578370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8564,7 +9126,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 60.242857142857275
+  startTime: 60.64285714285731
+  finalTime: 61.07142857142874
 --- !u!114 &8243434431950101792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8578,7 +9141,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 44.38571428571434
+  startTime: 44.78571428571438
+  finalTime: 45.21428571428581
 --- !u!114 &8252849267286119525
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8592,7 +9156,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 33.24285714285715
+  startTime: 33.64285714285718
+  finalTime: 34.07142857142861
 --- !u!114 &8598383685075518651
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8606,7 +9171,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 43.95714285714291
+  startTime: 44.35714285714295
+  finalTime: 44.78571428571438
 --- !u!114 &8679184812097043222
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8620,7 +9186,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 48.24285714285722
+  startTime: 48.64285714285725
+  finalTime: 49.07142857142868
 --- !u!114 &8720101916418322519
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8634,7 +9201,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 43.10000000000005
+  startTime: 43.500000000000085
+  finalTime: 43.928571428571516
 --- !u!114 &8721555161964409665
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8648,7 +9216,35 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 22.95714285714288
+  startTime: 23.35714285714289
+  finalTime: 23.785714285714317
+--- !u!114 &8794487718583020129
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fc6f5187a81dc47999eefade6f0935, type: 3}
+  m_Name: Stems
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.GroupTrack
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 3367356139141127472}
+  - {fileID: 584684743071043182}
+  - {fileID: -7720890764266155828}
+  - {fileID: -6407353957182455572}
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
 --- !u!114 &8878982832671404435
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8662,7 +9258,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 49.52857142857151
+  startTime: 49.928571428571544
+  finalTime: 50.357142857142975
 --- !u!114 &8939875183930770667
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8676,7 +9273,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 54.67142857142868
+  startTime: 55.07142857142871
+  finalTime: 55.50000000000014
 --- !u!114 &9124294760307097148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8690,7 +9288,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 42.24285714285719
+  startTime: 42.642857142857224
+  finalTime: 43.071428571428655
 --- !u!114 &9136167966648868918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8704,7 +9303,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 10.95714285714284
+  startTime: 11.357142857142843
+  finalTime: 11.78571428571427
 --- !u!114 &9157296160427772115
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8718,7 +9318,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 38.814285714285745
+  startTime: 39.21428571428578
+  finalTime: 39.64285714285721
 --- !u!114 &9163990890687301482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8732,7 +9333,8 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 3.2428571428571322
+  startTime: 3.642857142857128
+  finalTime: 4.071428571428555
 --- !u!114 &9195693832671349213
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8746,4 +9348,5 @@ MonoBehaviour:
   m_Name: SignTrackAsset(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
   m_EditorClassIdentifier: DigitalLove.Game.Signs::DigitalLove.Game.Signs.SignTrackAsset
   signId: 2
-  startTime: 15.242857142857117
+  startTime: 15.642857142857121
+  finalTime: 16.071428571428548
