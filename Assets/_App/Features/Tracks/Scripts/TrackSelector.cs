@@ -16,11 +16,10 @@ namespace DigitalLove.Game.Tracks
 
         public TrackData[] TracksData => data;
 
-        public void SetCurrent()
+        public void SetCurrent(string id)
         {
-            currentData = data[0];
+            currentData = data.FirstOrDefault(d => string.Equals(d.id, id));
             currentBehaviour = behaviours.FirstOrDefault(b => string.Equals(currentData.id, b.Id));
         }
-
     }
 }

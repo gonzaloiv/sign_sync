@@ -7899,7 +7899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fd9a61f15a7064ab6ea807e0f0dac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Timeline::DigitalLove.Timeline.DebugLoop
-  timeToStop: 30
+  timeToStop: 0
   timeToReplay: 0
 --- !u!1001 &999133621
 PrefabInstance:
@@ -10604,8 +10604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33fd9a61f15a7064ab6ea807e0f0dac4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: DigitalLove.Timeline::DigitalLove.Timeline.DebugLoop
-  timeToStop: 30
-  timeToReplay: 0
+  timeToStop: 45
+  timeToReplay: 15
 --- !u!114 &1369311740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15306,7 +15306,7 @@ MonoBehaviour:
   menu: {fileID: 843475271}
   autoSelectTrack:
     value: 1
-  trackToSelect: {fileID: 11400000, guid: 9082b7581a2395649bda07560ef57494, type: 2}
+  trackToSelect: {fileID: 11400000, guid: 93e83ef9f9088f24db6e58fc34913df3, type: 2}
 --- !u!1 &1943848331
 GameObject:
   m_ObjectHideFlags: 0

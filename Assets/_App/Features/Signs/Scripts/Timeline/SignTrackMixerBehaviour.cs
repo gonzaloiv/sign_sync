@@ -25,8 +25,11 @@ namespace DigitalLove.Game.Signs
                 recogniser = playerData as BaseRecogniser;
             if (recogniser == null)
                 return;
+            if (!Application.isPlaying)
+                return;
+            if (info.evaluationType != FrameData.EvaluationType.Playback)
+                return;
 
-            bool isActuallyPlaying = info.evaluationType == FrameData.EvaluationType.Playback;
             int inputCount = mixer.GetInputCount();
             double timelineTime = mixer.GetGraph().GetRootPlayable(0).GetTime();
             for (int i = 0; i < inputCount; i++)
@@ -38,12 +41,8 @@ namespace DigitalLove.Game.Signs
                     if (isTime && !behaviours.Contains(behaviour))
                     {
                         // Debug.LogWarning($"Current Sign Id {behaviour.signId} and Hand Id {spawner.HandId}");
-                        if (Application.isPlaying && isActuallyPlaying)
-                        {
-
-                            float duration = (float)(behaviour.finalTime - behaviour.startTime);
-                            recogniser.ListenTo(behaviour.signId, duration);
-                        }
+                        float duration = (float)(behaviour.finalTime - behaviour.startTime);
+                        recogniser.ListenTo(behaviour.signId, duration);
                         behaviours.Add(behaviour);
                     }
                 }

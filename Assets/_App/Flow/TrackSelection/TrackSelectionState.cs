@@ -43,9 +43,9 @@ namespace DigitalLove.Game.Flow
             }
         }
 
-        private void OnTrackSelected(string obj)
+        private void OnTrackSelected(string id)
         {
-            trackSelector.SetCurrent();
+            trackSelector.SetCurrent(id);
             memoryDataClient.Put(trackSelector.CurrentData);
             parent.SetCurrentState(nextState.RouteId);
         }

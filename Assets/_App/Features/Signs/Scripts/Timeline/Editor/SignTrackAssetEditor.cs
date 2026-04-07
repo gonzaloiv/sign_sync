@@ -19,13 +19,13 @@ namespace DigitalLove.Game.Signs
             switch (((SignTrackAsset)clip.asset).signId)
             {
                 case SignId.Fist:
-                    return Color.red;
+                    return Color.limeGreen;
                 case SignId.Paper:
                     return Color.blue;
                 case SignId.Victory:
-                    return Color.limeGreen;
-                case SignId.Stop:
                     return Color.yellow;
+                case SignId.Stop:
+                    return Color.red;
                 default:
                     return Color.gray;
             }
