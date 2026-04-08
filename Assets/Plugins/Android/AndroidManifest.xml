@@ -20,4 +20,5 @@
   <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
   <uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="true" />
   <horizonos:uses-horizonos-sdk horizonos:minSdkVersion="68" horizonos:targetSdkVersion="77" />
+  <uses-permission android:name="com.oculus.permission.BOUNDARY_VISIBILITY" />
 </manifest>
