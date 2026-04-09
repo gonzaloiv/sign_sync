@@ -1,4 +1,5 @@
 using DigitalLove.Casual.Levels;
+using DigitalLove.Theming;
 using UnityEngine;
 
 namespace DigitalLove.Game.Tracks
@@ -12,5 +13,6 @@ namespace DigitalLove.Game.Tracks
         public string genre;
         public string[] mood;
         public AudioClip clip;
+        public ThemeData theme;
     }
 }

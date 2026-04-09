@@ -26,6 +26,11 @@ namespace DigitalLove.Game.Tracks
             director.Play(onComplete: OnComplete);
         }
 
+        public void Pause()
+        {
+            director.Pause();
+        }
+
         private void OnComplete()
         {
             complete.Invoke();

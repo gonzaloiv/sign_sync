@@ -4,6 +4,7 @@ using DigitalLove.Game.Stage;
 using DigitalLove.Game.Tracks;
 using DigitalLove.Game.VFX;
 using DigitalLove.Global;
+using DigitalLove.Theming;
 using DigitalLove.XR;
 using UnityEngine;
 
@@ -18,6 +19,7 @@ namespace DigitalLove.Game.Flow
         [Header("Setup")]
         [SerializeField] private OVROriginBehaviour origin;
         [SerializeField] private AudioSource init;
+        [SerializeField] private ThemeConfigurator themeConfigurator;
 
         [Header("ToTrackState")]
         [SerializeField] private StageBehaviour stage;
@@ -34,6 +36,7 @@ namespace DigitalLove.Game.Flow
         {
             origin.Setup();
             init.Play();
+            themeConfigurator.SetTheme(trackSelector.CurrentData.theme);
             this.InvokeAfterSecs(1, ToTrackState);
         }
 

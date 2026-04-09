@@ -42,6 +42,7 @@
   <Project Path="DigitalLove.XR.MRUK.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.XR.Hands.Samples.Gestures.csproj" />
+  <Project Path="DigitalLove.Theming.csproj" />
   <Project Path="Timeline.Samples.Video.csproj" />
   <Project Path="Timeline.Samples.Video.Editor.csproj" />
   <Project Path="Timeline.Samples.TimeDilation.csproj" />

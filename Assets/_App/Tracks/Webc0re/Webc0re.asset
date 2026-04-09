@@ -22,3 +22,4 @@ MonoBehaviour:
   - Upbeat
   - Energetic
   clip: {fileID: 8300000, guid: 15cc60d3e35e19848b34c7f15e7f9ea9, type: 3}
+  theme: {fileID: 11400000, guid: 7b97a80c915f5624cad70dd28fba5cee, type: 2}

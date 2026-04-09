@@ -56,5 +56,8 @@ namespace DigitalLove.Game.Flow
 
             menu.Hide();
         }
+
+        [Button]
+        private void InvokeOnTrackSelected() => OnTrackSelected(trackToSelect.id);
     }
 }

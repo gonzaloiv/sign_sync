@@ -2,9 +2,11 @@ using System;
 using DigitalLove.DataAccess;
 using DigitalLove.Game.Tracks;
 using DigitalLove.Global;
+using DigitalLove.Theming;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace DigitalLove.Game.Flow
 {
@@ -14,11 +16,11 @@ namespace DigitalLove.Game.Flow
         [SerializeField] private TextMeshProUGUI artistLabel;
         [SerializeField] private TextMeshProUGUI genreLabel;
         [SerializeField] private TextMeshProUGUI moodLabel;
+        [SerializeField] private Outline infoOutline;
 
         [Header("High Score")]
         [SerializeField] private TextMeshProUGUI highScoreLabel;
         [SerializeField] private GameObject highScorePanel;
-
 
         [Header("Idle-Hover")]
         [SerializeField] private AudioSource hoverAudioSource;
@@ -36,6 +38,7 @@ namespace DigitalLove.Game.Flow
 
             gameObject.SetActive(true);
             ShowTrackData(trackData);
+            ShowTrackTheme(trackData.theme);
             ShowHighScore(cookie);
             ShowIdle();
         }
@@ -46,6 +49,12 @@ namespace DigitalLove.Game.Flow
             artistLabel.text = trackData.artist;
             genreLabel.text = trackData.genre;
             moodLabel.text = $"{trackData.mood[0]}, {trackData.mood[1]}";
+        }
+
+        private void ShowTrackTheme(ThemeData theme)
+        {
+            artistLabel.color = theme.primary;
+            infoOutline.effectColor = theme.primary;
         }
 
         private void ShowHighScore(Cookie cookie)
