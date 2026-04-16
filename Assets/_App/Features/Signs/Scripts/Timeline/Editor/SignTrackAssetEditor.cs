@@ -26,6 +26,8 @@ namespace DigitalLove.Game.Signs
                     return Color.yellow;
                 case SignId.Stop:
                     return Color.red;
+                case SignId.FYou:
+                    return Color.navajoWhite;
                 default:
                     return Color.gray;
             }

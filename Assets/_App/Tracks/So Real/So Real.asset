@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b65785238263b24e9b4e4e12f3396fa, type: 3}
+  m_Name: So Real
+  m_EditorClassIdentifier: DigitalLove.Game.Tracks::DigitalLove.Game.Tracks.TrackData
+  id: 01_03
+  prefab: {fileID: 0}
+  title: So Real
+  bpm: 94
+  artist: BUFFER_KID
+  genre: Pop
+  mood:
+  - Laid Back
+  - Sentimental
+  - Upbeat
+  clip: {fileID: 8300000, guid: 8848b07b0b8bdf848ad79834afd5787c, type: 3}
+  theme: {fileID: 11400000, guid: 78204fbbd1f0f04418cc10fc399c0ea8, type: 2}

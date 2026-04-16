@@ -6,6 +6,7 @@ namespace DigitalLove.Game.Signs
         Fist,
         Paper,
         Victory,
-        Stop
+        Stop,
+        FYou
     }
 }

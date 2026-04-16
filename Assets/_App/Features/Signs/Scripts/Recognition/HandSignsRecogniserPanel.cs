@@ -22,7 +22,6 @@ namespace DigitalLove.Game.Signs
             if (percentage > 0.75f)
             {
                 autoClearLabel.Show($"{formatedPercentage}%", highlightColor.value);
-
             }
             else
             {

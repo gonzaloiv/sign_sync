@@ -9,6 +9,5 @@ namespace DigitalLove.Game.Signs
         public float ActiveSecs => recognitionData.SecsToPerfect;
 
         public abstract void ListenTo(SignId signId, float duration);
-
     }
 }

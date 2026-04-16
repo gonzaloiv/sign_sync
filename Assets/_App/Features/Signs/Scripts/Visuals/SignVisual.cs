@@ -17,7 +17,6 @@ namespace DigitalLove.Game.Signs
         private Transform origin;
         private Transform destination;
         private RecognitionData recognitionData;
-        private float duration;
         private bool hasBeenRecognised;
 
         public bool IsActive => body.activeInHierarchy;
@@ -29,7 +28,6 @@ namespace DigitalLove.Game.Signs
             this.origin = origin;
             this.destination = destination;
             this.recognitionData = recognitionData;
-            this.duration = duration;
 
             transform.position = origin.position;
             colorHelper.Show(recognitionData, duration);
