@@ -12,6 +12,7 @@ namespace DigitalLove.Game.Flow
 {
     public class TrackPanel : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
     {
+        [SerializeField] private TextMeshProUGUI difficultyLabel;
         [SerializeField] private TextMeshProUGUI titleLabel;
         [SerializeField] private TextMeshProUGUI artistLabel;
         [SerializeField] private TextMeshProUGUI genreLabel;
@@ -45,6 +46,7 @@ namespace DigitalLove.Game.Flow
 
         private void ShowTrackData(TrackData trackData)
         {
+            difficultyLabel.text = trackData.difficulty.ToString();
             titleLabel.text = trackData.title;
             artistLabel.text = trackData.artist;
             genreLabel.text = trackData.genre;

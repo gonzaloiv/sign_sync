@@ -14,5 +14,6 @@ namespace DigitalLove.Game.Tracks
         public string[] mood;
         public AudioClip clip;
         public ThemeData theme;
+        public DifficultyId difficulty;
     }
 }

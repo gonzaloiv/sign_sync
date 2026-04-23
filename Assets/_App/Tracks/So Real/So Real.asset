@@ -24,3 +24,4 @@ MonoBehaviour:
   - Upbeat
   clip: {fileID: 8300000, guid: 8848b07b0b8bdf848ad79834afd5787c, type: 3}
   theme: {fileID: 11400000, guid: 78204fbbd1f0f04418cc10fc399c0ea8, type: 2}
+  difficulty: 1
